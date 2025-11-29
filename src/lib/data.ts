@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   tagline_options: [
     "Student, coach, and builder of useful things.",
     "Discipline first. Results second. Talk last.",
-    "Year 11 | Crew Trainer @ McDonald’s | Youth leader | Entrepreneur"
+    "Year 11 | Crew Trainer @ McDonald's | Youth leader | Entrepreneur"
   ],
   education: [{
     school: "Hastings Secondary College, Port Macquarie",
@@ -19,7 +19,7 @@ export const RESUME_DATA = {
   experience: [
     {
       "role": "Crew Trainer",
-      "org": "McDonald’s, Port Macquarie",
+      "org": "McDonald's, Port Macquarie",
       "dates": "Mar 2023 – Present",
       "bullets": [
         "Onboarded new staff; safety & operations compliance",
@@ -49,14 +49,38 @@ export const RESUME_DATA = {
     }
   ],
   leadership: [
-    {"title": "Cabinet Member", "org": "NSW Youth Advisory Council (Ministry for Youth)", "dates": "Oct 2025 – Present"},
-    {"title": "Hastings Valley Voice", "org": "Youth Advocacy", "dates": "Oct 2025 – Present"}
+    {
+      "title": "Cabinet Member",
+      "org": "NSW Youth Advisory Council (Ministry for Youth)",
+      "dates": "Oct 2025 – Present",
+      "outcome": "Represent youth voices across NSW; contribute to policy discussions on education, transport, and youth wellbeing."
+    },
+    {
+      "title": "Hastings Valley Voice",
+      "org": "Youth Advocacy",
+      "dates": "Oct 2025 – Present",
+      "outcome": "Advocate for local youth in the Hastings region; support community projects and consultation."
+    }
   ],
   coaching: [
-    {"sport": "Basketball", "dates": "2023 – Present"},
-    {"sport": "Rugby", "dates": "2023 – Present"},
-    {"sport": "Soccer", "dates": "2023 – Present"},
-    {"notes": "Weekly training plans; match strategies; youth mentoring"}
+    {
+      "sport": "Basketball",
+      "description": "Weekly skills and game coaching",
+      "dates": "2023 – Present"
+    },
+    {
+      "sport": "Rugby Union",
+      "description": "Fitness, positioning, and team strategy",
+      "dates": "2023 – Present"
+    },
+    {
+      "sport": "Soccer",
+      "description": "Technical drills and match preparation",
+      "dates": "2023 – Present"
+    },
+    {
+      "general": "Youth mentoring – focus on discipline, teamwork, and confidence"
+    }
   ],
   skills: [
     "Leadership & team management",
@@ -72,8 +96,8 @@ export const RESUME_DATA = {
     "Three-sport state athlete (basketball, rugby union, soccer)"
   ],
   references: [
-    {"name": "Tobias White", "relation": "Co-Founder, Evergreen Landscaping", "phone": "0434 027 305"},
-    {"name": "Rob Oakeshott", "relation": "Former Federal MP for Lyne", "phone": "+61 427 167 828"}
+    { "name": "Tobias White", "relation": "Co-Founder, Evergreen Landscaping", "phone": "0434 027 305" },
+    { "name": "Rob Oakeshott", "relation": "Former Federal MP for Lyne", "phone": "+61 427 167 828" }
   ],
   download_resume_filename: "Romone_Dunlop_Resume.pdf"
 } as const;

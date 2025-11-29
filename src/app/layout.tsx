@@ -13,8 +13,7 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://romonedunlop.com"; // TODO: Update with actual domain
-
+const siteUrl = "https://romone.me";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {

@@ -20,8 +20,8 @@ export function Testimonials() {
     ];
 
     return (
-        <Section id="testimonials">
-            <h2 className="text-3xl font-bold font-heading mb-8">References</h2>
+        <Section id="testimonials" className="py-16 bg-gray-50/50 dark:bg-white/[0.02]">
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-8">References</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {testimonials.map((testimonial, index) => (
                     <Card key={index} className="p-6 transition-all hover:border-accent/50">
@@ -33,7 +33,7 @@ export function Testimonials() {
                             <p className="font-bold text-foreground">{testimonial.name}</p>
                             <p className="text-sm text-gray-500 dark:text-gray-400">{testimonial.role}</p>
                             <a
-                                href={`tel:${testimonial.phone}`}
+                                href={`tel:${testimonial.phone.replace(/\s/g, '')}`}
                                 className="text-sm text-accent hover:underline mt-1 inline-block"
                             >
                                 {testimonial.phone}
@@ -46,7 +46,7 @@ export function Testimonials() {
             {/* Request Reference Letter CTA */}
             <div className="mt-8 text-center">
                 <a
-                    href={`mailto:${RESUME_DATA.email}?subject=Reference%20Letter%20Request&body=Hello%2C%0A%0AI%20am%20interested%20in%20requesting%20a%20reference%20letter.%20Please%20let%20me%20know%20the%20process.%0A%0AThank%20you.`}
+                    href={`mailto:${RESUME_DATA.email}?subject=Reference%20Letter%20Request&body=Hi%20Romone%2C%0A%0AI%20am%20interested%20in%20requesting%20a%20reference%20letter.%20Please%20let%20me%20know%20the%20process.%0A%0AThank%20you.`}
                     className="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-gray-700 dark:text-gray-300 border border-divider rounded-lg hover:bg-gray-50 dark:hover:bg-white/5 transition-colors"
                 >
                     Request Reference Letter

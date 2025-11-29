@@ -5,12 +5,20 @@ import { Mail, Phone } from "lucide-react";
 
 export function Contact() {
     return (
-        <Section id="contact" className="mb-12">
-            <h2 className="text-3xl font-bold font-heading mb-8">Get in Touch</h2>
+        <Section id="contact" className="py-16 mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Get in Touch</h2>
+
+            <p className="text-gray-600 dark:text-gray-400 mb-8 text-lg">
+                <strong>Best fit for:</strong> internships, research assistant roles, youth advisory, speaking, or coaching.
+            </p>
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-6">
                     <p className="text-lg text-gray-600 dark:text-gray-300">
-                        I am available for new opportunities. Feel free to reach out via email or phone.
+                        I'm available for new opportunities. Feel free to reach out via email or phone.
+                    </p>
+                    <p className="text-sm text-gray-500 dark:text-gray-400 italic">
+                        I usually reply within 48 hours.
                     </p>
                     <div className="space-y-4">
                         <a href={`mailto:${RESUME_DATA.email}`} className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors">
@@ -19,7 +27,7 @@ export function Contact() {
                             </div>
                             {RESUME_DATA.email}
                         </a>
-                        <a href={`tel:${RESUME_DATA.phone}`} className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors">
+                        <a href={`tel:${RESUME_DATA.phone.replace(/\s/g, '')}`} className="flex items-center gap-3 text-lg font-medium hover:text-accent transition-colors">
                             <div className="p-2 bg-accent/10 rounded-full text-accent">
                                 <Phone className="w-5 h-5" />
                             </div>
@@ -29,8 +37,12 @@ export function Contact() {
                 </div>
 
                 <Card className="p-6">
-                    {/* TODO: Sign up at https://formspree.io and replace YOUR_FORM_ID below */}
-                    <form className="space-y-4" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <form
+                        className="space-y-4"
+                        action={`mailto:${RESUME_DATA.email}`}
+                        method="POST"
+                        encType="text/plain"
+                    >
                         <div className="space-y-2">
                             <label htmlFor="name" className="text-sm font-medium">Name</label>
                             <input
@@ -69,6 +81,9 @@ export function Contact() {
                         >
                             Send Message
                         </button>
+                        <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
+                            This will open your email client. You can also email me directly at {RESUME_DATA.email}
+                        </p>
                     </form>
                 </Card>
             </div>
