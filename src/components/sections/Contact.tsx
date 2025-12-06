@@ -1,9 +1,32 @@
+"use client";
+
+import { useState } from "react";
 import { RESUME_DATA } from "@/lib/data";
 import { Section } from "@/components/ui/section";
 import { Card } from "@/components/ui/card";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone, Send } from "lucide-react";
 
 export function Contact() {
+    const [formData, setFormData] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+
+    const handleSubmit = (e: React.FormEvent) => {
+        e.preventDefault();
+        const subject = `Contact from ${formData.name}`;
+        const body = `Hi Romone,\n\n${formData.message}\n\nFrom: ${formData.name} (${formData.email})`;
+        window.location.href = `mailto:${RESUME_DATA.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        setFormData({
+            ...formData,
+            [e.target.name]: e.target.value
+        });
+    };
+
     return (
         <Section id="contact" className="py-16 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Get in Touch</h2>
@@ -37,17 +60,14 @@ export function Contact() {
                 </div>
 
                 <Card className="p-6">
-                    <form
-                        className="space-y-4"
-                        action={`mailto:${RESUME_DATA.email}`}
-                        method="POST"
-                        encType="text/plain"
-                    >
+                    <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="space-y-2">
                             <label htmlFor="name" className="text-sm font-medium">Name</label>
                             <input
                                 id="name"
                                 name="name"
+                                value={formData.name}
+                                onChange={handleChange}
                                 required
                                 className="w-full px-3 py-2 rounded-md border border-divider bg-background focus:outline-none focus:ring-2 focus:ring-accent"
                                 placeholder="Your Name"
@@ -59,6 +79,8 @@ export function Contact() {
                                 id="email"
                                 name="email"
                                 type="email"
+                                value={formData.email}
+                                onChange={handleChange}
                                 required
                                 className="w-full px-3 py-2 rounded-md border border-divider bg-background focus:outline-none focus:ring-2 focus:ring-accent"
                                 placeholder="your@email.com"
@@ -69,6 +91,8 @@ export function Contact() {
                             <textarea
                                 id="message"
                                 name="message"
+                                value={formData.message}
+                                onChange={handleChange}
                                 required
                                 rows={4}
                                 className="w-full px-3 py-2 rounded-md border border-divider bg-background focus:outline-none focus:ring-2 focus:ring-accent"
@@ -77,12 +101,13 @@ export function Contact() {
                         </div>
                         <button
                             type="submit"
-                            className="w-full py-2 px-4 bg-accent text-white font-medium rounded-md hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent"
+                            className="w-full py-2 px-4 bg-accent text-white font-medium rounded-md hover:bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent flex items-center justify-center"
                         >
-                            Send Message
+                            <Send className="w-4 h-4 mr-2" />
+                            Open Email Client
                         </button>
                         <p className="text-xs text-gray-500 dark:text-gray-400 text-center">
-                            This will open your email client. You can also email me directly at {RESUME_DATA.email}
+                            This will open your default email app with the message pre-filled.
                         </p>
                     </form>
                 </Card>

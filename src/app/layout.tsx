@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: "Romone Dunlop | Student, Coach & Entrepreneur",
     template: "%s | Romone Dunlop"
   },
-  description: "Year 11 student, NSW Youth Advisory Council member, Co-Founder of Evergreen Landscaping, and youth sports coach. Academic excellence meets entrepreneurial drive.",
+  description: "Year 12 student, NSW Youth Advisory Council member, Co-Founder of Evergreen Landscaping, and youth sports coach. Academic excellence meets entrepreneurial drive.",
   keywords: [
     "Romone Dunlop",
     "Port Macquarie",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     locale: "en_AU",
     url: siteUrl,
     title: "Romone Dunlop | Student, Coach & Entrepreneur",
-    description: "Year 11 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
+    description: "Year 12 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
     siteName: "Romone Dunlop",
     images: [
       {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Romone Dunlop | Student, Coach & Entrepreneur",
-    description: "Year 11 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
+    description: "Year 12 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
     images: ["/og-image.png"], // TODO: Create this image
   },
   robots: {

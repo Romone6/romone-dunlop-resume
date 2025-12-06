@@ -6,7 +6,7 @@ export function Now() {
     const currentFocuses = [
         {
             icon: BookOpen,
-            item: "Year 11 at Hastings Secondary College – focus on Maths, Chemistry, Business"
+            item: "Year 12 at Hastings Secondary College – focus on Maths, Chemistry, Business"
         },
         {
             icon: Briefcase,
@@ -18,7 +18,11 @@ export function Now() {
         },
         {
             icon: Users,
-            item: "Youth sports coach – basketball, rugby, soccer"
+            item: "Youth sports coach – basketball, rugby and soccer"
+        },
+        {
+            icon: Briefcase,
+            item: "Founder of MindBridge – A revolutionary AI-powered clinician triage agent designed to drastically reduce wait times and accurately assess patient severity prior to consultation. Features a sophisticated clinician dashboard integrating seamlessly with telehealth APIs to offer optimal care pathways, specialized in advanced mental health assessment. Currently securing seed funding."
         }
     ];
 

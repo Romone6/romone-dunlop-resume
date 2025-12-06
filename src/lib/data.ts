@@ -6,7 +6,7 @@ export const RESUME_DATA = {
   tagline_options: [
     "Student, coach, and builder of useful things.",
     "Discipline first. Results second. Talk last.",
-    "Year 11 | Crew Trainer @ McDonald's | Youth leader | Entrepreneur"
+    "Year 12 | Crew Trainer @ McDonald's | Youth leader | Entrepreneur"
   ],
   education: [{
     school: "Hastings Secondary College, Port Macquarie",
@@ -16,6 +16,28 @@ export const RESUME_DATA = {
       "Academic excellence + strong extracurricular involvement"
     ]
   }],
+  opportunities: [
+    {
+      type: "Business Ventures",
+      description: "Partnerships, investment, or co-founder roles in scalable projects."
+    },
+    {
+      type: "Internships",
+      description: "Finance, policy, or tech roles to learn from industry leaders."
+    },
+    {
+      type: "Scholarships & Funding",
+      description: "Support for academic or entrepreneurial pursuits."
+    },
+    {
+      type: "Research Projects",
+      description: "Collaboration on youth policy, economics, or social impact studies."
+    },
+    {
+      type: "Leadership Roles",
+      description: "Board positions, advisory councils, or community leadership."
+    }
+  ],
   experience: [
     {
       "role": "Crew Trainer",

@@ -4,19 +4,6 @@ import { Briefcase, FileText, Users, Mail } from "lucide-react";
 import { RESUME_DATA } from "@/lib/data";
 
 export function LookingFor() {
-    const opportunities = [
-        {
-            icon: Briefcase,
-            type: "Finance, Economics & Policy",
-            description: "Internships or shadowing opportunities in these fields",
-        },
-        {
-            icon: Users,
-            type: "Youth Advisory & Research",
-            description: "Advisory roles, research projects, or public speaking opportunities",
-        }
-    ];
-
     return (
         <Section id="looking-for" className="py-16">
             <h2 className="text-3xl md:text-4xl font-bold font-heading mb-3">Looking For</h2>
@@ -25,8 +12,12 @@ export function LookingFor() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                {opportunities.map((opportunity, index) => {
-                    const Icon = opportunity.icon;
+                {RESUME_DATA.opportunities.map((opportunity, index) => {
+                    // Map types to icons
+                    let Icon = Briefcase;
+                    if (opportunity.type.includes("Youth") || opportunity.type.includes("Leadership")) Icon = Users;
+                    if (opportunity.type.includes("Scholarships") || opportunity.type.includes("Funding")) Icon = FileText;
+
                     return (
                         <Card key={index} className="p-6 hover:border-accent/50 transition-all">
                             <div className="p-3 rounded-lg bg-accent/10 w-fit mb-4">
