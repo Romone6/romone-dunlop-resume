@@ -1,111 +1,60 @@
 import type { Metadata } from "next";
-import { Space_Grotesk, Inter } from "next/font/google";
+import { Manrope, Newsreader, Space_Mono } from "next/font/google";
+
+import { Footer } from "@/components/site/footer";
+import { Navbar } from "@/components/site/navbar";
+import { OptionalAnalytics } from "@/components/site/optional-analytics";
+import { siteConfig } from "@/content/site";
+
 import "./globals.css";
-import { RESUME_DATA } from "@/lib/data";
 
-const spaceGrotesk = Space_Grotesk({
-  variable: "--font-space-grotesk",
+const manrope = Manrope({
+  variable: "--font-manrope",
   subsets: ["latin"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const spaceMono = Space_Mono({
+  variable: "--font-space-mono",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 
-const siteUrl = "https://romone.me";
+const newsreader = Newsreader({
+  variable: "--font-newsreader",
+  subsets: ["latin"],
+  weight: ["400", "600"],
+});
+
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
+  metadataBase: new URL(siteConfig.person.url),
   title: {
-    default: "Romone Dunlop | Student, Coach & Entrepreneur",
-    template: "%s | Romone Dunlop"
+    default: siteConfig.seo.titleTemplate,
+    template: `%s | ${siteConfig.person.shortName}`,
   },
-  description: "Year 12 student, NSW Youth Advisory Council member, Co-Founder of Evergreen Landscaping, and youth sports coach. Academic excellence meets entrepreneurial drive.",
-  keywords: [
-    "Romone Dunlop",
-    "Port Macquarie",
-    "NSW Youth Advisory Council",
-    "Student Leader",
-    "Evergreen Landscaping",
-    "Youth Sports Coach",
-    "Resume"
-  ],
-  authors: [{ name: "Romone Dunlop" }],
-  creator: "Romone Dunlop",
+  description: siteConfig.seo.defaultDescription,
   openGraph: {
+    title: siteConfig.seo.titleTemplate,
+    description: siteConfig.seo.defaultDescription,
     type: "website",
-    locale: "en_AU",
-    url: siteUrl,
-    title: "Romone Dunlop | Student, Coach & Entrepreneur",
-    description: "Year 12 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
-    siteName: "Romone Dunlop",
+    siteName: siteConfig.person.fullName,
     images: [
       {
-        url: "/og-image.png", // TODO: Create this image
+        url: "/og/og-default.svg",
         width: 1200,
         height: 630,
-        alt: "Romone Dunlop - Student, Coach & Entrepreneur"
-      }
-    ]
+        alt: "Romone personal website",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Romone Dunlop | Student, Coach & Entrepreneur",
-    description: "Year 12 student, NSW Youth Advisory Council member, and Co-Founder of Evergreen Landscaping.",
-    images: ["/og-image.png"], // TODO: Create this image
+    title: siteConfig.seo.titleTemplate,
+    description: siteConfig.seo.defaultDescription,
+    images: ["/og/og-default.svg"],
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
+  icons: {
+    icon: "/favicon.ico",
   },
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: RESUME_DATA.name,
-  email: RESUME_DATA.email,
-  telephone: RESUME_DATA.phone,
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Port Macquarie",
-    addressRegion: "NSW",
-    addressCountry: "AU"
-  },
-  jobTitle: "Student & Entrepreneur",
-  knowsAbout: [
-    "Youth Leadership",
-    "Sports Coaching",
-    "Customer Service",
-    "Business Management",
-    "Youth Advocacy"
-  ],
-  affiliation: [
-    {
-      "@type": "Organization",
-      name: "NSW Youth Advisory Council (Ministry for Youth)"
-    },
-    {
-      "@type": "Organization",
-      name: "Evergreen Landscaping"
-    }
-  ],
-  alumniOf: {
-    "@type": "EducationalOrganization",
-    name: "Hastings Secondary College, Port Macquarie"
-  },
-  // TODO: Add LinkedIn and other social profiles when available
-  // sameAs: [
-  //   "https://linkedin.com/in/romonedunlop",
-  //   "https://twitter.com/romonedunlop"
-  // ]
 };
 
 export default function RootLayout({
@@ -115,16 +64,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
       <body
-        className={`${spaceGrotesk.variable} ${inter.variable} antialiased bg-background text-foreground font-sans`}
+        className={`${manrope.variable} ${spaceMono.variable} ${newsreader.variable} antialiased`}
       >
-        {children}
+        <div className="flex min-h-screen flex-col">
+          <Navbar />
+          <main className="flex-1 pt-16">{children}</main>
+          <Footer />
+        </div>
+        <OptionalAnalytics />
       </body>
     </html>
   );

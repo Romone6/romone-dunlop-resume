@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Current work board">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect x="52" y="56" width="796" height="1088" rx="34" fill="none" stroke="#334155" stroke-width="2"/>
+  <text x="90" y="140" fill="#cbd5e1" font-size="28" font-family="Arial, sans-serif" letter-spacing="4">CURRENT WORK</text>
+  <rect x="90" y="210" width="720" height="180" rx="24" fill="#111827" stroke="#334155"/>
+  <rect x="90" y="430" width="720" height="180" rx="24" fill="#111827" stroke="#334155"/>
+  <rect x="90" y="650" width="720" height="180" rx="24" fill="#111827" stroke="#334155"/>
+  <rect x="90" y="870" width="720" height="180" rx="24" fill="#111827" stroke="#334155"/>
+  <image href="/logos/high-school.svg" x="116" y="240" width="150" height="58" preserveAspectRatio="xMinYMid meet"/>
+  <text x="130" y="285" fill="#67e8f9" font-size="32" font-family="Arial, sans-serif">Hastings Secondary College</text>
+  <text x="130" y="322" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">Year 12 student</text>
+  <image href="/logos/southern-cross.png" x="116" y="456" width="190" height="72" preserveAspectRatio="xMinYMid meet"/>
+  <text x="130" y="505" fill="#67e8f9" font-size="32" font-family="Arial, sans-serif">Southern Cross University</text>
+  <text x="130" y="542" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">Scholars Program</text>
+  <image href="/logos/mindbridge.svg" x="116" y="682" width="64" height="64" preserveAspectRatio="xMinYMid meet"/>
+  <text x="130" y="725" fill="#67e8f9" font-size="32" font-family="Arial, sans-serif">MindBridge Health</text>
+  <text x="130" y="762" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">Founder since 2025</text>
+  <image href="/logos/agentos.svg" x="116" y="902" width="64" height="64" preserveAspectRatio="xMinYMid meet"/>
+  <text x="130" y="945" fill="#67e8f9" font-size="32" font-family="Arial, sans-serif">AgentOS</text>
+  <text x="130" y="982" fill="#94a3b8" font-size="22" font-family="Arial, sans-serif">Agentic-first operating system</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0b1220"/>
+  <rect x="80" y="80" width="1040" height="640" rx="28" fill="#111827" stroke="#1f2937" stroke-width="2"/>
+  <text x="112" y="146" fill="#7dd3fc" font-size="52" font-family="Arial, sans-serif">MindBridge Health</text>
+  <text x="112" y="194" fill="#dbeafe" font-size="28" font-family="Arial, sans-serif">AI-assisted mental health intake</text>
+  <rect x="112" y="248" width="296" height="286" rx="22" fill="#161f2f" stroke="#334155"/>
+  <rect x="452" y="248" width="296" height="286" rx="22" fill="#161f2f" stroke="#334155"/>
+  <rect x="792" y="248" width="296" height="286" rx="22" fill="#161f2f" stroke="#334155"/>
+  <text x="140" y="316" fill="#a5f3fc" font-size="24" font-family="Arial, sans-serif">Structured intake</text>
+  <text x="140" y="358" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">Capture consistent</text>
+  <text x="140" y="388" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">clinical context</text>
+  <text x="480" y="316" fill="#a5f3fc" font-size="24" font-family="Arial, sans-serif">Risk review</text>
+  <text x="480" y="358" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">Transparent signals</text>
+  <text x="480" y="388" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">with human oversight</text>
+  <text x="820" y="316" fill="#a5f3fc" font-size="24" font-family="Arial, sans-serif">Clinician-ready</text>
+  <text x="820" y="358" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">Structured summaries</text>
+  <text x="820" y="388" fill="#94a3b8" font-size="20" font-family="Arial, sans-serif">for faster review</text>
+</svg>
