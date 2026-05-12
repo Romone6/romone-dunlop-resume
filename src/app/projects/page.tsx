@@ -1,14 +1,8 @@
-import type { Metadata } from "next";
-
+﻿import type { Metadata } from "next";
 import { Container } from "@/components/site/container";
 import { ProjectsExplorer } from "@/components/site/projects-explorer";
-import { SectionHeader } from "@/components/site/section-header";
 import { MotionReveal } from "@/components/ui/motion-reveal";
-import {
-  getProjectCategories,
-  getProjectStatuses,
-  projectItems,
-} from "@/content/site";
+import { projectItems } from "@/content/site";
 import { buildMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = buildMetadata({
@@ -20,20 +14,9 @@ export const metadata: Metadata = buildMetadata({
 
 export default function ProjectsPage() {
   return (
-    <Container className="space-y-10 py-16 sm:py-20">
+    <Container className="pb-16 pt-4 sm:pb-20 sm:pt-6">
       <MotionReveal>
-        <SectionHeader
-          eyebrow="Projects"
-          title="A portfolio of active and notable work"
-          description="Filter by category and status to scan current focus across health technology, agentic systems, and youth pathways."
-        />
-      </MotionReveal>
-      <MotionReveal delay={0.05}>
-        <ProjectsExplorer
-          projects={projectItems}
-          categories={getProjectCategories()}
-          statuses={getProjectStatuses()}
-        />
+        <ProjectsExplorer projects={projectItems} />
       </MotionReveal>
     </Container>
   );

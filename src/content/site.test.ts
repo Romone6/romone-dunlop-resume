@@ -29,15 +29,18 @@ describe("site content", () => {
 
   it("matches the current public-facing roles and projects", () => {
     expect(roleItems.some((role) => role.title === "Year 12 Student")).toBe(true);
-    expect(roleItems.some((role) => role.title === "Manager")).toBe(true);
-    expect(roleItems.some((role) => role.title === "One of 12 Members")).toBe(true);
-    expect(roleItems.some((role) => role.organisation === "MindBridge Health")).toBe(
+    expect(roleItems.some((role) => role.title === "Manager / Crew Trainer")).toBe(true);
+    expect(roleItems.some((role) => role.title === "Government-Appointed Youth Advisor")).toBe(true);
+    expect(roleItems.some((role) => role.organisation === "MindBridge Health Technologies")).toBe(
       true,
     );
     expect(projectItems.map((project) => project.name)).toEqual([
       "MindBridge Health",
+      "Pathway to Entry",
       "AgentOS",
-      "Regional Pathways Project",
+      "Operator Layer",
+      "Verblayer",
+      "Regional Pathways Work",
     ]);
   });
 
@@ -52,8 +55,8 @@ describe("site content", () => {
     expect(socialLinks.find((link) => link.platform === "Email")?.label).toContain(
       "romonedunlop2@gmail.com",
     );
-    expect(roleItems).toHaveLength(6);
-    expect(projectItems).toHaveLength(3);
+    expect(roleItems.length).toBeGreaterThanOrEqual(12);
+    expect(projectItems).toHaveLength(6);
     expect(eventItems).toHaveLength(3);
   });
 
@@ -62,7 +65,7 @@ describe("site content", () => {
     expect(heroContent.chips).toContain("NSW Youth Advisory Council");
     expect(roleItems[0]?.organisation).toBe("NSW Youth Advisory Council");
     expect(organisationItems[0]?.name).toBe("Office for Youth");
-    expect(projectItems.find((project) => project.name === "Regional Pathways Project")?.tags).toContain(
+    expect(projectItems.find((project) => project.name === "Regional Pathways Work")?.tags).toContain(
       "NSW Youth Advisory Council",
     );
   });

@@ -4,3 +4,4 @@
 2. Public-facing sensitive details (exact school name, private contacts, unverified affiliations) remain placeholders until manually approved.
 3. Placeholder images/logos in `public/` are temporary and intentionally generic until final brand-approved assets are supplied.
 4. Social handles and direct email are scaffolded as editable placeholders and should be replaced before production launch.
+5. Until a different site repository is specified, GitHub PRs for this workspace target `Romone6/romone-dunlop-resume`, which is the current public repository previously used for this site.

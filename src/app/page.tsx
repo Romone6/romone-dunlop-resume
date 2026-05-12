@@ -1,121 +1,45 @@
-import { FuturePlanCard } from "@/components/site/future-plan-card";
-import { Hero } from "@/components/site/hero";
-import { OrganisationLogoGrid } from "@/components/site/organisation-logo-grid";
-import { ProjectCard } from "@/components/site/project-card";
-import { RoleCard } from "@/components/site/role-card";
-import { SectionHeader } from "@/components/site/section-header";
-import { SocialLinks } from "@/components/site/social-links";
-import { Container } from "@/components/site/container";
-import { MotionReveal } from "@/components/ui/motion-reveal";
-import {
-  futurePlanItems,
-  getFeaturedProjects,
-  heroContent,
-  organisationItems,
-  roleItems,
-  socialLinks,
-} from "@/content/site";
+﻿import { Hero } from "@/components/site/hero";
+import { heroContent, organisationItems, roleItems } from "@/content/site";
+
+const focusItems = [
+  {
+    title: "Youth Policy & Advisory",
+    description:
+      "Serving on the NSW Youth Advisory Council as a government-appointed youth advisor and contributing to work that sharpens pathways, representation, and practical access for regional young people.",
+    detail: "Office for Youth, youth policy, youth voice, cost-of-living, mental health.",
+  },
+  {
+    title: "Regional Pathways",
+    description:
+      "Building Pathway to Entry around the gap between choosing a post-school pathway and actually reaching university, TAFE, or skilled employment from a regional base.",
+    detail: "Research, consultation design, survey strategy, stakeholder framework.",
+  },
+  {
+    title: "Health Technology",
+    description:
+      "Building MindBridge Health Technologies around AI-assisted mental health intake, triage, and clinician workflow systems that improve context and speed.",
+    detail: "Product strategy, workflow research, technical planning, go-to-market.",
+  },
+  {
+    title: "Systems & AI",
+    description:
+      "Building AgentOS, Operator Layer, and Verblayer as open-source AI infrastructure for real execution, tooling, and legacy business software workflows.",
+    detail: "Voice-native agents, execution layers, AI-actionable systems.",
+  },
+];
 
 export default function Home() {
-  const featuredProjects = getFeaturedProjects().slice(0, 4);
-  const currentRoles = roleItems
-    .filter((role) => role.status === "Current")
-    .sort((left, right) => {
-      if (left.organisation === "NSW Youth Advisory Council") {
-        return -1;
-      }
-      if (right.organisation === "NSW Youth Advisory Council") {
-        return 1;
-      }
-      return 0;
-    })
-    .slice(0, 6);
+  const currentRoles = roleItems.filter((role) => role.status === "Current");
 
   return (
-    <div>
-      <Hero content={heroContent} />
-      <section className="py-20">
-        <Container className="space-y-8">
-          <MotionReveal>
-            <SectionHeader
-              eyebrow="Current Snapshot"
-              title="Roles and focus areas right now"
-              description="Current responsibilities across youth policy, study, work, and founder projects."
-            />
-          </MotionReveal>
-          <div className="grid gap-5 md:grid-cols-2">
-            {currentRoles.map((role) => (
-              <MotionReveal key={`${role.organisation}-${role.title}`}>
-                <RoleCard role={role} />
-              </MotionReveal>
-            ))}
-          </div>
-        </Container>
-      </section>
-      <section className="border-y border-white/10 bg-slate-950/50 py-20">
-        <Container className="space-y-8">
-          <MotionReveal>
-            <SectionHeader
-              eyebrow="Featured Projects"
-              title="Active projects with clear intent"
-              description="Flagship work across health technology, agentic systems, and youth pathways."
-            />
-          </MotionReveal>
-          <div className="grid gap-6 md:grid-cols-2">
-            {featuredProjects.map((project, index) => (
-              <MotionReveal key={project.name} delay={index * 0.04}>
-                <ProjectCard project={project} />
-              </MotionReveal>
-            ))}
-          </div>
-        </Container>
-      </section>
-      <section className="py-20">
-        <Container className="space-y-8">
-          <MotionReveal>
-            <SectionHeader
-              eyebrow="Organisations"
-              title="Where I study, work, and build"
-              description="Selected organisations and initiatives connected to current work, including youth-policy work through the Office for Youth."
-            />
-          </MotionReveal>
-          <MotionReveal delay={0.05}>
-            <OrganisationLogoGrid organisations={organisationItems} />
-          </MotionReveal>
-        </Container>
-      </section>
-      <section className="border-y border-white/10 bg-slate-950/50 py-20">
-        <Container className="space-y-8">
-          <MotionReveal>
-            <SectionHeader
-              eyebrow="Future Direction"
-              title="Grounded ambition with strategic direction"
-              description="Focus themes for the next chapter, anchored in execution and useful work."
-            />
-          </MotionReveal>
-          <div className="grid gap-5 lg:grid-cols-3">
-            {futurePlanItems.slice(0, 3).map((item, index) => (
-              <MotionReveal key={item.title} delay={index * 0.04}>
-                <FuturePlanCard item={item} />
-              </MotionReveal>
-            ))}
-          </div>
-        </Container>
-      </section>
-      <section className="py-20">
-        <Container className="space-y-8">
-          <MotionReveal>
-            <SectionHeader
-              eyebrow="Connect"
-              title="Open to serious collaborations and conversations"
-              description="Use the channels below for project discussions, opportunities, or media-related contact."
-            />
-          </MotionReveal>
-          <MotionReveal delay={0.04}>
-            <SocialLinks links={socialLinks} />
-          </MotionReveal>
-        </Container>
-      </section>
+    <div className="space-y-10 pb-12 sm:space-y-14 sm:pb-16">
+      <Hero
+        content={heroContent}
+        currentRoles={currentRoles}
+        organisations={organisationItems}
+        focusItems={focusItems}
+      />
     </div>
   );
 }
+
