@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Manrope, Newsreader, Space_Mono } from "next/font/google";
 
 import { Footer } from "@/components/site/footer";
@@ -67,9 +67,17 @@ export default function RootLayout({
       <body
         className={`${manrope.variable} ${spaceMono.variable} ${newsreader.variable} antialiased`}
       >
-        <div className="flex min-h-screen flex-col">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[70] focus:rounded-full focus:border focus:border-[color:var(--line-strong)] focus:bg-[color:var(--panel-strong)] focus:px-4 focus:py-2 focus:text-sm focus:text-white"
+        >
+          Skip to content
+        </a>
+        <div className="site-shell flex min-h-screen flex-col">
           <Navbar />
-          <main className="flex-1 pt-16">{children}</main>
+          <main id="main-content" className="flex-1 pt-20 sm:pt-24">
+            {children}
+          </main>
           <Footer />
         </div>
         <OptionalAnalytics />
@@ -77,3 +85,4 @@ export default function RootLayout({
     </html>
   );
 }
+

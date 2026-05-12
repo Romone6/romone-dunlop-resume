@@ -1,47 +1,90 @@
 import type { OrganisationItem } from "@/content/site";
+import { cn } from "@/lib/utils";
 
 import { ImagePanel } from "../ui/image-panel";
 
-type OrganisationLogoGridProps = {
-  organisations: OrganisationItem[];
+type OrganisationMeta = {
+  displaySrc?: string;
+  widthClassName: string;
+  imageClassName?: string;
 };
 
-export function OrganisationLogoGrid({ organisations }: OrganisationLogoGridProps) {
-  return (
-    <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-      {organisations.map((organisation) => {
-        const content = (
-          <div className="flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/[0.02] p-5 text-center transition hover:border-white/20">
-            <ImagePanel
-              src={organisation.logoSrc}
-              alt={`${organisation.name} logo`}
-              className="h-14 w-full max-w-[9rem] rounded-xl border-white/10 bg-slate-900"
-              imageClassName="object-contain p-2.5"
-              sizes="144px"
-            />
-            <div>
-              <p className="text-sm font-medium text-white">{organisation.name}</p>
-              <p className="text-xs text-slate-400">{organisation.role}</p>
-            </div>
-          </div>
-        );
+const organisationMeta: Record<string, OrganisationMeta> = {
+  "Office for Youth": {
+    widthClassName: "w-[6.2rem] lg:w-[7rem]",
+    imageClassName: "object-contain object-left",
+  },
+  "MindBridge Health": {
+    displaySrc: "/logos/mindbridge-lockup.svg",
+    widthClassName: "w-[7.8rem] lg:w-[8.6rem]",
+    imageClassName: "object-contain object-left",
+  },
+  "Hastings Secondary College": {
+    widthClassName: "w-[7.6rem] lg:w-[8.4rem]",
+    imageClassName: "object-contain object-left",
+  },
+  "McDonald's": {
+    displaySrc: "/logos/mcdonalds-lockup.svg",
+    widthClassName: "w-[5.2rem] lg:w-[6rem]",
+    imageClassName: "object-contain object-left",
+  },
+  "Southern Cross University Scholars Program": {
+    widthClassName: "w-[8.4rem] lg:w-[9.2rem]",
+    imageClassName: "object-contain object-left",
+  },
+};
 
-        if (organisation.href) {
-          return (
+export function OrganisationLogoGrid({
+  organisations,
+  label = "Trusted by & working with",
+}: {
+  organisations: OrganisationItem[];
+  label?: string;
+}) {
+  return (
+    <div className="section-divider mt-10 pt-8">
+      <div className="grid gap-5 lg:grid-cols-[12rem_repeat(5,minmax(0,1fr))] lg:items-center">
+        <p className="font-mono text-[0.68rem] uppercase tracking-[0.3em] text-slate-500">
+          {label}
+        </p>
+        {organisations.map((organisation, index) => {
+          const meta = organisationMeta[organisation.name];
+          const content = (
+            <ImagePanel
+              src={meta?.displaySrc ?? organisation.logoSrc}
+              alt={`${organisation.name} logo`}
+              className={cn(
+                "h-8 rounded-none border-0 bg-transparent lg:h-9",
+                meta?.widthClassName ?? "w-[8rem]",
+              )}
+              imageClassName={meta?.imageClassName ?? "object-contain object-left"}
+              sizes="160px"
+            />
+          );
+
+          const classes = cn(
+            "flex min-h-[3rem] items-center lg:pl-5",
+            index === 0 ? "lg:border-l lg:border-white/8" : "lg:border-l lg:border-white/8",
+          );
+
+          return organisation.href ? (
             <a
               key={organisation.name}
               href={organisation.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300/70 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              className={classes}
+              aria-label={organisation.name}
             >
               {content}
             </a>
+          ) : (
+            <div key={organisation.name} className={classes} aria-label={organisation.name}>
+              {content}
+            </div>
           );
-        }
-
-        return <div key={organisation.name}>{content}</div>;
-      })}
+        })}
+      </div>
     </div>
   );
 }

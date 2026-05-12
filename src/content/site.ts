@@ -92,14 +92,14 @@ export const siteConfig: SiteConfig = {
   person: {
     fullName: "Romone",
     shortName: "Romone",
-    location: "Australia",
+    location: "Port Macquarie, NSW, Australia",
     stage: "Year 12 Student",
     url: "https://romone.me",
   },
   seo: {
     titleTemplate: "Romone | Student, Builder, and Future-Focused Operator",
     defaultDescription:
-      "Personal website of Romone, a Year 12 student, Southern Cross University Scholars Program student, McDonald's manager, MindBridge Health founder, AgentOS builder, and one of 12 members of the NSW Youth Advisory Council.",
+      "Personal website of Romone Dunlop, a Port Macquarie student working across youth policy, Pathway to Entry, MindBridge Health, AgentOS, independent research, and regional education access.",
   },
   navigation: [
     { label: "About", href: "/about" },
@@ -113,7 +113,7 @@ export const siteConfig: SiteConfig = {
 export const heroContent: HeroContent = {
   headline: "Romone - student, operator, and builder shaping what comes next.",
   supportingCopy:
-    "A Year 12 student studying through the Southern Cross University Scholars Program, serving as one of 12 members of the NSW Youth Advisory Council through the Office for Youth, managing at McDonald's, and building MindBridge Health and AgentOS.",
+    "A Year 12 student from Port Macquarie building across statewide youth policy, regional education access, AI product development, and independent research through the NSW Youth Advisory Council, Pathway to Entry, MindBridge Health, AgentOS, Operator Layer, and Verblayer.",
   primaryCta: { label: "View Projects", href: "/projects" },
   secondaryCta: { label: "Connect", href: "/contact" },
   portrait: {
@@ -124,22 +124,22 @@ export const heroContent: HeroContent = {
     "Year 12",
     "NSW Youth Advisory Council",
     "Southern Cross Scholars",
-    "Office for Youth",
-    "McDonald's Manager",
+    "Pathway to Entry",
     "MindBridge Health",
     "AgentOS",
+    "Regional Education Access",
   ],
 };
 
 export const roleItems: RoleItem[] = [
   {
     type: "Community",
-    title: "One of 12 Members",
+    title: "Government-Appointed Youth Advisor",
     organisation: "NSW Youth Advisory Council",
-    timeframe: "2026",
+    timeframe: "2026 - Present",
     status: "Current",
     summary:
-      "Serving on the NSW Youth Advisory Council through the Office for Youth, with current work focused on improving pathways for regional students into university, TAFE, and skilled employment.",
+      "Selected as one of 12 young people statewide to advise the NSW Government on policy, programs, and legislation affecting young people, with current focus on regional education pathways, cost-of-living pressure, youth voice, mental health access, and post-school transition barriers.",
     logoSrc: "/logos/office-for-youth.svg",
   },
   {
@@ -159,38 +159,101 @@ export const roleItems: RoleItem[] = [
     timeframe: "2026",
     status: "Current",
     summary:
-      "Studying alongside school through the Southern Cross University Scholars Program.",
+      "Completed university-level study while in high school, securing a guaranteed conditional offer into Bachelor of Business and Bachelor of Laws study, with a $15,000 scholarship linked to program performance.",
     logoSrc: "/logos/southern-cross.png",
   },
   {
     type: "Work",
-    title: "Manager",
+    title: "Manager / Crew Trainer",
     organisation: "McDonald's",
     timeframe: "2022 - Present",
     status: "Current",
     summary:
-      "Managing in a fast-paced environment with responsibility for consistency, people, and day-to-day execution.",
+      "Leads and trains crew in high-pressure service operations and internal operational responsibilities while balancing school, civic leadership, research, and founder work.",
     logoSrc: "/logos/mcdonalds.svg",
   },
   {
     type: "Founder",
+    title: "Founder / Project Lead",
+    organisation: "Pathway to Entry",
+    timeframe: "2026 - Present",
+    status: "Current",
+    summary:
+      "Founded an NSW YAC-aligned policy and research project studying why regional students disengage between choosing a post-school pathway and reaching actual entry, building the public site, survey strategy, and stakeholder-facing framework.",
+  },
+  {
+    type: "Founder",
     title: "Founder",
-    organisation: "MindBridge Health",
+    organisation: "MindBridge Health Technologies",
     timeframe: "2025 - Present",
     status: "Current",
     summary:
-      "Building an AI-powered intake, triage, and clinician workflow platform.",
+      "Building AI-assisted mental-health clinic intake and triage software that converts patient context, symptoms, and goals into structured clinician handoffs.",
     logoSrc: "/logos/mindbridge.svg",
   },
   {
     type: "Founder",
-    title: "Builder",
+    title: "Open-Source AI Infrastructure Builder",
     organisation: "AgentOS",
+    timeframe: "2026 - Present",
+    status: "Current",
+    summary:
+      "Building a voice-native multi-agent work and coding environment, alongside Operator Layer and Verblayer, to make execution, tooling, and legacy business workflows AI-actionable.",
+    logoSrc: "/logos/agentos.svg",
+  },
+  {
+    type: "Community",
+    title: "Youth Media Spokesperson",
+    organisation: "Port Macquarie-Hastings Council",
+    timeframe: "2026 - Present",
+    status: "Current",
+    summary:
+      "Conducts interviews and youth-facing public communication for council-linked initiatives and local media opportunities.",
+  },
+  {
+    type: "Community",
+    title: "Chair",
+    organisation: "Youth Spaces Working Group & Youth Week 2027 Working Group",
+    timeframe: "2026 - Present",
+    status: "Current",
+    summary:
+      "Chairs two council-linked working groups focused on youth spaces and Youth Week planning, coordinating youth feedback, stakeholder priorities, and implementation direction.",
+  },
+  {
+    type: "Founder",
+    title: "Founder / Co-Founder",
+    organisation: "Evergreen Landscaping",
+    timeframe: "2024 - Present",
+    status: "Current",
+    summary:
+      "Launched a local landscaping business and generated more than $16,000 in gross profit by December 2024 while managing clients, quoting, marketing, and operations.",
+  },
+  {
+    type: "Work",
+    title: "Freelance Web Designer",
+    organisation: "Local Carpentry / Decking Business",
     timeframe: "2026",
     status: "Current",
     summary:
-      "Building an agentic-first operating system designed to handle every task imaginable.",
-    logoSrc: "/logos/agentos.svg",
+      "Designed and developed a lead-generation website focused on service clarity, local credibility, and search visibility for a local trade business.",
+  },
+  {
+    type: "Community",
+    title: "Youth Sports Coach / State-Level Athlete",
+    organisation: "Basketball, Rugby Union & Soccer",
+    timeframe: "2023 - Present coaching",
+    status: "Current",
+    summary:
+      "Certified coach and former three-sport state athlete, coaching younger athletes in technical skill, discipline, teamwork, and confidence.",
+  },
+  {
+    type: "Founder",
+    title: "Author",
+    organisation: "PhilArchive",
+    timeframe: "2026",
+    status: "Current",
+    summary:
+      "Author of 'Against Stable Folk Theories of Free Will: Why Deterministic Judgments Are Hybrid', an independent manuscript in experimental philosophy on free will, framing, and moral cognition.",
   },
 ];
 
@@ -213,6 +276,22 @@ export const projectItems: ProjectItem[] = [
     archived: false,
   },
   {
+    name: "Pathway to Entry",
+    category: "Public Policy / Education",
+    status: "Active",
+    shortDescription:
+      "Research and policy project on regional post-school pathway access.",
+    thesis:
+      "Study why regional students disengage between choosing a post-school pathway and reaching actual entry, then turn those findings into practical frameworks for schools, youth services, TAFE, university partners, and policymakers.",
+    whyItMatters:
+      "The project translates lived regional barriers into a stakeholder-facing system that can improve pathway clarity, continuation, and actual access.",
+    tags: ["regional education", "policy research", "pathways", "public impact"],
+    imageSrc: "/images/projects/regional-pathways.jpg",
+    href: "https://pathwaytoentry.com",
+    featured: true,
+    archived: false,
+  },
+  {
     name: "AgentOS",
     category: "Agentic Systems",
     status: "Building",
@@ -223,25 +302,55 @@ export const projectItems: ProjectItem[] = [
     whyItMatters:
       "The goal is a safer, inspectable way to turn intent into execution without losing human review.",
     tags: ["multi-agent", "local-first", "coding loop", "patches"],
-    imageSrc: "/images/projects/agentos.svg",
+    imageSrc: "/images/projects/agentos-atmosphere.png",
     repoHref: "https://github.com/Romone6/agent-factory",
     featured: true,
     archived: false,
   },
   {
-    name: "Regional Pathways Project",
+    name: "Operator Layer",
+    category: "Agentic Systems",
+    status: "Building",
+    shortDescription:
+      "Agent-to-tool execution infrastructure for real-world software workflows.",
+    thesis:
+      "Create the execution layer that lets agents act reliably across tools and operating environments rather than staying trapped in chat-only abstractions.",
+    whyItMatters:
+      "Operator Layer is meant to close the gap between agent reasoning and actual software execution in a way that is modular, inspectable, and useful.",
+    tags: ["agent tooling", "execution", "infrastructure", "automation"],
+    imageSrc: "/images/projects/agentos-atmosphere.png",
+    featured: false,
+    archived: false,
+  },
+  {
+    name: "Verblayer",
+    category: "AI Infrastructure",
+    status: "Building",
+    shortDescription:
+      "Command layer for turning legacy business software into AI-actionable workflows.",
+    thesis:
+      "Translate older software environments into commandable action layers so AI systems can work across businesses that do not operate on modern AI-native stacks.",
+    whyItMatters:
+      "A large share of real work still happens inside legacy systems. Verblayer is about making those environments operable without forcing full software replacement first.",
+    tags: ["legacy software", "workflow layer", "AI systems", "business tooling"],
+    imageSrc: "/images/projects/agentos-atmosphere.png",
+    featured: false,
+    archived: false,
+  },
+  {
+    name: "Regional Pathways Work",
     category: "Youth Policy / Education",
     status: "Active",
     shortDescription:
-      "NSW Youth Advisory Council and Office for Youth work focused on narrowing the gap between regional students and metropolitan pathways.",
+      "NSW Youth Advisory Council and Office for Youth work focused on narrowing the gap between regional students and post-school opportunity.",
     thesis:
-      "Improve access to clearer pathways into university, TAFE, and skilled employment for regional young people through practical youth-policy work.",
+      "Improve access to clearer pathways into university, TAFE, and skilled employment for regional young people through practical policy work and youth consultation.",
     whyItMatters:
-      "The work is grounded in making credible next-step options more visible for regional students who are too often left further from metropolitan networks and information.",
+      "This work is grounded in making credible next-step options more visible for regional students who are often further from metropolitan networks, information, and institutional access.",
     tags: ["NSW Youth Advisory Council", "Office for Youth", "education", "regional pathways"],
     imageSrc: "/images/projects/regional-pathways.jpg",
     href: "https://officeforyouth.nsw.gov.au/",
-    featured: true,
+    featured: false,
     archived: false,
   },
 ];
@@ -249,7 +358,7 @@ export const projectItems: ProjectItem[] = [
 export const organisationItems: OrganisationItem[] = [
   {
     name: "Office for Youth",
-    role: "NSW Youth Advisory Council",
+    role: "Youth Advisory Council",
     logoSrc: "/logos/office-for-youth.svg",
   },
   {
@@ -259,18 +368,18 @@ export const organisationItems: OrganisationItem[] = [
   },
   {
     name: "Hastings Secondary College",
-    role: "Study",
+    role: "Year 12",
     logoSrc: "/logos/high-school.svg",
   },
   {
     name: "McDonald's",
-    role: "Work",
+    role: "Manager / Crew Trainer",
     logoSrc: "/logos/mcdonalds.svg",
     href: "https://www.mcdonalds.com",
   },
   {
     name: "Southern Cross University Scholars Program",
-    role: "Study",
+    role: "Scholars Program",
     logoSrc: "/logos/southern-cross.png",
   },
 ];
@@ -312,42 +421,42 @@ export const milestoneItems: MilestoneItem[] = [
   },
   {
     year: "2025",
-    title: "Founded MindBridge Health",
+    title: "Founded MindBridge Health Technologies",
     description:
-      "Started MindBridge Health and deepened work at the intersection of health systems, execution, and public impact.",
+      "Started MindBridge Health Technologies and deepened product work at the intersection of health systems, workflow design, and public impact.",
   },
   {
     year: "2026",
-    title: "Year 12, NSW Youth Advisory Council, and AgentOS",
+    title: "NSW Youth Advisory Council, Pathway to Entry, and Southern Cross",
     description:
-      "Balancing Year 12, the Southern Cross University Scholars Program, NSW Youth Advisory Council work through the Office for Youth, AgentOS, and regional pathways policy work.",
+      "Selected to the NSW Youth Advisory Council, launched Pathway to Entry, completed the Southern Cross University Scholars Program, and secured a guaranteed conditional offer into Business and Laws study with a linked scholarship opportunity.",
   },
 ];
 
 export const futurePlanItems: FuturePlanItem[] = [
   {
     horizon: "Near-term focus",
-    title: "Deliver useful work through the NSW Youth Advisory Council",
+    title: "Deliver useful work through the NSW Youth Advisory Council and Pathway to Entry",
     summary:
-      "Stay close to practical youth-policy work that improves pathways for regional students into university, TAFE, and skilled employment.",
+      "Stay close to practical youth-policy and pathway-access work that improves post-school transitions for regional students into university, TAFE, and skilled employment.",
   },
   {
     horizon: "Near-term focus",
-    title: "Build MindBridge Health and AgentOS well",
+    title: "Build MindBridge Health, AgentOS, Operator Layer, and Verblayer well",
     summary:
-      "Keep both projects moving with stronger execution, clearer systems, and honest public-facing positioning.",
+      "Keep product and infrastructure work moving with stronger execution, clearer systems, and honest public-facing positioning.",
   },
   {
     horizon: "Medium-term trajectory",
-    title: "Deepen policy and systems understanding",
+    title: "Deepen business, policy, and systems understanding",
     summary:
-      "Develop stronger understanding of how education, institutions, and opportunity structures shape outcomes over time.",
+      "Develop stronger understanding across business, finance/economics, public policy, law, and how institutions shape outcomes over time.",
   },
   {
     horizon: "Medium-term trajectory",
-    title: "Strengthen independent research",
+    title: "Strengthen independent research and philosophy work",
     summary:
-      "Continue research around deterministic theory and structural inequality in legal systems.",
+      "Continue work around deterministic theory, cognition, moral judgment, and structural inequality in legal systems.",
   },
   {
     horizon: "Long-term themes",
@@ -364,19 +473,20 @@ export const futurePlanItems: FuturePlanItem[] = [
 ];
 
 export const aboutNarrative: string[] = [
-  "I am a Year 12 student at Hastings Secondary College, currently also studying through the Southern Cross University Scholars Program. My current chapter is about balancing school with NSW Youth Advisory Council work through the Office for Youth, management responsibility at McDonald's, founder work at MindBridge Health, and the buildout of AgentOS.",
-  "I am one of 12 members of the NSW Youth Advisory Council. A major part of that work is improving pathways for regional students into university, TAFE, and skilled employment, and helping close the gap between regional young people and the opportunities more visible in metropolitan settings.",
-  "My independent research interests include deterministic theory and structural inequality in legal systems. I am interested in how institutions, incentives, and system design shape outcomes over time.",
+  "I am a Year 12 student from Port Macquarie, studying at Hastings Secondary College and through the Southern Cross University Scholars Program. I have been recognised through the Gifted Learning Program, academic scholarships, and leadership awards, and my current chapter is built around public leadership, entrepreneurship, technology, and independent research.",
+  "That includes serving as a government-appointed youth advisor on the NSW Youth Advisory Council, building Pathway to Entry around regional post-school pathway access, developing MindBridge Health Technologies for clinician intake and triage, and building open-source AI infrastructure through AgentOS, Operator Layer, and Verblayer.",
+  "My academic interests sit across business, finance/economics, public policy, political science and law, entrepreneurship, AI product development, health technology, philosophy, and cognitive science. I also write independently on deterministic theory, free will, and structural inequality in legal systems, and have received nominations and recognition across leadership, volunteering, youth impact, and academic excellence.",
 ];
 
 export const eventItems: EventItem[] = [
   {
-    title: "State Youth Parliament",
-    organisation: "Youth Parliament Program",
+    title: "International Youth Conference",
+    organisation: "International Organization of Youth",
     timeframe: "2026",
-    location: "New South Wales",
+    location: "Los Angeles, USA",
     summary:
-      "Attending as part of a broader commitment to youth participation, policy, and parliamentary process.",
+      "Invited to attend the International Youth Conference in Los Angeles.",
+    href: "https://www.ioyforyouth.org/programs/international-youth-conference",
   },
   {
     title: "Federal Youth Parliament",
@@ -384,16 +494,15 @@ export const eventItems: EventItem[] = [
     timeframe: "2026",
     location: "Australia",
     summary:
-      "Attending to deepen national policy understanding and sharpen practical engagement with democratic process.",
+      "Shortlisted for Federal Youth Parliament as part of a broader commitment to youth participation and public leadership.",
   },
   {
-    title: "International Youth Conference 13",
-    organisation: "International Organization of Youth",
-    timeframe: "May 21 - 24, 2026",
-    location: "Los Angeles, USA",
+    title: "State Youth Parliament",
+    organisation: "Youth Parliament Program",
+    timeframe: "2026",
+    location: "New South Wales",
     summary:
-      "Attending IYC13 in Los Angeles, a global conference focused on youth-led diplomacy, policy dialogue, and international collaboration.",
-    href: "https://www.ioyforyouth.org/programs/international-youth-conference",
+      "Waitlisted for State Youth Parliament while continuing to build policy and civic leadership work.",
   },
 ];
 

@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+﻿import { cn } from "@/lib/utils";
 
 type SectionHeaderProps = {
   eyebrow?: string;
@@ -6,6 +6,8 @@ type SectionHeaderProps = {
   description?: string;
   align?: "left" | "center";
   className?: string;
+  titleClassName?: string;
+  descriptionClassName?: string;
 };
 
 export function SectionHeader({
@@ -14,28 +16,37 @@ export function SectionHeader({
   description,
   align = "left",
   className,
+  titleClassName,
+  descriptionClassName,
 }: SectionHeaderProps) {
   return (
     <header
       className={cn(
-        "space-y-3",
+        "flex flex-col gap-3",
         align === "center" && "mx-auto max-w-3xl text-center",
         className,
       )}
     >
-      {eyebrow ? (
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
-          {eyebrow}
-        </p>
-      ) : null}
-      <h2 className="font-[family-name:var(--font-newsreader)] text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+      {eyebrow ? <p className="eyebrow">{eyebrow}</p> : null}
+      <h2
+        className={cn(
+          "font-[family-name:var(--font-newsreader)] text-balance text-4xl font-medium leading-[0.95] tracking-[-0.03em] text-white sm:text-5xl",
+          titleClassName,
+        )}
+      >
         {title}
       </h2>
       {description ? (
-        <p className="max-w-3xl text-pretty text-base leading-relaxed text-slate-300 sm:text-lg">
+        <p
+          className={cn(
+            "max-w-3xl text-base leading-8 text-[color:var(--muted-strong)] sm:text-lg",
+            descriptionClassName,
+          )}
+        >
           {description}
         </p>
       ) : null}
     </header>
   );
 }
+

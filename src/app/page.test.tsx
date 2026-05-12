@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+﻿import { render, screen } from "@testing-library/react";
 import type { ReactNode } from "react";
 import { describe, expect, it, vi } from "vitest";
 
@@ -15,30 +15,25 @@ vi.mock("@/components/ui/motion-reveal", () => ({
 }));
 
 describe("home page", () => {
-  it("renders identity and key section headings", () => {
+  it("renders identity and key homepage sections", () => {
     render(<Home />);
 
     expect(
       screen.getByRole("heading", {
         level: 1,
-        name: /Romone - student, operator, and builder shaping what comes next/i,
+        name: /Student\. Operator\. Builder of what matters\./i,
       }),
     ).toBeInTheDocument();
 
     expect(
       screen.getByRole("heading", {
         level: 2,
-        name: /Roles and focus areas right now/i,
+        name: /Youth Policy & Advisory/i,
       }),
     ).toBeInTheDocument();
 
-    expect(
-      screen.getByRole("heading", {
-        level: 2,
-        name: /Active projects with clear intent/i,
-      }),
-    ).toBeInTheDocument();
-
+    expect(screen.getByText(/At a glance/i)).toBeInTheDocument();
+    expect(screen.getByText(/Trusted by & working with/i)).toBeInTheDocument();
     expect(screen.getAllByText(/NSW Youth Advisory Council/i).length).toBeGreaterThan(0);
   });
 });
