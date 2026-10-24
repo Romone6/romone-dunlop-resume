@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#526d88"/><stop offset=".54" stop-color="#a7a2a1"/><stop offset="1" stop-color="#e3b59c"/></linearGradient>
+ <linearGradient id="bay" x2="0" y2="1"><stop stop-color="#62818e"/><stop offset="1" stop-color="#314b5c"/></linearGradient>
+ <pattern id="paper" width="74" height="68" patternUnits="userSpaceOnUse"><path d="M3 18q19-8 31 1m19 37q11-6 18 0" fill="none" stroke="#e5ddca" stroke-opacity=".1" stroke-width="2"/></pattern>
+ <style>.fog{animation:fog 30s linear infinite}.f2{animation-duration:42s;animation-delay:-18s}.airship{animation:fly 34s ease-in-out infinite alternate}.lamp{animation:lamp 3s ease-in-out infinite alternate}.l2{animation-delay:-1.4s}.star{animation:star 2.4s ease-in-out infinite alternate}@keyframes fog{to{transform:translateX(180px)}}@keyframes fly{to{transform:translate(170px,-24px)}}@keyframes lamp{to{opacity:.42}}@keyframes star{to{opacity:.24}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/><rect width="1600" height="900" fill="url(#paper)"/>
+<!-- nordic peaks and broad mountain valley -->
+<path d="M0 452 210 195l158 156 189-264 260 348 174-242 176 183 233-297 200 291v257H0z" fill="#667a82"/><path d="m0 452 210-257 91 90 63 66 192-264 112 150-90-19-38 36-46-22-37 47-99-16-70 119-95-18-92 111zM991 376l176-183 110-114 124 181-91-16-39 45-53-16-68 67z" fill="#c9c7b7" opacity=".85"/>
+<path d="M0 484q255-110 482 12t473-18q253-111 645 8v173H0z" fill="#475d65"/>
+<!-- Trolberg across a quiet bay: clustered roofs, wall, harbor lights -->
+<g stroke="#384c58" stroke-width="7" stroke-linejoin="round"><path d="M0 533h1600v218H0z" fill="#687d7f"/><path d="M0 611q197-66 362-22 183 47 335-6 196-66 359 0 205 80 544-6v177H0z" fill="#8f8b7e"/>
+<path d="M92 603V447h100V351l138 67v168z" fill="#c17c66"/><path d="M348 603V405l91-87 105 87v198z" fill="#d1b48f"/><path d="M523 603V456h112V342l144 82v179z" fill="#8a9aa0"/><path d="M758 603V376l120-113 128 113v227z" fill="#b57b68"/><path d="M1011 603V428l97-72 104 72v175z" fill="#d1bd9d"/><path d="M1212 603V349l146 86 139-39v207z" fill="#b26c62"/>
+<path d="M75 443h117m161-37h191m-21 74h119m111-101h260m-4 64h220m-29-96h205" fill="none" stroke="#d4c5aa" stroke-width="8"/>
+<g fill="#f1d3a1" stroke="none"><path class="lamp" d="M137 482h16v25h-16zM406 460h16v23h-16zM580 493h16v25h-16zM826 418h18v31h-18zM914 460h18v31h-18zM1070 472h16v23h-16zM1281 427h17v28h-17zM1455 471h17v26h-17z"/></g>
+<path d="M0 630q350-38 645 5t509 0q241-37 446 5" fill="none" stroke="#d0c0a5" stroke-width="10"/></g>
+<!-- lamps and harbor reflections -->
+<path d="M0 713q168-24 344 0t347 0 344 0 347 0 218 0v187H0z" fill="url(#bay)"/><g fill="none" stroke="#d3ac91" stroke-opacity=".64" stroke-width="7"><path d="M151 640v139m-8-43h41m253-34v99m-6-56h72m373-92v148m-15-55h110m257-67v121m-10-52h79m220-32v97"/></g>
+<g class="fog" fill="#d2c4b4" opacity=".23"><path d="M85 590h544a39 39 0 0 0-74-11 61 61 0 0 0-118 11z"/><path class="f2" d="M928 581h572a44 44 0 0 0-85-15 66 66 0 0 0-127 15z"/></g>
+<!-- distant lantern-bearing airship silhouette -->
+<g class="airship" transform="translate(640 215)" fill="#526878" stroke="#394e5a" stroke-width="6"><path d="M0 28q70-70 191-61 103 8 156 51-44 59-169 65Q55 87 0 28z" fill="#7c8790"/><path d="m154 81-5 36 78 0-9-40z" fill="#795c51"/><path d="M186 101v27m18-28v26" fill="none"/><circle class="lamp l2" cx="108" cy="26" r="5" fill="#f2d5a5"/><circle class="lamp" cx="278" cy="38" r="5" fill="#f2d5a5"/></g>
+<g fill="#f6e7c9" class="star"><circle cx="184" cy="107" r="4"/><circle cx="501" cy="159" r="3"/><circle cx="1124" cy="112" r="4"/><circle cx="1453" cy="196" r="3"/></g>
+</svg>

@@ -1,0 +1,1896 @@
+{
+  "v": 1,
+  "url": "https://parents.pokemon.com/en-us/animation/",
+  "title": "Pokémon Parents Official Website | Pokémon Animation",
+  "lang": "en-US",
+  "measuredAt": "2026-10-24T11:20:25.804Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "page": {
+    "w": 1574,
+    "h": 7227
+  },
+  "canvas": "#ffffff",
+  "meta": {
+    "description": "Trainers of all ages can discover, learn, and explore the world of Pokémon by keeping up with adventures from the animated series and movies.",
+    "canonical": "",
+    "robots": "",
+    "ogTitle": "Pokémon Parents Official Website | Pokémon Animation",
+    "ogImage": "https://parents.pokemon.com/images/meta/en/share-fb.jpg",
+    "generator": "",
+    "jsonLd": []
+  },
+  "tech": {
+    "next": true,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 0,
+    "iframes": 1,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#fefae8",
+      "text": 0,
+      "bg": 38880,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#fdfaaf",
+      "text": 0,
+      "bg": 25920,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff",
+      "text": 235,
+      "bg": 21206,
+      "border": 0,
+      "icon": 12,
+      "action": 1,
+      "label": 1
+    },
+    {
+      "hex": "#181301",
+      "text": 349,
+      "bg": 12574,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 7
+    },
+    {
+      "hex": "#5f4f5f",
+      "text": 1595,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#000000",
+      "text": 188,
+      "bg": 176,
+      "border": 0,
+      "icon": 8,
+      "action": 2,
+      "label": 7
+    },
+    {
+      "hex": "#666666",
+      "text": 454,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 1
+    },
+    {
+      "hex": "#ffcc00",
+      "text": 0,
+      "bg": 114,
+      "border": 2,
+      "icon": 0,
+      "action": 2,
+      "label": 0
+    },
+    {
+      "hex": "#fada5e",
+      "text": 0,
+      "bg": 126,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#704900",
+      "text": 132,
+      "bg": 0,
+      "border": 0,
+      "icon": 3,
+      "action": 0,
+      "label": 1
+    },
+    {
+      "hex": "#2f57f9",
+      "text": 52,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 4
+    },
+    {
+      "hex": "#0866ff",
+      "text": 0,
+      "bg": 31,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#ff0000",
+      "text": 0,
+      "bg": 31,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#fb0062",
+      "text": 0,
+      "bg": 31,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#e60023",
+      "text": 0,
+      "bg": 31,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#1414001a",
+      "text": 0,
+      "bg": 0,
+      "border": 7,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#f0ce4c",
+      "text": 0,
+      "bg": 0,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#f9c600",
+      "text": 0,
+      "bg": 0,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Nunito",
+      "chars": 1879,
+      "weights": {
+        "400": 1667,
+        "500": 212
+      }
+    },
+    {
+      "family": "Times New Roman",
+      "chars": 565,
+      "weights": {
+        "400": 519,
+        "600": 34,
+        "700": 12
+      }
+    },
+    {
+      "family": "Kanit",
+      "chars": 528,
+      "weights": {
+        "400": 7,
+        "500": 521
+      }
+    },
+    {
+      "family": "Permanent Marker",
+      "chars": 33,
+      "weights": {
+        "400": 26,
+        "500": 7
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "20px",
+      "lineHeight": "28px",
+      "weight": "400",
+      "family": "Nunito",
+      "letterSpacing": "normal",
+      "count": 13,
+      "chars": 1667,
+      "tags": {
+        "p": 7,
+        "i": 6
+      }
+    },
+    {
+      "size": "11.382px",
+      "lineHeight": "17.073px",
+      "weight": "400",
+      "family": "Times New Roman",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 442,
+      "tags": {
+        "div": 1
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "21.6px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 11,
+      "chars": 145,
+      "tags": {
+        "span": 7,
+        "p": 4
+      }
+    },
+    {
+      "size": "36px",
+      "lineHeight": "43.2px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 137,
+      "tags": {
+        "p": 3,
+        "i": 3
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "25.2px",
+      "weight": "500",
+      "family": "Nunito",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 124,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "24px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 3,
+      "chars": 94,
+      "tags": {
+        "p": 3
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "28px",
+      "weight": "500",
+      "family": "Nunito",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 88,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "19.2px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 70,
+      "tags": {
+        "p": 5,
+        "span": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "24px",
+      "weight": "400",
+      "family": "Times New Roman",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 43,
+      "tags": {
+        "a": 2
+      }
+    },
+    {
+      "size": "64px",
+      "lineHeight": "64px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 35,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "16px",
+      "weight": "400",
+      "family": "Times New Roman",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 34,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "11.382px",
+      "lineHeight": "15.9348px",
+      "weight": "600",
+      "family": "Times New Roman",
+      "letterSpacing": "0.5691px",
+      "count": 3,
+      "chars": 34,
+      "tags": {
+        "button": 3
+      }
+    },
+    {
+      "size": "51px",
+      "lineHeight": "61.2px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 33,
+      "tags": {
+        "p": 2
+      }
+    },
+    {
+      "size": "82px",
+      "lineHeight": "82px",
+      "weight": "400",
+      "family": "Permanent Marker",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 26,
+      "tags": {
+        "p": 2
+      }
+    },
+    {
+      "size": "11.382px",
+      "lineHeight": "17.073px",
+      "weight": "700",
+      "family": "Times New Roman",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 12,
+      "tags": {
+        "a": 1
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "18px",
+      "weight": "500",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "20px",
+      "weight": "500",
+      "family": "Permanent Marker",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "51px",
+      "lineHeight": "61.2px",
+      "weight": "400",
+      "family": "Kanit",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "p": 1
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": 12,
+      "count": 102
+    },
+    {
+      "value": 16,
+      "count": 43
+    },
+    {
+      "value": 3,
+      "count": 22
+    },
+    {
+      "value": 60,
+      "count": 14
+    },
+    {
+      "value": 8,
+      "count": 9
+    },
+    {
+      "value": 24,
+      "count": 5
+    },
+    {
+      "value": 32,
+      "count": 5
+    },
+    {
+      "value": 10,
+      "count": 5
+    },
+    {
+      "value": 4,
+      "count": 3
+    },
+    {
+      "value": 20,
+      "count": 3
+    },
+    {
+      "value": 50,
+      "count": 3
+    },
+    {
+      "value": 30,
+      "count": 3
+    },
+    {
+      "value": 64,
+      "count": 2
+    },
+    {
+      "value": 14,
+      "count": 2
+    },
+    {
+      "value": 7,
+      "count": 2
+    },
+    {
+      "value": 15,
+      "count": 2
+    },
+    {
+      "value": 200,
+      "count": 1
+    },
+    {
+      "value": 80,
+      "count": 1
+    },
+    {
+      "value": 120,
+      "count": 1
+    },
+    {
+      "value": 36,
+      "count": 1
+    },
+    {
+      "value": 88,
+      "count": 1
+    },
+    {
+      "value": 40,
+      "count": 1
+    }
+  ],
+  "radius": [
+    {
+      "value": "600px",
+      "count": 11
+    },
+    {
+      "value": "30px",
+      "count": 7
+    },
+    {
+      "value": "60px",
+      "count": 5
+    },
+    {
+      "value": "50%",
+      "count": 5
+    },
+    {
+      "value": "2px",
+      "count": 4
+    },
+    {
+      "value": "120px",
+      "count": 2
+    },
+    {
+      "value": "43px",
+      "count": 1
+    },
+    {
+      "value": "3px",
+      "count": 1
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.05) 0px 4px 6px 0px",
+      "count": 1
+    },
+    {
+      "value": "rgba(0, 0, 0, 0.2) 0px 0px 18px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": 200,
+        "count": 21
+      },
+      {
+        "value": 400,
+        "count": 18
+      },
+      {
+        "value": 300,
+        "count": 7
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease-out",
+        "count": 34
+      },
+      {
+        "value": "ease-in-out",
+        "count": 7
+      },
+      {
+        "value": "ease",
+        "count": 5
+      }
+    ],
+    "animations": 2
+  },
+  "containers": [],
+  "breakpoints": {
+    "values": [
+      {
+        "value": 640,
+        "count": 49
+      },
+      {
+        "value": 1024,
+        "count": 47
+      },
+      {
+        "value": 1023,
+        "count": 8
+      },
+      {
+        "value": 1144,
+        "count": 7
+      },
+      {
+        "value": 1440,
+        "count": 5
+      },
+      {
+        "value": 896,
+        "count": 3
+      },
+      {
+        "value": 600,
+        "count": 3
+      },
+      {
+        "value": 426,
+        "count": 2
+      },
+      {
+        "value": 550,
+        "count": 2
+      },
+      {
+        "value": 1920,
+        "count": 1
+      },
+      {
+        "value": 400,
+        "count": 1
+      },
+      {
+        "value": 425,
+        "count": 1
+      }
+    ],
+    "unreadableSheets": 0
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://parents.pokemon.com/images/footer/logo-tpci.svg",
+    "alt": "The Pokemon Company",
+    "w": 184,
+    "h": 34,
+    "saved": "pokemon-logo.svg"
+  },
+  "gradients": [
+    "linear-gradient(79deg, rgb(24, 19, 1) 0%, rgba(24, 19, 1, 0.2) 91.83%)"
+  ],
+  "nodes": [
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 58,
+      "y": 0,
+      "w": 60,
+      "h": 60,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 24,
+      "y": 0,
+      "w": 94,
+      "h": 60,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 29,
+      "y": 0,
+      "w": 94,
+      "h": 60,
+      "name": ""
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 134,
+      "y": 17,
+      "w": 157,
+      "h": 26,
+      "name": "Pokémon Parents"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 750,
+      "y": 0,
+      "w": 678,
+      "h": 60,
+      "name": "Main site navigation"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 750,
+      "y": 19,
+      "w": 678,
+      "h": 22,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 762,
+      "y": 20,
+      "w": 44,
+      "h": 19,
+      "name": "HOME"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 830,
+      "y": 20,
+      "w": 160,
+      "h": 19,
+      "name": "TRADING CARD GAME"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1014,
+      "y": 20,
+      "w": 162,
+      "h": 19,
+      "name": "VIDEO GAMES & APPS"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1200,
+      "y": 20,
+      "w": 85,
+      "h": 19,
+      "name": "ANIMATION"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1309,
+      "y": 20,
+      "w": 107,
+      "h": 19,
+      "name": "MERCHANDISE"
+    },
+    {
+      "role": "main",
+      "tag": "main",
+      "x": 0,
+      "y": 60,
+      "w": 1440,
+      "h": 6881,
+      "name": ""
+    },
+    {
+      "role": "header",
+      "tag": "header",
+      "x": 0,
+      "y": 60,
+      "w": 1440,
+      "h": 1306,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": -84,
+      "y": 824,
+      "w": 626,
+      "h": 485,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": -112,
+      "y": 859,
+      "w": 666,
+      "h": 561,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 915,
+      "y": 915,
+      "w": 592,
+      "h": 432,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 898,
+      "y": 781,
+      "w": 666,
+      "h": 561,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 0,
+      "y": 1366,
+      "w": 1440,
+      "h": 62,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 424,
+      "y": 1386,
+      "w": 248,
+      "h": 22,
+      "name": "POKÉMON ANIMATION BASICS"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 696,
+      "y": 1386,
+      "w": 144,
+      "h": 22,
+      "name": "WHAT TO WATCH"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 864,
+      "y": 1386,
+      "w": 152,
+      "h": 22,
+      "name": "WHERE TO WATCH"
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 0,
+      "y": 1853,
+      "w": 1440,
+      "h": 344,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 132,
+      "y": 1629,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 132,
+      "y": 1629,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 732,
+      "y": 2096,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 732,
+      "y": 2096,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 2570,
+      "w": 1440,
+      "h": 1310,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 0,
+      "y": 3443,
+      "w": 1440,
+      "h": 280,
+      "name": ""
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 142,
+      "y": 3576,
+      "w": 1156,
+      "h": 143,
+      "name": "What to watch first"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 3839,
+      "w": 720,
+      "h": 508,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 3839,
+      "w": 720,
+      "h": 508,
+      "name": "Pokémon Horizons: The Series"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 743,
+      "y": 3833,
+      "w": 142,
+      "h": 160,
+      "name": "charizard"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 4254,
+      "w": 132,
+      "h": 22,
+      "name": "LEARN MORE"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 4408,
+      "w": 720,
+      "h": 508,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 4408,
+      "w": 720,
+      "h": 508,
+      "name": "Pokémon: Path to the Peak"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 743,
+      "y": 4423,
+      "w": 160,
+      "h": 161,
+      "name": "squirtle"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 4800,
+      "w": 132,
+      "h": 22,
+      "name": "LEARN MORE"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 4976,
+      "w": 720,
+      "h": 508,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 4976,
+      "w": 720,
+      "h": 508,
+      "name": "POKÉTOON"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 743,
+      "y": 5048,
+      "w": 143,
+      "h": 160,
+      "name": "nidoran"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 5313,
+      "w": 128,
+      "h": 22,
+      "name": "WATCH NOW"
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 0,
+      "y": 5887,
+      "w": 1440,
+      "h": 344,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 132,
+      "y": 5605,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 132,
+      "y": 5605,
+      "w": 576,
+      "h": 407,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 248,
+      "y": 6269,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 248,
+      "y": 6281,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 260,
+      "y": 6281,
+      "w": 212,
+      "h": 212,
+      "name": "YouTube"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 484,
+      "y": 6269,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 484,
+      "y": 6281,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 496,
+      "y": 6281,
+      "w": 212,
+      "h": 212,
+      "name": "Netflix"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 720,
+      "y": 6269,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 720,
+      "y": 6281,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 732,
+      "y": 6281,
+      "w": 212,
+      "h": 212,
+      "name": "Prime Video"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 956,
+      "y": 6269,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 956,
+      "y": 6281,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 968,
+      "y": 6281,
+      "w": 212,
+      "h": 212,
+      "name": "Hulu"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 366,
+      "y": 6505,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 366,
+      "y": 6517,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 378,
+      "y": 6517,
+      "w": 212,
+      "h": 212,
+      "name": "Tubi"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 602,
+      "y": 6505,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 602,
+      "y": 6517,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 614,
+      "y": 6517,
+      "w": 212,
+      "h": 212,
+      "name": "Roku"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 838,
+      "y": 6505,
+      "w": 236,
+      "h": 236,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 838,
+      "y": 6517,
+      "w": 236,
+      "h": 212,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 850,
+      "y": 6517,
+      "w": 212,
+      "h": 212,
+      "name": "Viz"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "x": 0,
+      "y": 6821,
+      "w": 1440,
+      "h": 406,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 12,
+      "y": 6897,
+      "w": 354,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 89,
+      "y": 6897,
+      "w": 200,
+      "h": 50,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 97,
+      "y": 6905,
+      "w": 184,
+      "h": 34,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 97,
+      "y": 6905,
+      "w": 184,
+      "h": 34,
+      "name": "The Pokemon Company"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 6946,
+      "w": 184,
+      "h": 84,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 105,
+      "y": 6954,
+      "w": 168,
+      "h": 68,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 105,
+      "y": 6954,
+      "w": 168,
+      "h": 68,
+      "name": "BBB Caru - Kid's Privacy Safe Harbor"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 378,
+      "y": 6936,
+      "w": 684,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 532,
+      "y": 6936,
+      "w": 56,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 535,
+      "y": 6939,
+      "w": 50,
+      "h": 50,
+      "name": "Facebook"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 612,
+      "y": 6936,
+      "w": 56,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 615,
+      "y": 6939,
+      "w": 50,
+      "h": 50,
+      "name": "Twitter"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 692,
+      "y": 6936,
+      "w": 56,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 695,
+      "y": 6939,
+      "w": 50,
+      "h": 50,
+      "name": "Youtube"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 772,
+      "y": 6936,
+      "w": 56,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 775,
+      "y": 6939,
+      "w": 50,
+      "h": 50,
+      "name": "Instagram"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 852,
+      "y": 6936,
+      "w": 56,
+      "h": 56,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "svg",
+      "x": 855,
+      "y": 6939,
+      "w": 50,
+      "h": 50,
+      "name": "Pinterest"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1116,
+      "y": 6937,
+      "w": 270,
+      "h": 54,
+      "name": "UNITED STATES Select your region — United States"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 0,
+      "y": 7060,
+      "w": 1440,
+      "h": 54,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 410,
+      "y": 7076,
+      "w": 165,
+      "h": 22,
+      "name": "CUSTOMER SERVICE"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 607,
+      "y": 7076,
+      "w": 120,
+      "h": 22,
+      "name": "TERMS OF USE"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 759,
+      "y": 7076,
+      "w": 140,
+      "h": 22,
+      "name": "PRIVACY NOTICE"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 931,
+      "y": 7076,
+      "w": 99,
+      "h": 22,
+      "name": "LEGAL INFO"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1366,
+      "y": 774,
+      "w": 54,
+      "h": 102,
+      "name": "BACK TO TOP",
+      "fixed": true
+    },
+    {
+      "role": "dialog",
+      "tag": "div",
+      "x": 402,
+      "y": 90,
+      "w": 650,
+      "h": 227,
+      "name": "Privacy"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 780,
+      "y": 200,
+      "w": 59,
+      "h": 12,
+      "name": "More information about your privacy, opens in a new tab"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 432,
+      "y": 240,
+      "w": 135,
+      "h": 40,
+      "name": "Manage Cookies, Opens the preference center dialog"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 737,
+      "y": 240,
+      "w": 135,
+      "h": 42,
+      "name": "Reject All"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 887,
+      "y": 240,
+      "w": 135,
+      "h": 42,
+      "name": "Accept All"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1002,
+      "y": 92,
+      "w": 44,
+      "h": 44,
+      "name": "Close"
+    }
+  ],
+  "text": [
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Skip to main content"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Skip to main navigation"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Pokémon"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Parents"
+    },
+    {
+      "kind": "nav",
+      "tag": "p",
+      "t": "Home"
+    },
+    {
+      "kind": "nav",
+      "tag": "p",
+      "t": "Trading Card Game"
+    },
+    {
+      "kind": "nav",
+      "tag": "p",
+      "t": "Video Games & Apps"
+    },
+    {
+      "kind": "nav",
+      "tag": "p",
+      "t": "Animation"
+    },
+    {
+      "kind": "nav",
+      "tag": "p",
+      "t": "Merchandise"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Visit the Animated World of Pokémon"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "A great way for kids to discover Pokémon is through the many animated series and movies."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Pokémon Animation Basics"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "What to Watch"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Where to Watch"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Discover Pokémon Animation"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Embark on Exciting Journeys"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Over the years, there have been multiple animated adventures in the world of Pokémon. Pokémon Horizons: The Series follows Liko and Roy and their Pokémon partners, Sprigatito and Fuecoco, as they unravel the mysteries that surround them in the Pokémon world. There’s also the beloved Pokémon the Series starring Ash Ketchum and Pikachu, which ran for over 25 years with over 1,000 episodes."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Movies and Beyond"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "There are also over 20 feature-length Pokémon animated movies, along with limited animated series like Pokémon: Twilight Wings , POKÉTOON , and Pokémon Concierge ."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Family-friendly"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Viewing"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Pokémon animation is designed for families to enjoy together. Watch stories about friendship, cooperation, and the satisfaction of working hard to be “the very best.”"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "What to"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "watch first"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Pokémon Horizons: The Series"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Solve an incredible mystery"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Both Liko and Roy possess mysterious objects—a pendant and a unique-looking Poké Ball—but in order to unravel their significance, Liko will need to take a courageous first step. Along the way, they’ll meet Friede and Captain Pikachu of the Rising Volt Tacklers as well as many other new friends and foes!"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Learn more"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Pokémon: Path to the Peak"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Discover your true passion"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Pokémon: Path to the Peak is an original series that brings the Pokémon Trading Card Game (TCG) to life as you’ve never seen before. Set in the compelling world of competitive Pokémon TCG play, it’s the story of our hero, Ava, who discovers her natural talent alongside her partner Pokémon, Oddish."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "POKÉTOON"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Unique glimpses into the world of Pokémon"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "From heartwarming to silly, the POKÉTOON series of animated shorts has Pokémon fun for all moods!"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Watch now"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Available in over 100 Countries!"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "You’ll find Pokémon animation in over 170 countries and regions in over 30 languages including English, French, German, Italian, European Spanish, Latin American Spanish, Danish, Dutch, Finnish, Norwegian, Brazilian Portuguese, Russian, Swedish, and more!"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Where To Watch"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Select seasons and movies are available to watch now on these platforms."
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "United States"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Select your region — United States"
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "Customer Service"
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "Terms of Use"
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "Privacy Notice"
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "Legal Info"
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "©2026 Pokémon. ©1995–2026 Nintendo / Creatures Inc. / GAME FREAK inc. TM, ®, and character names are trademarks of Nintendo."
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Back to Top"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "This site uses cookies. Cookies that are strictly necessary for website operations are always active. With your consent, we will also set cookies that help us analyze website usage, enhance functionality, and deliver advertising. Please use these buttons to choose settings. To control how categories of cookies are treated, please click on the Manage Cookies link. For more information, or to change"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Manage Cookies"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Reject All Accept All"
+    }
+  ],
+  "links": {
+    "internal": [
+      "/",
+      "/en-us/trading-card-game/",
+      "/en-us/video-games-and-apps/",
+      "/en-us/animation/",
+      "/en-us/merchandise/"
+    ],
+    "external": [
+      "horizons.pokemon.com",
+      "tcg.pokemon.com",
+      "www.youtube.com",
+      "www.netflix.com",
+      "www.amazon.com",
+      "www.hulu.com",
+      "tubitv.com",
+      "therokuchannel.roku.com",
+      "www.viz.com",
+      "www.pokemon.com",
+      "caru.bbbprograms.org",
+      "www.facebook.com",
+      "twitter.com",
+      "www.instagram.com",
+      "www.pinterest.com",
+      "support.pokemon.com",
+      "cookiepedia.co.uk",
+      "www.onetrust.com"
+    ]
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 1,
+    "headingSkips": 0,
+    "imagesNoAlt": 0,
+    "buttonsNoName": 5,
+    "inputsNoLabel": 0
+  },
+  "network": {
+    "status": 200,
+    "requests": 90,
+    "origins": [
+      "cdn.cookielaw.org",
+      "geolocation.onetrust.com",
+      "parents.pokemon.com",
+      "www.google-analytics.com",
+      "www.googletagmanager.com",
+      "www.youtube.com"
+    ]
+  },
+  "screenshot": "pokemon@1440.png",
+  "svgPathHashes": [
+    "f453baf61159d9ec",
+    "89191c3a026a77e1",
+    "2168d86317d50e9d",
+    "6cd70eb6107b2b3f",
+    "33dece3e2d8b9198",
+    "07d9a6022bc14aca",
+    "c00e0b8b1e452acc",
+    "d842eb3f17ffb5fe",
+    "cafc70469ae0b07a",
+    "ad17f3f08aa1b0dc",
+    "02f94f2edab8b8a5",
+    "12b4dc2b58616ea3",
+    "9897eb94606eac91",
+    "c99cdb73c1f55f80",
+    "21cddbda914e02fc",
+    "de882fda9a271c07",
+    "36bd34508203f9e2",
+    "ddf0fc84b0eaacf6",
+    "3d18904696a3ee83",
+    "51a893cb21c30d1c",
+    "f9fe581e28802fc9",
+    "15034e98bd65ce6b"
+  ]
+}

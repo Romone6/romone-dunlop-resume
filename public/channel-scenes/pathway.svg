@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#e5dbb2"/><stop offset="1" stop-color="#c7d1a3"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#83c7c4"/><stop offset="1" stop-color="#429796"/></linearGradient>
+ <pattern id="topo" width="220" height="150" patternUnits="userSpaceOnUse"><path d="M-20 70q45-48 94-3t110 0M-15 111q45-48 94-3t110 0M24 0q44 35 96 0" fill="none" stroke="#71815e" stroke-opacity=".26" stroke-width="3"/></pattern>
+ <style>.mist{animation:mist 25s linear infinite}.route{stroke-dasharray:18 25;animation:walk 9s linear infinite}.pin{transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-in-out infinite alternate}.leaf{transform-box:fill-box;transform-origin:bottom;animation:sway 5s ease-in-out infinite alternate}.l2{animation-delay:-2.5s}@keyframes mist{to{transform:translateX(130px)}}@keyframes walk{to{stroke-dashoffset:-258}}@keyframes ping{to{transform:scale(1.12)}}@keyframes sway{to{transform:rotate(2deg)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#paper)"/><rect width="1600" height="900" fill="url(#topo)"/>
+<path d="M0 190q168-78 339-18t337-5q161-103 340 1t375-9q137-78 209-29v289H0z" fill="#8fa078"/><path d="M0 329q173-116 330-23 163 95 320 0t311 13q203 128 416 9t223 1v247H0z" fill="#637d5e"/>
+<!-- layered wooded creek, characteristic hand-drawn map colors -->
+<g stroke="#464b3e" stroke-width="8" stroke-linejoin="round"><path d="M77 0h85v481H77z" fill="#8a6646"/><path d="M274 0h63v357h-63z" fill="#a47a51"/><path d="M1323 0h96v408h-96z" fill="#85694d"/><path d="M1491 0h72v495h-72z" fill="#9e754d"/></g>
+<g fill="#66875e" stroke="#4f6449" stroke-width="7"><path d="M-38 185Q-25 60 102 52q131 1 116 124-47 97-155 61-78 28-101-52z"/><path d="M189 238q-6-128 115-142 125 20 101 137-57 88-154 47-52 20-62-42z"/><path d="M1191 178q-3-133 122-149 131 22 102 146-60 90-156 49-54 19-68-46z"/><path d="M1381 290q-15-113 92-145 119 15 100 128-52 92-143 61-40 17-49-44z"/></g>
+<g class="leaf" fill="#95a66e" stroke="#566847" stroke-width="5"><path d="M30 296q35-119 141-94 92 29 55 120-54 69-125 30-53 20-71-56z"/><path class="l2" d="M1280 306q27-120 128-99 98 25 63 118-49 75-131 39-47 18-60-58z"/></g>
+<path d="M0 561q158-61 294-17t276 14q185-54 337 9t693-4v337H0z" fill="#74945e"/><path d="M0 622q236-100 432 0t411 0q197-103 415 0t342 0v278H0z" fill="url(#water)" stroke="#495a48" stroke-width="9"/><path d="M0 695q211-83 418 7 175 75 370 1t398 0q208 72 414-4" fill="none" stroke="#cce0bd" stroke-width="9" stroke-dasharray="28 26" class="mist"/>
+<g fill="#b8a778" stroke="#58634b" stroke-width="6"><path d="m183 654 64-31 48 34-19 40-69 9z"/><path d="m658 804 51-42 66 25 10 39-99 5z"/><path d="m1219 707 67-35 49 44-25 40-82-2z"/></g>
+<!-- log footbridge across the water -->
+<g stroke="#654f3d" stroke-linecap="round"><path d="M541 520q142-93 280-67 160 30 254 158" fill="none" stroke-width="31"/><path d="M542 505q139-93 278-62 158 35 256 154" fill="none" stroke="#d8bd83" stroke-width="10" stroke-dasharray="2 20"/><path d="M616 453l19 40m68-67 14 42m72-44 3 45m78-19-8 44m78 5-20 41" fill="none" stroke-width="7"/></g>
+<!-- winding trail fork and map marker -->
+<path d="M0 885q185-91 336-125 196-44 297-153 95-101 253-135 215-46 396-169 106-72 318-67" fill="none" stroke="#705642" stroke-width="29" stroke-linecap="round"/><path class="route" d="M0 875q185-91 336-125 196-44 297-153 95-101 253-135 215-46 396-169 106-72 318-67" fill="none" stroke="#f4e2ac" stroke-width="11" stroke-linecap="round"/>
+<g class="pin" transform="translate(1278 249)"><path d="M0-55a40 40 0 1 0 0 80L0 67l-17-42a40 40 0 0 0 17-80z" fill="#df5f50" stroke="#f7ebc6" stroke-width="8"/><circle cy="-15" r="11" fill="#f8e9bc"/></g>
+<path d="M1030 0v133l75-35 73 35V0" fill="#e9d4a4" stroke="#876442" stroke-width="8"/><path d="M1052 0v92l53-23 51 23V0" fill="#c67e58"/>
+<g fill="#f0e0b4" opacity=".8"><path class="mist" d="M122 399h170a24 24 0 0 0-46-5 39 39 0 0 0-71 5z"/><path class="mist" d="M1042 376h194a28 28 0 0 0-55-8 45 45 0 0 0-86 8z"/></g>
+</svg>

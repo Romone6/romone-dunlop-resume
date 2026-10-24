@@ -1,39 +1,30 @@
 {
-  "name": "romone-me-rebuild",
-  "version": "0.1.0",
+  "name": "romone-channel-portfolio",
+  "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "typecheck": "tsc --noEmit",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "smoke": "powershell -ExecutionPolicy Bypass -File scripts/smoke.ps1"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
-    "framer-motion": "^12.23.24",
-    "lucide-react": "^0.554.0",
-    "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
-    "tailwind-merge": "^3.4.0"
+    "@fontsource/bangers": "^5.3.0",
+    "@fontsource/berkshire-swash": "^5.3.0",
+    "@fontsource/bowlby-one-sc": "^5.3.0",
+    "@fontsource/chewy": "^5.3.0",
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/ibm-plex-serif": "^5.3.0",
+    "@fontsource/orbitron": "^5.3.0",
+    "@fontsource/oswald": "^5.3.0",
+    "@vitejs/plugin-react": "5.0.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "three": "^0.186.1",
+    "vite": "6.4.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^14.6.1",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.6",
-    "jsdom": "^27.0.0",
-    "tailwindcss": "^4",
-    "typescript": "^5",
-    "vitest": "^4.0.0"
+    "playwright": "^1.64.1"
   }
 }

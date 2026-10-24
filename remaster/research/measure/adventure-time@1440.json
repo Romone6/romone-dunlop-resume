@@ -1,0 +1,3485 @@
+{
+  "v": 1,
+  "url": "https://www.disneyplus.com/en-au",
+  "title": "There's something for everyone | Disney+ Australia",
+  "lang": "en",
+  "measuredAt": "2026-10-24T11:22:11.518Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "page": {
+    "w": 1440,
+    "h": 7887
+  },
+  "canvas": "#040714",
+  "meta": {
+    "description": "Stream the best TV series and movies from Disney, Pixar, Marvel, Star Wars, Nat Geo, Hulu and ESPN. Sign up with Disney+ and start streaming today.",
+    "canonical": "https://www.disneyplus.com/en-au",
+    "robots": "index",
+    "ogTitle": "There's something for everyone | Disney+ Australia",
+    "ogImage": "https://static-assets.bamgrid.com/product/disneyplus/images/share-default.8bf3102623e935e7bc126df36b956b98.jpg",
+    "generator": "",
+    "jsonLd": [
+      "WebSite",
+      "Organization",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  "tech": {
+    "next": true,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 0,
+    "iframes": 5,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#040714",
+      "text": 0,
+      "bg": 124844,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#000000",
+      "text": 0,
+      "bg": 16284,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#0e0b14",
+      "text": 0,
+      "bg": 10990,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#1e1f24",
+      "text": 0,
+      "bg": 8919,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#b7b8bd",
+      "text": 2721,
+      "bg": 15,
+      "border": 1,
+      "icon": 0,
+      "action": 5,
+      "label": 0
+    },
+    {
+      "hex": "#bababa1a",
+      "text": 0,
+      "bg": 2356,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#02d6e8",
+      "text": 38,
+      "bg": 1214,
+      "border": 0,
+      "icon": 0,
+      "action": 10,
+      "label": 0
+    },
+    {
+      "hex": "#fafafa",
+      "text": 810,
+      "bg": 31,
+      "border": 0,
+      "icon": 17,
+      "action": 1,
+      "label": 3
+    },
+    {
+      "hex": "#f9f9f9",
+      "text": 547,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 31
+    },
+    {
+      "hex": "#ffffff",
+      "text": 554,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 18
+    },
+    {
+      "hex": "#17171c",
+      "text": 140,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 10
+    },
+    {
+      "hex": "#0b7aad",
+      "text": 0,
+      "bg": 156,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#c0c0c0",
+      "text": 35,
+      "bg": 0,
+      "border": 0,
+      "icon": 17,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#000000cc",
+      "text": 0,
+      "bg": 32,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#b9b9be33",
+      "text": 0,
+      "bg": 0,
+      "border": 7,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#6f717b",
+      "text": 0,
+      "bg": 0,
+      "border": 3,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#136878",
+      "text": 12,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Inspire",
+      "chars": 4857,
+      "weights": {
+        "400": 3780,
+        "700": 1077
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 53,
+      "chars": 1684,
+      "tags": {
+        "span": 45,
+        "p": 6,
+        "a": 2
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 31,
+      "chars": 1123,
+      "tags": {
+        "a": 3,
+        "span": 11,
+        "p": 17
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "24px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 15,
+      "chars": 420,
+      "tags": {
+        "h3": 6,
+        "span": 9
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "25.2px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 5,
+      "chars": 322,
+      "tags": {
+        "p": 5
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "22px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 24,
+      "chars": 294,
+      "tags": {
+        "a": 23,
+        "span": 1
+      }
+    },
+    {
+      "size": "40px",
+      "lineHeight": "48px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 7,
+      "chars": 180,
+      "tags": {
+        "h2": 5,
+        "span": 1,
+        "b": 1
+      }
+    },
+    {
+      "size": "28px",
+      "lineHeight": "33.6px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 172,
+      "tags": {
+        "h2": 3,
+        "h3": 3
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "16px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "0.4px",
+      "count": 12,
+      "chars": 168,
+      "tags": {
+        "a": 12
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "19.2px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 132,
+      "tags": {
+        "p": 6
+      }
+    },
+    {
+      "size": "10px",
+      "lineHeight": "14px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 132,
+      "tags": {
+        "p": 6
+      }
+    },
+    {
+      "size": "40px",
+      "lineHeight": "48px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "-0.16px",
+      "count": 1,
+      "chars": 52,
+      "tags": {
+        "h1": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 48,
+      "tags": {
+        "span": 6
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 38,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 4,
+      "chars": 31,
+      "tags": {
+        "p": 4
+      }
+    },
+    {
+      "size": "24px",
+      "lineHeight": "28.8px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 23,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 20,
+      "tags": {
+        "p": 2
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "13.2px",
+      "weight": "700",
+      "family": "Inspire",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 12,
+      "tags": {
+        "div": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "14px",
+      "weight": "400",
+      "family": "Inspire",
+      "letterSpacing": "0.35px",
+      "count": 1,
+      "chars": 6,
+      "tags": {
+        "a": 1
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": 8,
+      "count": 170
+    },
+    {
+      "value": 24,
+      "count": 129
+    },
+    {
+      "value": 16,
+      "count": 95
+    },
+    {
+      "value": 12,
+      "count": 92
+    },
+    {
+      "value": 20,
+      "count": 88
+    },
+    {
+      "value": 10,
+      "count": 45
+    },
+    {
+      "value": 4,
+      "count": 38
+    },
+    {
+      "value": 81,
+      "count": 19
+    },
+    {
+      "value": 1,
+      "count": 12
+    },
+    {
+      "value": 29,
+      "count": 4
+    },
+    {
+      "value": 40,
+      "count": 3
+    },
+    {
+      "value": 33,
+      "count": 3
+    },
+    {
+      "value": 15,
+      "count": 3
+    },
+    {
+      "value": 30,
+      "count": 3
+    },
+    {
+      "value": 26,
+      "count": 2
+    },
+    {
+      "value": 46,
+      "count": 2
+    },
+    {
+      "value": 48,
+      "count": 2
+    },
+    {
+      "value": 19,
+      "count": 1
+    },
+    {
+      "value": 36,
+      "count": 1
+    }
+  ],
+  "radius": [
+    {
+      "value": "12px",
+      "count": 48
+    },
+    {
+      "value": "8px",
+      "count": 27
+    },
+    {
+      "value": "1000px",
+      "count": 14
+    },
+    {
+      "value": "4px",
+      "count": 7
+    }
+  ],
+  "shadows": [],
+  "motion": {
+    "durations": [
+      {
+        "value": 150,
+        "count": 20
+      },
+      {
+        "value": 300,
+        "count": 18
+      }
+    ],
+    "easings": [
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "count": 20
+      },
+      {
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "count": 18
+      }
+    ],
+    "animations": 4
+  },
+  "containers": [
+    {
+      "value": 1279,
+      "count": 2
+    },
+    {
+      "value": 1024,
+      "count": 1
+    }
+  ],
+  "breakpoints": {
+    "values": [
+      {
+        "value": 769,
+        "count": 65
+      },
+      {
+        "value": 1025,
+        "count": 58
+      },
+      {
+        "value": 768,
+        "count": 20
+      },
+      {
+        "value": 1290,
+        "count": 7
+      },
+      {
+        "value": 441,
+        "count": 6
+      },
+      {
+        "value": 1600,
+        "count": 5
+      },
+      {
+        "value": 480,
+        "count": 5
+      },
+      {
+        "value": 440,
+        "count": 4
+      },
+      {
+        "value": 1291,
+        "count": 2
+      },
+      {
+        "value": 660,
+        "count": 2
+      }
+    ],
+    "unreadableSheets": 6
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/15EDEDE291A0287899B0E1C20C9F0CBE11F19F492EBA1FF3D46C2528E48312C2/compose?format=webp&width=1600",
+    "alt": "NBA basketball with glowing blue lines alongside the NBA and ESPN logos.",
+    "w": 1440,
+    "h": 653,
+    "saved": "adventure-time-logo.png"
+  },
+  "gradients": [
+    "linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0))",
+    "linear-gradient(0deg, rgba(183, 184, 189, 0.1), 50%, rgba(0, 0, 0, 0) 50%)"
+  ],
+  "nodes": [
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1310,
+      "y": 8,
+      "w": 90,
+      "h": 36,
+      "name": "LOG IN"
+    },
+    {
+      "role": "main",
+      "tag": "main",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 7226,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 289,
+      "y": 632,
+      "w": 142,
+      "h": 2,
+      "name": "Go to item 1."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 433,
+      "y": 632,
+      "w": 143,
+      "h": 3,
+      "name": "Go to item 2."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 578,
+      "y": 632,
+      "w": 142,
+      "h": 2,
+      "name": "Go to item 3."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 722,
+      "y": 632,
+      "w": 142,
+      "h": 2,
+      "name": "Go to item 4."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 865,
+      "y": 632,
+      "w": 142,
+      "h": 2,
+      "name": "Go to item 5."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1009,
+      "y": 632,
+      "w": 142,
+      "h": 2,
+      "name": "Go to item 6."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1184,
+      "y": 613,
+      "w": 40,
+      "h": 40,
+      "name": "Pause"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 703,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 703,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 653,
+      "name": "Disney’s live-action Moana promotional artwork featuring Moana and Maui standing"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 703,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 653,
+      "name": "VisionQuest series artwork featuring two characters with robotic features in a v"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 81,
+      "y": 81,
+      "w": 180,
+      "h": 101,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 81,
+      "y": 81,
+      "w": 180,
+      "h": 101,
+      "name": "Disney+"
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 81,
+      "y": 206,
+      "w": 639,
+      "h": 96,
+      "name": "Stream great movies, TV series, and live ESPN sports"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 81,
+      "y": 379,
+      "w": 639,
+      "h": 97,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 81,
+      "y": 379,
+      "w": 308,
+      "h": 48,
+      "name": "GET DISNEY+ ANNUAL"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 412,
+      "y": 379,
+      "w": 308,
+      "h": 48,
+      "name": "GET DISNEY+ MONTHLY"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 81,
+      "y": 484,
+      "w": 96,
+      "h": 19,
+      "name": "View all plans"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 81,
+      "y": 542,
+      "w": 600,
+      "h": 81,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 81,
+      "y": 542,
+      "w": 600,
+      "h": 81,
+      "name": "Image - 7 Logo Lockup - AU/NZ Hero - ESPN Included"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 0,
+      "y": 736,
+      "w": 1440,
+      "h": 48,
+      "name": "Top 10 Series in Australia Today"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": -1,
+      "y": 831,
+      "w": 1,
+      "h": 202,
+      "name": "Top 10 Series in Australia Today"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": -10,
+      "y": 839,
+      "w": 1440,
+      "h": 380,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 74,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "VisionQuest"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 74,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 74,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "VisionQuest"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 98,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 98,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "VisionQuest"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 332,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "Phony"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 332,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 332,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "Phony"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 356,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 356,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "Phony"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 590,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "Swipe Right on the Devil"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 590,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 590,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "Swipe Right on the Devil"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 614,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 614,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "Swipe Right on the Devil"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 848,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "Coven Academy"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 848,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 848,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "Coven Academy"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 872,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 872,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "Coven Academy"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1106,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "Scrubs"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1106,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1106,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "Scrubs"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1129,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1129,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "Scrubs"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1363,
+      "y": 839,
+      "w": 238,
+      "h": 380,
+      "name": "Modern Family"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1363,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1363,
+      "y": 839,
+      "w": 238,
+      "h": 357,
+      "name": "Modern Family"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1387,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1387,
+      "y": 1107,
+      "w": 190,
+      "h": 63,
+      "name": "Modern Family"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 0,
+      "y": 1283,
+      "w": 1440,
+      "h": 48,
+      "name": "Top 10 Movies in Australia Today"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": -1,
+      "y": 1378,
+      "w": 1,
+      "h": 202,
+      "name": "Top 10 Movies in Australia Today"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": -10,
+      "y": 1386,
+      "w": 1440,
+      "h": 380,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 74,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "Moana"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 74,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 74,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "Moana"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 98,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 98,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "Moana"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 332,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "Moana"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 332,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 332,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "Moana"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 356,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 356,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "Moana"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 590,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "Moana 2"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 590,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 590,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "Moana 2"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 614,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 614,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "Moana 2"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 848,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "Toy Story 5"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 848,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 848,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "Toy Story 5"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 872,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 872,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "Toy Story 5"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1106,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "10 Things I Hate About You"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1106,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1106,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "10 Things I Hate About You"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1129,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1129,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "10 Things I Hate About You"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1363,
+      "y": 1386,
+      "w": 238,
+      "h": 380,
+      "name": "Lilo & Stitch"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1363,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1363,
+      "y": 1386,
+      "w": 238,
+      "h": 357,
+      "name": "Lilo & Stitch"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1387,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1387,
+      "y": 1654,
+      "w": 190,
+      "h": 63,
+      "name": "Lilo & Stitch"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 0,
+      "y": 1829,
+      "w": 1440,
+      "h": 48,
+      "name": "Live & Upcoming Sport"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": -1,
+      "y": 1924,
+      "w": 1,
+      "h": 134,
+      "name": "Live and Upcoming"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": -10,
+      "y": 1932,
+      "w": 1440,
+      "h": 227,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 74,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 74,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 74,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - Pittsburgh vs. #1 Miami"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 332,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 332,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 332,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - #18 LSU vs. Auburn"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 590,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 590,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 590,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - California vs. #23 SMU"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 848,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 848,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 848,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - Rice vs. Florida Atlantic"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1106,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1106,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1106,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - Pittsburgh vs. #1 Miami"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1363,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "Upcoming"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1363,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1363,
+      "y": 1932,
+      "w": 238,
+      "h": 134,
+      "name": "thumbnail - West Virginia vs. TCU"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 81,
+      "y": 2213,
+      "w": 1279,
+      "h": 48,
+      "name": "Choose Your Plan"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 511,
+      "y": 2436,
+      "w": 270,
+      "h": 24,
+      "name": "Premium"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 796,
+      "y": 2436,
+      "w": 270,
+      "h": 24,
+      "name": "Standard"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 1082,
+      "y": 2436,
+      "w": 270,
+      "h": 24,
+      "name": "Standard with Ads"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 511,
+      "y": 2500,
+      "w": 270,
+      "h": 48,
+      "name": "$24.99 / MONTH"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 796,
+      "y": 2500,
+      "w": 270,
+      "h": 48,
+      "name": "$17.99 / MONTH"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1082,
+      "y": 2500,
+      "w": 270,
+      "h": 48,
+      "name": "$9.99 / MONTH"
+    },
+    {
+      "role": "table",
+      "tag": "div",
+      "x": 81,
+      "y": 2577,
+      "w": 1279,
+      "h": 519,
+      "name": ""
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 88,
+      "y": 2608,
+      "w": 81,
+      "h": 24,
+      "name": "Premium"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 185,
+      "y": 2608,
+      "w": 82,
+      "h": 24,
+      "name": "Standard"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 283,
+      "y": 2608,
+      "w": 82,
+      "h": 48,
+      "name": "Standard with Ads"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 88,
+      "y": 2696,
+      "w": 160,
+      "h": 48,
+      "name": "$24.99 / MONTH"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 264,
+      "y": 2696,
+      "w": 154,
+      "h": 48,
+      "name": "$17.99 / MONTH"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 433,
+      "y": 2696,
+      "w": 149,
+      "h": 48,
+      "name": "$9.99 / MONTH"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 523,
+      "y": 2597,
+      "w": 246,
+      "h": 48,
+      "name": "$249.99 / YEAR"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 808,
+      "y": 2597,
+      "w": 246,
+      "h": 48,
+      "name": "$179.99 / YEAR"
+    },
+    {
+      "role": "image",
+      "tag": "div",
+      "x": 1198,
+      "y": 2618,
+      "w": 37,
+      "h": 37,
+      "name": "Feature included"
+    },
+    {
+      "role": "image",
+      "tag": "div",
+      "x": 1198,
+      "y": 2971,
+      "w": 37,
+      "h": 37,
+      "name": "Feature included"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 103,
+      "y": 3137,
+      "w": 61,
+      "h": 14,
+      "name": "Learn More."
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 0,
+      "y": 3287,
+      "w": 1440,
+      "h": 700,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 0,
+      "y": 3287,
+      "w": 1440,
+      "h": 700,
+      "name": "ESPN Module with 6 image cards of ESPN titles"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 81,
+      "y": 3405,
+      "w": 320,
+      "h": 92,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 81,
+      "y": 3405,
+      "w": 320,
+      "h": 92,
+      "name": "Image - ESPN on Disney+ Logo - NBA Sidealign Module"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 81,
+      "y": 3580,
+      "w": 320,
+      "h": 48,
+      "name": "SIGN UP NOW"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 749,
+      "y": 4217,
+      "w": 600,
+      "h": 480,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 749,
+      "y": 4217,
+      "w": 600,
+      "h": 480,
+      "name": "Image - Sidealign - AU/NZ - Perks Module"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 109,
+      "y": 4091,
+      "w": 611,
+      "h": 48,
+      "name": "More to love, only with Disney+"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 109,
+      "y": 4238,
+      "w": 611,
+      "h": 265,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 168,
+      "y": 4531,
+      "w": 95,
+      "h": 19,
+      "name": "Disney+ Perks"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 109,
+      "y": 4651,
+      "w": 320,
+      "h": 48,
+      "name": "LEARN MORE"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 316,
+      "y": 4727,
+      "w": 87,
+      "h": 19,
+      "name": "Sign up now."
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 665,
+      "y": 4807,
+      "w": 27,
+      "h": 14,
+      "name": "T&Cs"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 81,
+      "y": 5008,
+      "w": 1279,
+      "h": 48,
+      "name": "Watch the way you want"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 81,
+      "y": 5129,
+      "w": 1279,
+      "h": 622,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 81,
+      "y": 5129,
+      "w": 1279,
+      "h": 622,
+      "name": "Disney+ shows on different devices"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 81,
+      "y": 5751,
+      "w": 1279,
+      "h": 314,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 236,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 236,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": "Icon Movie Reel"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 142,
+      "y": 5875,
+      "w": 288,
+      "h": 34,
+      "name": "Endless entertainment"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 670,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 670,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": "Multiple Devices Icon"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 564,
+      "y": 5875,
+      "w": 311,
+      "h": 67,
+      "name": "Create multiple profiles & watch anywhere"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1104,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1104,
+      "y": 5751,
+      "w": 100,
+      "h": 100,
+      "name": "Icon Kids"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 965,
+      "y": 5875,
+      "w": 378,
+      "h": 34,
+      "name": "Easy-to-use parental controls"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 81,
+      "y": 6226,
+      "w": 1279,
+      "h": 48,
+      "name": "Frequently Asked Questions"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "x": 0,
+      "y": 7226,
+      "w": 1440,
+      "h": 661,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 476,
+      "y": 7321,
+      "w": 104,
+      "h": 170,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 476,
+      "y": 7321,
+      "w": 104,
+      "h": 44,
+      "name": "Subscriber Agreement"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 476,
+      "y": 7385,
+      "w": 104,
+      "h": 22,
+      "name": "Privacy Policy"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 476,
+      "y": 7427,
+      "w": 104,
+      "h": 22,
+      "name": "Collection Notice"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 476,
+      "y": 7469,
+      "w": 104,
+      "h": 22,
+      "name": "Interest-Based Ads"
+    },
+    {
+      "role": "button",
+      "tag": "div",
+      "x": 604,
+      "y": 7283,
+      "w": 104,
+      "h": 38,
+      "name": "Help"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 604,
+      "y": 7321,
+      "w": 104,
+      "h": 148,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 604,
+      "y": 7321,
+      "w": 104,
+      "h": 22,
+      "name": "Help Centre"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 604,
+      "y": 7363,
+      "w": 104,
+      "h": 22,
+      "name": "Supported Devices"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 604,
+      "y": 7405,
+      "w": 104,
+      "h": 22,
+      "name": "About Us"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 604,
+      "y": 7447,
+      "w": 104,
+      "h": 22,
+      "name": "Explore Disney+"
+    },
+    {
+      "role": "button",
+      "tag": "div",
+      "x": 732,
+      "y": 7283,
+      "w": 104,
+      "h": 38,
+      "name": "Brands"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 732,
+      "y": 7321,
+      "w": 104,
+      "h": 296,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7321,
+      "w": 104,
+      "h": 22,
+      "name": "Disney"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7363,
+      "w": 104,
+      "h": 22,
+      "name": "Pixar"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7405,
+      "w": 104,
+      "h": 22,
+      "name": "Marvel"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7447,
+      "w": 104,
+      "h": 22,
+      "name": "Star Wars"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7489,
+      "w": 104,
+      "h": 44,
+      "name": "National Geographic"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7553,
+      "w": 104,
+      "h": 22,
+      "name": "Hulu"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 732,
+      "y": 7595,
+      "w": 104,
+      "h": 22,
+      "name": "ESPN"
+    },
+    {
+      "role": "button",
+      "tag": "div",
+      "x": 860,
+      "y": 7283,
+      "w": 104,
+      "h": 38,
+      "name": "Collections"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 860,
+      "y": 7321,
+      "w": 104,
+      "h": 316,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7321,
+      "w": 104,
+      "h": 22,
+      "name": "All Collections"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7363,
+      "w": 104,
+      "h": 22,
+      "name": "Sports"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7405,
+      "w": 104,
+      "h": 22,
+      "name": "Comedies"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7447,
+      "w": 104,
+      "h": 22,
+      "name": "Action & Adventure"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7489,
+      "w": 104,
+      "h": 22,
+      "name": "Drama"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7531,
+      "w": 104,
+      "h": 22,
+      "name": "Musicals"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7573,
+      "w": 104,
+      "h": 22,
+      "name": "Critically Acclaimed"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 860,
+      "y": 7615,
+      "w": 104,
+      "h": 22,
+      "name": "Horror"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 476,
+      "y": 7685,
+      "w": 488,
+      "h": 24,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 564,
+      "y": 7685,
+      "w": 24,
+      "h": 24,
+      "name": "."
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 636,
+      "y": 7685,
+      "w": 24,
+      "h": 24,
+      "name": "."
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 708,
+      "y": 7685,
+      "w": 24,
+      "h": 24,
+      "name": "."
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 780,
+      "y": 7685,
+      "w": 24,
+      "h": 24,
+      "name": "."
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 852,
+      "y": 7685,
+      "w": 24,
+      "h": 24,
+      "name": "."
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 660,
+      "y": 7721,
+      "w": 120,
+      "h": 66,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 660,
+      "y": 7721,
+      "w": 120,
+      "h": 66,
+      "name": "Disney+ Logo"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 476,
+      "y": 7815,
+      "w": 488,
+      "h": 22,
+      "name": ""
+    }
+  ],
+  "text": [
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "LOG IN"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "All of these and more now streaming."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Disney's Moana"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "New live-action reimagining now streaming"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Marvel Television’s VisionQuest"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "New series now streaming"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Grey's Anatomy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "New season now streaming"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "NBA"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Streaming live"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "KATSEYE: WILD HEARTS"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Now streaming"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Stream great movies, TV series, and live ESPN sports"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Starting at $9.99/month"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "GET DISNEY+ ANNUAL"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Save 16% with an annual plan**"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "GET DISNEY+ MONTHLY"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Switch or cancel anytime*"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "View all plans"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "*Effective at the end of the billing period. **Savings compared to 12 months of the monthly subscription price."
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Top 10 Series in Australia Today"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2026"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "•"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Drama, Super Heroes, Science Fiction"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Drama, Coming of Age, Mystery, Comedy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Docuseries"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Drama, Coming of Age, Comedy, Horror, Fantasy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Medical, Comedy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2009"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Comedy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2022"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Reality"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2021"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2025"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Drama, Procedural, Soap Operas"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Drama, Super Heroes, Science Fiction, Romance, Fantasy"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Top 10 Movies in Australia Today"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Action and Adventure, Musicals, Fantasy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2016"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Action and Adventure, Animation, Musicals, Fantasy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2024"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Action and Adventure, Comedy, Animation"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "1999"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Coming of Age, Romantic Comedy, Comedy, Romance"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Action and Adventure, Comedy, Science Fiction"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2002"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Action and Adventure, Mystery, Comedy, Horror"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "1993"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Animation, Musicals, Fantasy"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Documentaries"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "2015"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Super Heroes, Action and Adventure, Science Fiction"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Live & Upcoming Sport"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Live and Upcoming"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Upcoming"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "4:00pm - 7:00pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Pittsburgh vs. #1 Miami"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "NCAA - Football • 2026"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "#18 LSU vs. Auburn"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "4:00pm - 7:30pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "California vs. #23 SMU"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Rice vs. Florida Atlantic"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "West Virginia vs. TCU"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "5:00pm - 8:00pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Akron vs. Kent State"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Miami (OH) vs. Central Michigan"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "7:30pm - 10:30pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Bowling Green vs. Buffalo"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Sacramento State vs. Ball State"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Boston College vs. Georgia Tech"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Oklahoma vs. Mississippi State"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "#11 Tennessee vs. South Carolina"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "7:40pm - 10:30pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Texas A&M vs. #13 Alabama"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "7:45pm - 10:45pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Kansas State vs. Arizona State"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "8:00pm - 11:00pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Eastern Michigan vs. Ohio"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "9:20pm - 11:30pm"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Palmeiras vs. RB Bragantino"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Brazilian Serie A • 2026"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "10:00pm - 12:00am"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "#1 SMU vs. California"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "NCAA Men's Soccer • 2026"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "10:30pm - 2:00am"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "San Diego State vs. Colorado State"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "11:00pm - 2:30am"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Toronto Maple Leafs vs. Edmonton Oilers"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "National Hockey League • 2026"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Choose Your Plan"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Switch or cancel* anytime"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Best Quality"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Premium"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Standard"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Standard with Ads"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "$24.99 / Month"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "$17.99 / MONTH"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "$9.99 / month"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Annual plan"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "$249.99 / Year"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Save $49**"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "$179.99 / YEAR"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Save $35**"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Video quality"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Up to 4K UHD & HDR video"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Up to 1080p Full HD video"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Audio quality"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Up to Dolby Atmos audio"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Up to 5.1 audio"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Concurrent streams"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "4"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "2"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Ads"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Ad-free movies and series^"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Downloads"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Access to live sport from ESPN"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Video/audio quality and download subject to internet service, device capabilities, content type, and service tier. Despite any indication of various functionalities on certain content, each plan tier may enjoy only up to the functionality available to such plan tier. Learn More. *Effective at the end of the billing period. **Savings compared to 12 months of the monthly subscription price of the sa"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Stream the world's greatest sports entertainment, including live events."
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "SIGN UP NOW"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "More to love, only with Disney+"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Unlock benefits from Disney brands and partners with Disney+ Perks^. Exclusive to subscribers."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "20% off tickets to selected NBL games, applied automatically at checkout via club ticketing sites linked from the Perks offer page.* (available for purchase until 15 February at 11:59PM AEST, unless withdrawn)."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Win your way to Walt Disney World Resort in Florida. Enter the draw for a chance to win a holiday to The Most Magical Place on Earth for you and three guests. Eligibility criteria, T&Cs apply.** Entries close 31 Oct 2026."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Examples of previous Perks:"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Chance to win the ultimate Disney fan experience at D23: The Ultimate Disney Fan Event."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Visit the Disney+ Perks website to view current Perks. The examples above are previous perks and may not currently be available."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Exclusive to Disney+ subscribers only."
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "LEARN MORE"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Not a Disney+ Subscriber yet? Sign up now."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "^Disney+ Perks refers to occasional bonus offers and opportunities which may be offered by Disney from time to time. The frequency, nature and number of any such perks is at Disney's absolute discretion and may be varied, cancelled or withdrawn by Disney at any time without notice. Competitions, offers and promotions are subject to additional T&Cs ."
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Watch the way you want"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Enjoy the world's greatest stories - anytime, anywhere."
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Endless entertainment"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Explore thousands of TV series, movies & originals, in stunning 4K"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Create multiple profiles & watch anywhere"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Download & watch offline, on your favourite devices. Create up to 7 profiles."
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Easy-to-use parental controls"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Keep your family safe with our PIN operated profiles"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Frequently Asked Questions"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "What is Disney+?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Disney+ gives you something for every mood, all in one place. With entertainment from Disney, Pixar, Marvel, Star Wars™, National Geographic, Hulu and ESPN, there's always something exciting to watch. Watch the latest releases, Original series and movies, classic films, throwbacks, sports and so much more."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "How much does Disney+ cost?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "For Australian residents, access exciting and new content for $9.99/month on Disney+ Standard with Ads, $17.99/month or $179.99/year on Disney+ Standard, or $24.99/month or $249.99/year on Disney+ Premium."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "What can I watch/stream on Disney+?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "With Disney+, you can choose from an always-growing collection of movies and TV series. From new releases and Disney timeless classics, exclusive new Original movies and series, to nostalgic throwbacks, live sports action, fan-favourite studio shows and on-demand sports replays."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "The entire Star Wars Skywalker Saga and much of the Marvel Cinematic Universe is available, along with beloved shorts, the best animated movies from Pixar , award winning documentaries from National Geographic , unscripted series, some of the most recognised and respected sports broadcasting, and so much more."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "What sports content will be available with ESPN on Disney+?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "The new ESPN hub on Disney+ will bring more than 10,000 hours of ESPN’s live sports action to the platform via the live ESPN and ESPN2 channels, additional on-demand live events, on-demand replays and iconic original programming. Learn more about ESPN on Disney+."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "ESPN programs will be available to all profiles on the Premium, Standard, and Standard with Ads subscriptions on your Disney+ account (except for Junior Mode profiles). You can control access to these programs for each profile using our parental control settings. Learn more ."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Where can I watch Disney+?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "The Disney+ app is available on compatible mobile devices, web browsers, game consoles, set-top boxes, and smart TVs. Click to view a complete list of supported devices and compatible devices ."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Does Disney+ offer parental controls?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Yes, Disney+ includes robust, easy-to-use parental controls to help manage what your little ones and family watch. Disney+ Profiles lets you set a content rating for each profile, restricting the movies and series your kids will see on their profile. Combine that with the ability to set a four-digit PIN for each profile, so the kids can’t wander onto your profile and watch adult content. You can a"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "What is the ad-supported Disney+ plan?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Disney+ Standard with Ads allows streaming on two devices in Full HD 1080p, where supported, and includes advertising in movies, series and sport. This plan offers choice, flexibility and value when selecting your subscription."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Will ads be viewable for Junior Mode profiles?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "No, advertising is not served on content for profiles with Junior Mode enabled."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Will Premium and Standard plans continue to have ads in ESPN live sport?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Yes, Premium and Standard plans continue to have ads in ESPN live sport."
+    },
+    {
+      "kind": "footer",
+      "tag": "p",
+      "t": "Learn More"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Subscriber Agreement"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Privacy Policy"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Collection Notice"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Interest-Based Ads"
+    },
+    {
+      "kind": "button",
+      "tag": "p",
+      "t": "Help"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Help Centre"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Supported Devices"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "About Us"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Explore Disney+"
+    },
+    {
+      "kind": "button",
+      "tag": "p",
+      "t": "Brands"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Disney"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Pixar"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Marvel"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Star Wars"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "National Geographic"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Hulu"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "ESPN"
+    },
+    {
+      "kind": "button",
+      "tag": "p",
+      "t": "Collections"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "All Collections"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Sports"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Comedies"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Action & Adventure"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Drama"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Musicals"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Critically Acclaimed"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Horror"
+    },
+    {
+      "kind": "footer",
+      "tag": "li",
+      "t": "© 2026 Disney. All Rights Reserved."
+    }
+  ],
+  "links": {
+    "internal": [
+      "/identity/login",
+      "/commerce/plans",
+      "/en-au",
+      "/en-au/browse/entity-8744ec55-8d14-4631-99b4-c889a2d6013f",
+      "/en-au/browse/entity-2840c159-ed3f-4aa2-954e-7bedf79efa45",
+      "/en-au/browse/entity-3cb954b0-2a2b-4601-84b1-5ca6a4e9c7cc",
+      "/en-au/browse/entity-5526d12b-7904-40cd-9bda-5af3fbfe3077",
+      "/en-au/browse/entity-6ac12491-8b68-4764-9cbf-91f6f1fec18a",
+      "/en-au/browse/entity-943f5577-caad-4e34-a8d3-4a9a816d078a",
+      "/en-au/browse/entity-7840bf30-f440-48d4-bf81-55d8cb24457a",
+      "/en-au/browse/entity-19c47a8f-8ef9-400c-9840-647e7c559f08",
+      "/en-au/browse/entity-cabb865a-8f10-4e11-8c35-d07d2aae6082",
+      "/en-au/browse/entity-90affd1f-0851-48bc-9cab-c142d5c9c20c",
+      "/en-au/browse/entity-46bee9e1-869a-4a04-a145-de2c28552866",
+      "/en-au/browse/entity-e8896bfa-1052-41f7-ae2e-00255d77cf05",
+      "/en-au/browse/entity-a21ee2fc-421e-4839-bfcc-0bf2ba815875",
+      "/en-au/browse/entity-c99203fc-eeff-4531-a35e-1f558bedce4f",
+      "/en-au/browse/entity-46af23cb-79bc-4e57-90c0-1fc9661f8afe",
+      "/en-au/browse/entity-3edb5cb2-fba6-4473-bfa2-8a867e00bdeb",
+      "/en-au/browse/entity-8df2fc5d-4a6b-4dad-a508-5332a67bd181",
+      "/en-au/browse/entity-4aa190d7-6010-410d-b567-b8be3296b521",
+      "/en-au/browse/entity-3bf2735c-0983-47ea-b927-3ac38c2bf7ef",
+      "/en-au/browse/entity-42329b99-0953-4f1a-9420-a0dbf7733e95",
+      "/en-au/browse/entity-137be50d-81aa-415c-8ef3-31d245792fcb",
+      "/en-au/browse/entity-56048ab8-a106-4b03-9da7-b2407ff564fb",
+      "/en-au/browse/entity-5f3335be-dc6e-46b2-a0b9-6c3720a28977",
+      "/en-au/browse/entity-8d026653-da47-4b43-913d-2d856380a9ae",
+      "/en-au/browse/entity-b11bd005-1438-485b-8a53-a5ef08370df3",
+      "/en-au/browse/entity-d6204a79-accd-4f00-924e-89a787f1328b",
+      "/en-au/browse/entity-1f19046c-8ffa-4cd5-90bf-06bb558329d8",
+      "/en-au/browse/entity-63a673b1-1caa-4890-b249-82ec2e2a8ed0",
+      "/en-au/browse/entity-1c704c42-5c14-4914-b746-f1ecb7ea1cf2",
+      "/en-au/browse/entity-405782fb-ee5e-4361-b1ad-f47c71286a45",
+      "/en-au/browse/entity-597d6b6c-88e6-4f61-bf2f-88f0e5459070",
+      "/en-au/browse/entity-9d74ddef-3593-4063-b0ba-03eed92c4b29",
+      "/en-au/browse/entity-a84dbfab-48e5-4286-b2ac-f244222d4219",
+      "/en-au/browse/entity-4c6b9673-b47c-4f80-afd0-6968905b80c4",
+      "/en-au/browse/entity-4e1d16c0-6ed3-41e9-ae3c-8358c8b062f1",
+      "/en-au/browse/entity-f5bde6da-c9c4-4cc5-af19-4a2fae5b7fdc",
+      "/en-au/browse/entity-79815d73-3172-4161-8576-8fa6d602d764",
+      "/en-au/browse/entity-c036e9d9-eecf-4553-8cca-7245b78afa58",
+      "/en-au/browse/entity-17abe595-e84d-43fe-b182-55cee23841b2",
+      "/en-au/browse/entity-6c12e9cc-72e5-4c9b-8137-16f4a9af2ff7",
+      "/identity/sign-up",
+      "/brand/disney",
+      "/brand/star-wars",
+      "/brand/marvel",
+      "/brand/pixar",
+      "/brand/national-geographic",
+      "/legal/subscriber-agreement",
+      "/en-gb/legal/privacy-policy",
+      "/en-gb/legal/collection-statement",
+      "/en-au/explore",
+      "/en-au/browse/page-4c4b78ed-4a17-43eb-8221-14a3959e4517",
+      "/en-au/browse/page-9143212f-5696-4ee3-a37a-f2fbcd14749a",
+      "/en-au/browse/page-60f4707d-19bb-4c0c-9390-ab269137be50",
+      "/en-au/browse/page-b4e74f38-aa35-4b12-965c-93f4a931f78a",
+      "/en-au/browse/page-a577ee5e-2f37-443f-bc13-594a20520492",
+      "/en-au/browse/hulu",
+      "/en-au/welcome/espn-sports",
+      "/en-au/browse/page-bceb41c9-cfa9-41e3-b6d7-d547362ea1cd",
+      "/en-au/browse/page-1eaf1f02-deb4-48d0-b54f-cbf7a843e8f3",
+      "/en-au/browse/page-849a9d46-1231-4a4e-be0e-6c312bea9b94",
+      "/en-au/browse/page-253378a5-61c5-4a26-8583-f1f3ca58ef0b",
+      "/en-au/browse/page-97e41a96-dcbc-4fa1-9703-fe06faa6740d",
+      "/en-au/browse/page-bc2b1754-f7d5-43b2-a9ee-cf93bee75de8",
+      "/en-au/browse/page-ed98a93a-f60b-4818-b2dd-f4b311d6f28b",
+      "/en-au/browse/page-62250dcb-8d3d-45a5-84ad-bd95068c908a",
+      "/perks"
+    ],
+    "external": [
+      "help.disneyplus.com",
+      "perks.disneyplus.com",
+      "privacy.thewaltdisneycompany.com",
+      "x.com",
+      "www.facebook.com",
+      "www.instagram.com",
+      "www.tiktok.com",
+      "www.youtube.com"
+    ]
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 1,
+    "headingSkips": 0,
+    "imagesNoAlt": 2,
+    "buttonsNoName": 0,
+    "inputsNoLabel": 0
+  },
+  "network": {
+    "status": 200,
+    "requests": 565,
+    "origins": [
+      "9093642.fls.doubleclick.net",
+      "ad.doubleclick.net",
+      "adservice.google.com",
+      "alb.reddit.com",
+      "analytics-ipv6.tiktokw.us",
+      "analytics.tiktok.com",
+      "api.trafficguard.ai",
+      "assets.adobedtm.com",
+      "bat.bing.com",
+      "browser-intake-datadoghq.com",
+      "c.amazon-adsystem.com",
+      "cdn.registerdisney.go.com",
+      "client-sdk-configs.bamgrid.com",
+      "cnbl-cdn.bamgrid.com",
+      "d.impactradius-event.com",
+      "dcf.espn.com",
+      "disney.api.edge.bamgrid.com",
+      "disney.demdex.net",
+      "disney.images.edge.bamgrid.com",
+      "disneyplus.bn5x.net",
+      "fonts.gstatic.com",
+      "googleads.g.doubleclick.net",
+      "log.go.com",
+      "login.disney.com",
+      "pixel-config.reddit.com",
+      "pixel.byspotify.com",
+      "pixel.tapad.com",
+      "pixels.spotify.com",
+      "prod-static.disney-plus.net",
+      "s.amazon-adsystem.com",
+      "s.yimg.com",
+      "sanalytics.disneyplus.com",
+      "sc-static.net",
+      "sp.analytics.yahoo.com",
+      "static-assets.bamgrid.com",
+      "tgtag.io",
+      "tr.snapchat.com",
+      "www.disneyplus.com",
+      "www.facebook.com",
+      "www.google.com",
+      "www.google.com.au",
+      "www.googleadservices.com",
+      "www.googletagmanager.com",
+      "www.gstatic.com",
+      "www.redditstatic.com"
+    ]
+  },
+  "screenshot": "adventure-time@1440.png",
+  "svgPathHashes": [
+    "aa350746fab16f4e",
+    "ed5ac0dada38c0c9",
+    "9bf60d79a5daf86f",
+    "a8cc3a5d50794b21",
+    "e306f9cba3214ceb",
+    "d95a76a6076edf67",
+    "83fcc5a7cc7f43fd",
+    "5626ce7a5d2824bd",
+    "295e503f51d99a1b",
+    "11a28c9e242712be"
+  ]
+}

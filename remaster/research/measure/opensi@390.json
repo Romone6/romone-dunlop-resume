@@ -1,0 +1,152 @@
+{
+  "v": 1,
+  "url": "https://opensi.lol/",
+  "title": "OpenSI",
+  "lang": "en",
+  "measuredAt": "2026-10-24T10:55:34.091Z",
+  "viewport": {
+    "w": 390,
+    "h": 844,
+    "dpr": 1
+  },
+  "page": {
+    "w": 390,
+    "h": 844
+  },
+  "canvas": "#000000",
+  "meta": {
+    "description": "",
+    "canonical": "",
+    "robots": "",
+    "ogTitle": "",
+    "ogImage": "",
+    "generator": "",
+    "jsonLd": []
+  },
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 1,
+    "iframes": 0,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#000000",
+      "text": 0,
+      "bg": 3292,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff",
+      "text": 38,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "system-ui",
+      "chars": 38,
+      "weights": {
+        "400": 38
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "16px",
+      "lineHeight": "normal",
+      "weight": "400",
+      "family": "system-ui",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 38,
+      "tags": {
+        "video": 1
+      }
+    }
+  ],
+  "spacing": [],
+  "radius": [],
+  "shadows": [],
+  "motion": {
+    "durations": [],
+    "easings": [],
+    "animations": 0
+  },
+  "containers": [],
+  "breakpoints": {
+    "values": [],
+    "unreadableSheets": 0
+  },
+  "logo": null,
+  "gradients": [],
+  "nodes": [
+    {
+      "role": "main",
+      "tag": "main",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "name": ""
+    },
+    {
+      "role": "video",
+      "tag": "video",
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "name": "OpenSI video with music"
+    }
+  ],
+  "text": [
+    {
+      "kind": "text",
+      "tag": "video",
+      "t": "Your browser does not support video. ."
+    }
+  ],
+  "links": {
+    "internal": [
+      "/tv.mp4"
+    ],
+    "external": []
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 0,
+    "headingSkips": 0,
+    "imagesNoAlt": 0,
+    "buttonsNoName": 0,
+    "inputsNoLabel": 0
+  },
+  "network": {
+    "status": 200,
+    "requests": 4,
+    "origins": [
+      "opensi.lol",
+      "static.cloudflareinsights.com"
+    ]
+  },
+  "screenshot": "opensi@390.png",
+  "svgPathHashes": []
+}

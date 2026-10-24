@@ -1,0 +1,145 @@
+:root { font-family: 'IBM Plex Sans', sans-serif; color: #f7ebd0; background: #22252a; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+* { box-sizing: border-box; }
+html, body, #root { width: 100%; min-width: 320px; height: 100%; margin: 0; }
+body { overflow: hidden; }
+button, a { font: inherit; }
+button:focus-visible, a:focus-visible { outline: 3px solid #ffdc75; outline-offset: 4px; }
+.tv-room { position: relative; display: grid; width: 100%; height: 100svh; min-height: 540px; overflow: hidden; place-items: center; isolation: isolate; background: radial-gradient(ellipse at 50% 45%, #46433d 0%, #2d2e31 54%, #1e2023 100%); }
+.room-wall { position: absolute; inset: 0; z-index: -2; overflow: hidden; background-color: #30273b; background-image: radial-gradient(ellipse at 50% 35%, rgba(255,220,164,.12), transparent 48%), linear-gradient(90deg, transparent 49.8%, rgba(11,13,16,.12) 50%, transparent 50.2%), conic-gradient(#3b3045 25%, #30273b 0 50%, #3b3045 0 75%, #30273b 0); background-size: auto, 180px 100%, 124px 124px; }
+.room-wall::before { position: absolute; inset: 0 0 26%; content: ""; opacity: .22; background-image: linear-gradient(90deg, transparent 48%, #111 50%, transparent 52%), linear-gradient(transparent 48%, #111 50%, transparent 52%); background-size: 98px 98px; mask-image: linear-gradient(transparent 5%, #000 30%, #000 85%, transparent); }
+.wall-print { position: absolute; top: 20%; width: 96px; height: 130px; border: 8px solid #815d43; background: #aeb69d; box-shadow: 0 8px 0 #17191c, 0 14px 24px #0005; transform: rotate(-3deg); }
+.wall-print::before { position: absolute; inset: 12px; content: ""; background: linear-gradient(160deg, #e4a35e 0 42%, #5f7870 43% 70%, #46503f 71%); image-rendering: pixelated; }
+.wall-print--one { left: 7%; }.wall-print--two { right: 7%; top: 22%; width: 80px; height: 110px; transform: rotate(4deg); }
+.floor { position: absolute; right: -15%; bottom: -37%; left: -15%; height: 62%; transform: perspective(520px) rotateX(24deg); transform-origin: top; background: repeating-linear-gradient(90deg, transparent 0 110px, rgba(32,23,20,.36) 111px 114px), repeating-linear-gradient(0deg, #9e6043 0 54px, #754b3a 55px 58px); box-shadow: 0 -18px 35px #1012148c; }
+.tv-set { position: absolute; top: 51%; left: 50%; width: min(44vw, 640px); transform: translate(-50%, -50%); filter: drop-shadow(0 34px 28px #101113a6); }
+.tv-shell { position: relative; padding: clamp(14px, 2.2vw, 30px) clamp(16px, 2.5vw, 34px) 14px; border: 4px solid #171717; border-radius: 32px 32px 27px 27px / 33px 33px 25px 25px; background: linear-gradient(145deg, #e8bd88, #a56b46 46%, #714a35); box-shadow: inset 3px 4px 0 #ffe0ad70, inset -6px -7px 0 #53382680, 0 11px 0 #4d3526; }
+.tv-screen { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border: 9px solid #171719; border-radius: 25px / 22px; background: #172536; box-shadow: 0 0 0 3px #6e492e, inset 0 0 20px #07090d; isolation: isolate; transition: filter .2s, background .3s; }
+.tv-screen.is-tuning { filter: brightness(2.6) saturate(.3); }.tv-screen.is-tuning::after { position: absolute; inset: 0; z-index: 5; content: ""; background: repeating-linear-gradient(0deg, transparent 0 4px, #fff 5px 6px); opacity: .56; animation: tune-roll .26s linear infinite; }
+@keyframes tune-roll { to { transform: translateY(8px); } }
+.screen-cartoon { position: absolute; inset: 0; overflow: hidden; background: #172536; }
+.screen-noise { position: absolute; inset: 0; z-index: 2; opacity: .075; background-image: repeating-linear-gradient(0deg, transparent 0 3px, #111 4px); mix-blend-mode: multiply; }
+.tv-copy { position: absolute; z-index: 3; top: 50%; left: 5%; width: min(63%, 390px); padding: clamp(14px, 2vw, 26px); transform: translateY(-50%); border: 2px solid #282720; background: color-mix(in srgb, #f2e5c6 93%, var(--show-accent)); color: #292923; box-shadow: 7px 8px 0 #24251fcc; animation: copy-reveal .52s cubic-bezier(.2,.8,.2,1) both; }
+.channel-kicker { margin: 0 0 12px; color: #73533e; font: 500 clamp(8px, .86vw, 11px) ui-monospace, monospace; letter-spacing: .11em; text-transform: uppercase; }.channel-kicker span { padding: 0 4px; }
+.tv-copy h1 { max-width: 100%; margin: 0 0 12px; color: #292923; font-size: clamp(18px, 2.2vw, 30px); font-weight: 700; line-height: 1.08; letter-spacing: -.035em; text-shadow: 1px 1px 0 #fff9e9; }
+.tv-copy--sitcom h1 { font-family: Impact, 'Arial Black', sans-serif; letter-spacing: -.015em; -webkit-text-stroke: .35px #76503b; text-shadow: 1px 2px 0 var(--show-accent); }
+.tv-copy--editorial h1 { font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif; font-style: italic; font-weight: 700; letter-spacing: -.045em; text-shadow: 1px 2px 0 #f2af82; }
+.tv-copy--quest h1 { font-family: 'Arial Black', 'IBM Plex Sans', sans-serif; letter-spacing: -.035em; -webkit-text-stroke: .25px #705234; text-shadow: 1px 2px 0 var(--show-accent); }
+.tv-copy--family h1 { font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif; font-weight: 700; letter-spacing: -.035em; }
+.tv-copy--storybook h1 { font-family: Georgia, 'Times New Roman', serif; font-style: italic; letter-spacing: -.035em; }
+.tv-copy--team h1 { font-family: 'Arial Black', 'IBM Plex Sans', sans-serif; font-size: clamp(17px, 2vw, 27px); letter-spacing: -.045em; text-transform: uppercase; }
+.tv-copy--science h1 { font-family: ui-monospace, monospace; font-size: clamp(16px, 1.9vw, 25px); letter-spacing: -.04em; text-transform: uppercase; }
+.tv-copy--slice h1 { font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.035em; }
+.tv-copy--credits h1 { font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif; font-weight: 700; font-style: italic; letter-spacing: -.04em; text-shadow: 1px 2px 0 var(--show-accent); }
+.channel-copy { max-width: 52ch; margin: 0; font-size: clamp(11px, 1vw, 13px); font-weight: 400; line-height: 1.45; }.channel-proof { margin: 12px 0 0; padding-left: 10px; border-left: 3px solid var(--show-accent); font: 500 clamp(9px, .95vw, 12px) ui-monospace, monospace; line-height: 1.55; }
+.tv-copy--editorial .channel-copy { font-family: 'Trebuchet MS', sans-serif; line-height: 1.42; }
+.tv-copy--quest .channel-copy { font-weight: 500; }
+.tv-copy--family .channel-copy { font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif; line-height: 1.5; }
+.tv-copy--storybook .channel-copy, .tv-copy--slice .channel-copy { font-family: Georgia, 'Times New Roman', serif; line-height: 1.45; }
+.tv-copy--team .channel-copy { font-weight: 500; }
+.tv-copy--science .channel-copy { line-height: 1.5; }
+.tv-copy--credits .channel-copy { font-family: 'Trebuchet MS', sans-serif; }
+.crt-lines { position: absolute; z-index: 4; inset: 0; pointer-events: none; opacity: .16; background: repeating-linear-gradient(0deg, transparent 0 2px, #161512 3px 4px); mix-blend-mode: multiply; }.screen-glare { position: absolute; z-index: 5; inset: 0; pointer-events: none; background: linear-gradient(125deg, #ffffff16 0 11%, transparent 27% 100%); }.channel-bug { position: absolute; z-index: 6; right: 17px; bottom: 13px; padding: 5px 7px; background: #171918c9; color: #f6e8c7; font: 11px ui-monospace, monospace; letter-spacing: .08em; }.channel-bug span { color: var(--show-accent); }
+.tv-chin { display: flex; align-items: center; justify-content: center; gap: 18px; height: 31px; color: #3e2a20; }.tv-speaker { width: 56px; height: 6px; border-radius: 8px; background: repeating-linear-gradient(90deg, #482f21 0 2px, transparent 2px 4px); opacity: .7; }.tv-brand { font: 500 8px ui-monospace, monospace; letter-spacing: .24em; }.power-light { width: 6px; height: 6px; border-radius: 50%; background: #dc8852; box-shadow: 0 0 8px #ed9d60; }
+.tv-stand { width: 48%; height: 14px; margin: 0 auto; border: 2px solid #593c2c; border-top: 0; background: linear-gradient(#956344, #6a4833); clip-path: polygon(23% 0, 77% 0, 90% 100%, 10% 100%); }.tv-console { position: absolute; top: calc(100% - 1px); left: 50%; width: min(78vw, 1080px); height: clamp(82px, 12vh, 126px); transform: translateX(-50%); border: 3px solid #302219; border-bottom: 0; background: linear-gradient(90deg, #814b2e, #a76639 48%, #845033); box-shadow: inset 0 8px #d58c5666, 0 -4px #5c3928, 0 18px 22px #0c0c0e70; }.tv-console::before { position: absolute; top: 18%; left: 25%; width: 50%; height: 66%; content: ""; border: 2px solid #603c28; background: linear-gradient(#885331, #985f36); box-shadow: inset 0 4px #d18b4e50; }.tv-console::after { position: absolute; top: 48%; left: calc(50% + 4px); width: 10px; height: 7px; content: ""; background: #e5a74c; box-shadow: 0 0 8px #ffc45855; }.room-floor-glow { position: absolute; z-index: -1; bottom: 0; left: 50%; width: 75vw; height: 20vh; transform: translateX(-50%); background: radial-gradient(ellipse, #cf8c5c30, transparent 70%); pointer-events: none; }
+.room-controls { position: absolute; right: clamp(20px, 4vw, 60px); bottom: 23px; left: clamp(20px, 4vw, 60px); z-index: 6; display: flex; align-items: center; justify-content: space-between; color: #eee2c6; }.tune-hint { display: flex; align-items: center; gap: 8px; font: 11px ui-monospace, monospace; color: #d7cbb2; }.keycap { padding: 5px 7px; border: 1px solid #f4e7c965; border-radius: 3px; background: #242527af; color: #f8e9c8; font-size: 9px; letter-spacing: .08em; }.keycap--small { font-size: 11px; }.hint-separator { color: #a99174; }
+.channel-switcher { display: flex; align-items: center; gap: 5px; }.channel-switcher button { display: grid; place-items: center; width: 31px; height: 28px; border: 1px solid #f1e5c34a; background: #2425277a; color: #c7b99b; cursor: pointer; }.channel-switcher button i { font: normal 9px ui-monospace, monospace; }.channel-switcher button[aria-pressed="true"] { border-color: #ffd47c; background: #9f6449; color: #fff2d1; }
+.remote { position: absolute; right: clamp(34px, 8vw, 120px); bottom: -390px; z-index: 8; width: 158px; min-height: 335px; padding: 20px 16px 16px; transform: rotate(8deg) scale(.9); border: 3px solid #2d2a25; border-radius: 26px 26px 32px 32px; background: linear-gradient(125deg, #e8d7b1, #c5b18c); color: #37322a; box-shadow: inset 4px 4px #fff5d580, inset -5px -5px #88765e80, 0 16px 20px #1118; transition: bottom .42s cubic-bezier(.2,.9,.22,1.15), transform .42s cubic-bezier(.2,.9,.22,1.15); }.remote--open { bottom: 70px; transform: rotate(2deg) scale(1); }.remote-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; font: 500 9px ui-monospace, monospace; letter-spacing: .1em; line-height: 1.4; }.remote-power { display: grid; place-items: center; width: 25px; height: 25px; border: 1px solid #6e5a42; border-radius: 50%; background: #cc7153; color: #fff3dc; font-size: 18px; cursor: pointer; }.remote-ch { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; height: 28px; margin: 5px 0; border: 1px solid #88765e; border-radius: 4px; background: #e7dbc0; color: #37322a; cursor: pointer; font: 500 10px ui-monospace, monospace; }.remote-ch span { color: #a26145; font-size: 8px; }.remote-numberpad { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; margin-top: 16px; }.remote-numberpad button { display: grid; place-items: center; aspect-ratio: 1; border: 1px solid #76664f; border-radius: 50%; background: radial-gradient(circle at 36% 28%, #f4e8c9, #bba887); box-shadow: 0 2px 0 #79684f; color: #3d362c; cursor: pointer; font: 500 11px ui-monospace, monospace; }.remote-numberpad button[aria-pressed="true"] { background: #d77c55; color: white; }.remote-bottom { display: flex; align-items: center; justify-content: center; gap: 7px; margin-top: 15px; color: #73634c; font: 8px ui-monospace, monospace; }.remote-bottom i { width: 9px; height: 9px; border: 1px solid #85745a; border-radius: 50%; }
+.mobile-remote-button { display: none; }
+@media (max-width: 760px) {
+  .wall-print { top: 13%; left: 5%; width: 55px; height: 76px; border-width: 5px; }.wall-print--two { top: 15%; right: 5%; left: auto; width: 48px; height: 66px; }
+  .tv-set { top: 43%; width: calc(100vw - 22px); }.tv-shell { padding: 12px 11px 9px; border-radius: 21px 21px 17px 17px; }.tv-screen { border-width: 5px; border-radius: 15px; }.tv-chin { height: 23px; }.tv-speaker { width: 32px; }.tv-brand { font-size: 6px; }.power-light { width: 5px; height: 5px; }.tv-console { width: 96vw; height: 75px; }
+  .tv-copy { left: 4%; width: 65%; padding: 10px 11px; box-shadow: 4px 5px 0 #24251fcc; }.channel-kicker { margin-bottom: 6px; font-size: clamp(6px, 1.8vw, 9px); }.tv-copy h1 { margin-bottom: 6px; font-size: clamp(16px, 4.2vw, 23px); }.channel-copy { font-size: clamp(10px, 2.65vw, 11px); line-height: 1.4; }.channel-proof { margin-top: 6px; padding-left: 6px; font-size: 8px; }.channel-bug { right: 7px; bottom: 7px; padding: 3px 5px; font-size: 8px; }
+  .room-controls { right: 12px; bottom: 14px; left: 12px; flex-direction: column; align-items: flex-start; gap: 10px; }.tune-hint { gap: 6px; font-size: 9px; }.keycap { font-size: 8px; }.channel-switcher { max-width: calc(100vw - 24px); gap: 4px; overflow-x: auto; padding: 2px 0; }.channel-switcher button { flex: 0 0 27px; width: 27px; height: 25px; }
+  .remote { right: 18px; bottom: -390px; width: 136px; min-height: 295px; padding: 15px 13px 12px; }.remote--open { bottom: 92px; }.remote-numberpad { gap: 5px; margin-top: 10px; }.remote-numberpad button { font-size: 9px; }.remote-top { margin-bottom: 8px; font-size: 8px; }.remote-ch { height: 24px; font-size: 9px; }.remote-bottom { margin-top: 10px; }
+  .mobile-remote-button { position: absolute; right: 17px; bottom: 69px; z-index: 7; display: inline-flex; align-items: center; gap: 7px; min-height: 36px; padding: 0 12px; border: 1px solid #f4e7c965; border-radius: 20px; background: #242527d9; color: #f6e8ca; cursor: pointer; font: 10px ui-monospace, monospace; }.mobile-remote-button span { font-size: 14px; }
+}
+@media (max-width: 390px) { .tv-set { top: 41%; }.channel-copy { font-size: 10px; }.tv-copy { width: 74%; }.channel-kicker { letter-spacing: .02em; }.tv-copy h1 { font-size: 16px; }.room-controls { gap: 7px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+
+/* Channel identities come from animated show-setting frames and their title lettering. */
+.cartoon-frame { position: absolute; z-index: 1; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; animation: frame-reveal .7s ease-out both; }
+.screen-noise { z-index: 2; }
+@keyframes frame-reveal { from { opacity: .25; filter: saturate(.65) brightness(1.2); transform: scale(1.04); } to { opacity: 1; filter: saturate(1) brightness(1); transform: scale(1); } }
+@keyframes copy-reveal { from { opacity: 0; filter: blur(2px); } to { opacity: 1; filter: blur(0); } }
+.tv-copy h1 { animation: title-reveal .64s cubic-bezier(.18,.84,.24,1) both; }
+@keyframes title-reveal { from { opacity: 0; clip-path: inset(0 100% 0 0); } to { opacity: 1; clip-path: inset(0 -4px 0 -4px); } }
+.tv-copy--sitcom { border-color: #33302a; background: #fff2cd; }
+.tv-copy--sitcom h1 { color: #ffd528; font-family: Impact, 'Arial Black', sans-serif; letter-spacing: -.015em; -webkit-text-stroke: 1.1px #28251f; text-shadow: 2px 2px 0 #e45d35, 4px 5px 0 #28251f; transform: rotate(-1deg); }
+.tv-copy--editorial { border-style: dashed; border-color: #435c42; background: #edf0d8; }
+.tv-copy--editorial h1 { color: #335640; font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif; font-style: italic; letter-spacing: -.055em; text-shadow: 2px 2px 0 #d5dfbd; transform: rotate(-.6deg); }
+.tv-copy--quest { border: 3px solid #2252a2; border-radius: 12px; background: #fff3c4; }
+.tv-copy--quest h1 { color: #f0a922; font-family: Impact, 'Arial Black', sans-serif; letter-spacing: .005em; text-transform: uppercase; -webkit-text-stroke: 1.3px #17458f; text-shadow: 2px 3px 0 #fff; }
+.tv-copy--family { border: 3px solid #458cbd; border-radius: 22px; background: #fff5d9; }
+.tv-copy--family h1 { color: #317ca9; font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif; letter-spacing: -.04em; -webkit-text-stroke: .5px #fff; text-shadow: 2px 3px 0 #f3b76e; }
+.tv-copy--storybook { border-color: #3f5062; background: #e9e5d5; box-shadow: 4px 5px 0 #3f5062a8; }
+.tv-copy--storybook h1 { color: #334659; font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 700; letter-spacing: -.055em; text-shadow: 1px 2px 0 #c6c9be; }
+.tv-copy--team { border: 3px solid #b14f39; background: #f7dfc3; }
+.tv-copy--team h1 { color: #bb432e; font-family: Impact, 'Arial Black', sans-serif; font-size: clamp(17px, 2vw, 27px); letter-spacing: .015em; text-transform: uppercase; -webkit-text-stroke: .6px #fff1d4; text-shadow: 2px 3px 0 #683c32; }
+.tv-copy--science { border: 2px solid #62b9cf; background: #172d4d; color: #e5f4f6; box-shadow: 0 0 0 4px #172d4daa, 0 0 19px #68d4ef70; }
+.tv-copy--science .channel-kicker { color: #95ccdb; }
+.tv-copy--science h1 { color: #b4efff; font-family: 'Arial Black', 'IBM Plex Sans', sans-serif; font-size: clamp(16px, 1.9vw, 25px); letter-spacing: .035em; text-transform: uppercase; -webkit-text-stroke: .3px #4596bc; text-shadow: 0 0 9px #72d6ff; }
+.tv-copy--science .channel-proof { border-color: #71d4ee; }
+.tv-copy--slice { border-color: #59466c; background: #f1e8d4; }
+.tv-copy--slice h1 { color: #874b4a; font-family: Georgia, 'Times New Roman', serif; font-weight: 700; letter-spacing: -.045em; text-shadow: 2px 2px 0 #f8c58c; }
+.tv-copy--credits { border: 2px solid #4f5965; border-radius: 30px 5px 30px 5px; background: #f2e7bc; }
+.tv-copy--credits h1 { color: #d76b43; font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif; font-weight: 700; font-style: italic; letter-spacing: -.06em; -webkit-text-stroke: .35px #673f52; text-shadow: 2px 3px 0 #f4cf71; transform: rotate(-1deg); }
+
+/* Locally bundled display faces make each channel's title treatment reliable. */
+.tv-copy--sitcom h1 { font-family: 'Bangers', Impact, sans-serif; font-weight: 400; letter-spacing: .01em; }
+.tv-copy--editorial h1 { font-family: 'Fredoka', sans-serif; font-style: normal; font-weight: 600; letter-spacing: -.035em; }
+.tv-copy--quest h1 { font-family: 'Chewy', sans-serif; font-weight: 400; letter-spacing: .005em; }
+.tv-copy--family h1 { font-family: 'Bowlby One SC', sans-serif; font-weight: 400; letter-spacing: -.025em; }
+.tv-copy--storybook h1 { font-family: 'Berkshire Swash', Georgia, serif; font-style: normal; font-weight: 400; letter-spacing: -.025em; }
+.tv-copy--team h1 { font-family: 'Oswald', sans-serif; font-weight: 600; letter-spacing: .02em; }
+.tv-copy--science h1 { font-family: 'Orbitron', monospace; font-weight: 600; letter-spacing: .01em; }
+.tv-copy--slice h1 { font-family: 'Fredoka', sans-serif; font-weight: 600; letter-spacing: -.035em; }
+.tv-copy--credits h1 { font-family: 'Berkshire Swash', Georgia, serif; font-style: normal; font-weight: 400; letter-spacing: -.025em; }
+
+/* The Simpsons channel uses Romone's supplied Springfield frame as its set. */
+.cartoon-frame--simpsons { transform-origin: 54% 55%; animation: simpsons-camera 28s ease-in-out infinite alternate; }
+.tv-copy--sitcom { top: 8%; left: 5%; width: min(78%, 490px); padding: 0; transform: none; border: 0; background: transparent; color: #fff; box-shadow: none; }
+.tv-copy--sitcom .channel-kicker { margin-bottom: 8px; color: #fff; text-shadow: 1px 2px 4px #171413; }
+.tv-copy--sitcom h1 { margin-bottom: 10px; color: #ffdf00; font-family: 'Chewy', sans-serif; font-size: clamp(23px, 5vw, 40px); font-weight: 400; line-height: .98; letter-spacing: 0; -webkit-text-stroke: 1.4px #231f20; paint-order: stroke fill; text-shadow: 1px 2px 0 #231f20, 3px 4px 0 #231f20, 6px 7px 0 #231f20; transform: rotate(-1deg); animation: simpsons-title-pop .72s cubic-bezier(.2,1.45,.4,1) both; }
+.tv-copy--sitcom .channel-copy { max-width: 38ch; color: #fff; font-weight: 600; -webkit-text-stroke: .2px #231f20; paint-order: stroke fill; text-shadow: 1px 2px 4px #171413; }
+@keyframes simpsons-camera { from { transform: scale(1.015) translate(-.25%, .15%); } to { transform: scale(1.075) translate(-.6%, -.6%); } }
+@keyframes simpsons-title-pop { from { opacity: 0; transform: translateY(-18px) rotate(-4deg) scale(.88); } to { opacity: 1; transform: translateY(0) rotate(-1deg) scale(1); } }
+.cartoon-frame:not(.cartoon-frame--simpsons) { animation: frame-reveal .7s ease-out both, channel-camera-drift 28s ease-in-out .7s infinite alternate; }
+.cartoon-frame--youth { --camera-pan-x: -.8%; --camera-pan-y: -.3%; --camera-zoom: 1.075; }
+.cartoon-frame--pathway { --camera-pan-x: -1.2%; --camera-pan-y: -.5%; --camera-zoom: 1.09; }
+.cartoon-frame--bloom { --camera-pan-x: .3%; --camera-pan-y: -1%; --camera-zoom: 1.065; }
+.cartoon-frame--mindbridge { --camera-pan-x: -1%; --camera-pan-y: -.6%; --camera-zoom: 1.07; }
+.cartoon-frame--joinrfs { --camera-pan-x: -1%; --camera-pan-y: -.2%; --camera-zoom: 1.08; }
+.cartoon-frame--tau-ceti { --camera-pan-x: -.5%; --camera-pan-y: -.5%; --camera-zoom: 1.085; }
+.cartoon-frame--work-study { --camera-pan-x: .7%; --camera-pan-y: -.2%; --camera-zoom: 1.07; }
+.cartoon-frame--contact { --camera-pan-x: -.8%; --camera-pan-y: -.6%; --camera-zoom: 1.08; }
+@keyframes channel-camera-drift { from { transform: scale(1.02); } to { transform: scale(var(--camera-zoom, 1.08)) translate3d(var(--camera-pan-x, -.8%), var(--camera-pan-y, -.4%), 0); } }
+@media (max-width: 760px) {
+  .tv-copy--sitcom { top: 5%; left: 5%; width: 90%; padding: 0; }
+  .tv-copy--sitcom h1 { font-size: clamp(22px, 7.2vw, 31px); }
+  .tv-copy--sitcom .channel-kicker { font-size: 7px; }
+  .tv-copy--sitcom .channel-copy { font-size: 11px; }
+}
+
+/* Keep each channel's copy in the scene, using outlined type for contrast. */
+.tv-copy:not(.tv-copy--sitcom) { isolation: isolate; top: 50%; left: 5%; width: min(63%, 390px); padding: 0; transform: translateY(-50%); border: 0; background: transparent; color: #fff; box-shadow: none; }
+.tv-copy:not(.tv-copy--sitcom)::before { position: absolute; z-index: -1; inset: -18px -30px; content: ""; pointer-events: none; background: radial-gradient(ellipse at 34% 50%, #070b11bd 0%, #070b119e 58%, #070b114d 82%, transparent 100%); filter: blur(8px); }
+.tv-copy:not(.tv-copy--sitcom) .channel-kicker { color: #fff; text-shadow: 0 1px 2px #000, 0 0 7px #000; }
+.tv-copy:not(.tv-copy--sitcom) h1 { paint-order: stroke fill; text-shadow: 2px 3px 0 #171719, 0 0 8px #171719b8; }
+.tv-copy:not(.tv-copy--sitcom) .channel-copy { color: #fff; font-weight: 500; -webkit-text-stroke: .25px #171719; paint-order: stroke fill; text-shadow: 0 1px 2px #000, 0 0 4px #000, 0 1px 9px #000; }
+.tv-copy:not(.tv-copy--sitcom) .channel-proof { color: #fff; text-shadow: 0 1px 2px #000, 0 0 4px #000, 0 1px 9px #000; }
+
+.tv-copy--editorial h1 { color: #fff0a8; -webkit-text-stroke: 1px #314334; }
+.tv-copy--quest h1 { color: #ffd45c; -webkit-text-stroke: 1.2px #173d79; text-shadow: 2px 3px 0 #173d79, 0 0 8px #111b; }
+.tv-copy--family h1 { color: #ffe36a; -webkit-text-stroke: 1px #31558b; text-shadow: 2px 3px 0 #31558b, 0 0 8px #111b; }
+.tv-copy--storybook h1 { color: #e3efff; -webkit-text-stroke: .8px #293546; }
+.tv-copy--team h1 { color: #ffb27d; -webkit-text-stroke: 1px #5c3029; text-shadow: 2px 3px 0 #5c3029, 0 0 8px #111b; }
+.tv-copy--science h1 { color: #bcf2ff; -webkit-text-stroke: .7px #17324f; text-shadow: 0 0 5px #162b48, 0 0 12px #4dc8edb8; }
+.tv-copy--slice h1 { color: #fff0ce; -webkit-text-stroke: 1px #554335; text-shadow: 2px 3px 0 #554335, 0 0 8px #111b; }
+.tv-copy--credits h1 { color: #ffe189; -webkit-text-stroke: 1px #49334d; text-shadow: 2px 3px 0 #49334d, 0 0 8px #111b; }
+
+@media (max-width: 760px) {
+  .tv-copy:not(.tv-copy--sitcom) { left: 6%; width: 84%; }
+}
+@media (max-width: 390px) {
+  .tv-copy:not(.tv-copy--sitcom) { left: 5%; width: 90%; }
+}

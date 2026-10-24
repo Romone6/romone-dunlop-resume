@@ -1,0 +1,3476 @@
+{
+  "v": 1,
+  "url": "https://www.pbs.org/parents/shows/arthur",
+  "title": "Arthur Kids Show | PBS KIDS Shows | PBS KIDS for Parents",
+  "lang": "en-US",
+  "measuredAt": "2026-10-24T11:21:11.498Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "page": {
+    "w": 1440,
+    "h": 6439
+  },
+  "canvas": "#f5fbfb",
+  "meta": {
+    "description": "Watch full episodes of Arthur kids show on PBS KIDS. Arthur is an animated series that aims to promote interest in reading, writing and learning positive social skills.",
+    "canonical": "https://www.pbs.org/parents/shows/arthur",
+    "robots": "",
+    "ogTitle": "Arthur Kids Show | PBS KIDS Shows",
+    "ogImage": "https://image.pbskids.org/pbs-kids-infra/global/mezzanines/shows/arthur.jpg?resize=600x",
+    "generator": "",
+    "jsonLd": [
+      "WebSite",
+      "WebPage",
+      "Organization",
+      "ImageObject"
+    ]
+  },
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": true,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 3,
+    "iframes": 9,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#ffffff",
+      "text": 695,
+      "bg": 29312,
+      "border": 1,
+      "icon": 0,
+      "action": 0,
+      "label": 4
+    },
+    {
+      "hex": "#1d89451a",
+      "text": 0,
+      "bg": 12462,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#99cf16",
+      "text": 0,
+      "bg": 9619,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#def6fc",
+      "text": 0,
+      "bg": 7098,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#6a1b9a",
+      "text": 0,
+      "bg": 6220,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#000000",
+      "text": 47,
+      "bg": 5558,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 5
+    },
+    {
+      "hex": "#32304f",
+      "text": 4741,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 32
+    },
+    {
+      "hex": "#f5fbfb",
+      "text": 0,
+      "bg": 2491,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#2fc0eb",
+      "text": 0,
+      "bg": 1250,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#b2eeff",
+      "text": 0,
+      "bg": 1074,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff99",
+      "text": 0,
+      "bg": 930,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#2165c6",
+      "text": 0,
+      "bg": 798,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#eaeaea",
+      "text": 0,
+      "bg": 655,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#111111",
+      "text": 413,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 24
+    },
+    {
+      "hex": "#f5b338",
+      "text": 0,
+      "bg": 321,
+      "border": 0,
+      "icon": 0,
+      "action": 5,
+      "label": 0
+    },
+    {
+      "hex": "#1a8549",
+      "text": 0,
+      "bg": 444,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#00a6a5",
+      "text": 0,
+      "bg": 444,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#00ab4e",
+      "text": 0,
+      "bg": 444,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#2638c4",
+      "text": 305,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 10
+    },
+    {
+      "hex": "#5b6771",
+      "text": 240,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 9
+    },
+    {
+      "hex": "#fcfdfb",
+      "text": 80,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 2
+    },
+    {
+      "hex": "#d8d8d8",
+      "text": 0,
+      "bg": 33,
+      "border": 5,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#a19ebf",
+      "text": 0,
+      "bg": 0,
+      "border": 1,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "colfax",
+      "chars": 4383,
+      "weights": {
+        "400": 4383
+      }
+    },
+    {
+      "family": "colfax-bold",
+      "chars": 1802,
+      "weights": {
+        "400": 1802
+      }
+    },
+    {
+      "family": "colfax-medium",
+      "chars": 336,
+      "weights": {
+        "400": 336
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "16px",
+      "lineHeight": "24px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 25,
+      "chars": 3016,
+      "tags": {
+        "p": 25
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 13,
+      "chars": 777,
+      "tags": {
+        "p": 4,
+        "span": 8,
+        "h2": 1
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "26px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 24,
+      "chars": 756,
+      "tags": {
+        "a": 24
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "weight": "400",
+      "family": "colfax-medium",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 322,
+      "tags": {
+        "p": 2
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "22.4px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 15,
+      "chars": 235,
+      "tags": {
+        "a": 8,
+        "div": 1,
+        "span": 6
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "21px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 168,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "0.7px",
+      "count": 24,
+      "chars": 150,
+      "tags": {
+        "span": 24
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "23.2px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 110,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 3,
+      "chars": 92,
+      "tags": {
+        "span": 3
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "0.6px",
+      "count": 6,
+      "chars": 81,
+      "tags": {
+        "a": 2,
+        "span": 2,
+        "label": 2
+      }
+    },
+    {
+      "size": "38px",
+      "lineHeight": "45.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 5,
+      "chars": 78,
+      "tags": {
+        "h2": 4,
+        "h3": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "0.35px",
+      "count": 5,
+      "chars": 75,
+      "tags": {
+        "div": 5
+      }
+    },
+    {
+      "size": "15px",
+      "lineHeight": "21px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 72,
+      "tags": {
+        "a": 1
+      }
+    },
+    {
+      "size": "10px",
+      "lineHeight": "14px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "0.5px",
+      "count": 4,
+      "chars": 60,
+      "tags": {
+        "span": 2,
+        "a": 2
+      }
+    },
+    {
+      "size": "28px",
+      "lineHeight": "33.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 54,
+      "tags": {
+        "h4": 1,
+        "h3": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "17.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 5,
+      "chars": 47,
+      "tags": {
+        "button": 2,
+        "span": 3
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 44,
+      "tags": {
+        "span": 2
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "21px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 43,
+      "tags": {
+        "span": 2
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "15.4px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "0.7px",
+      "count": 12,
+      "chars": 42,
+      "tags": {
+        "button": 11,
+        "span": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 42,
+      "tags": {
+        "span": 2
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "0.7px",
+      "count": 1,
+      "chars": 39,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "15.4px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 4,
+      "chars": 32,
+      "tags": {
+        "a": 4
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "normal",
+      "count": 3,
+      "chars": 30,
+      "tags": {
+        "label": 2,
+        "span": 1
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "24px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 25,
+      "tags": {
+        "a": 1
+      }
+    },
+    {
+      "size": "11px",
+      "lineHeight": "12.1px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 22,
+      "tags": {
+        "span": 1,
+        "button": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "0.6px",
+      "count": 2,
+      "chars": 18,
+      "tags": {
+        "label": 1,
+        "span": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax",
+      "letterSpacing": "0.3px",
+      "count": 1,
+      "chars": 16,
+      "tags": {
+        "label": 1
+      }
+    },
+    {
+      "size": "28px",
+      "lineHeight": "36.4px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 16,
+      "tags": {
+        "h3": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 15,
+      "tags": {
+        "span": 2
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax-medium",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 14,
+      "tags": {
+        "span": 1,
+        "a": 1
+      }
+    },
+    {
+      "size": "30px",
+      "lineHeight": "45px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 10,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "16.8px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "a": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.6px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "0.8px",
+      "count": 7,
+      "chars": 7,
+      "tags": {
+        "a": 7
+      }
+    },
+    {
+      "size": "50px",
+      "lineHeight": "60px",
+      "weight": "400",
+      "family": "colfax-bold",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 6,
+      "tags": {
+        "h1": 1
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": 15,
+      "count": 101
+    },
+    {
+      "value": 16,
+      "count": 76
+    },
+    {
+      "value": 8,
+      "count": 70
+    },
+    {
+      "value": 4,
+      "count": 34
+    },
+    {
+      "value": 30,
+      "count": 22
+    },
+    {
+      "value": 10,
+      "count": 22
+    },
+    {
+      "value": 12,
+      "count": 22
+    },
+    {
+      "value": 20,
+      "count": 19
+    },
+    {
+      "value": 5,
+      "count": 18
+    },
+    {
+      "value": 2,
+      "count": 17
+    },
+    {
+      "value": 13,
+      "count": 15
+    },
+    {
+      "value": 7,
+      "count": 14
+    },
+    {
+      "value": 24,
+      "count": 12
+    },
+    {
+      "value": 28,
+      "count": 10
+    },
+    {
+      "value": 11,
+      "count": 6
+    },
+    {
+      "value": 6,
+      "count": 4
+    },
+    {
+      "value": 9,
+      "count": 4
+    },
+    {
+      "value": 32,
+      "count": 4
+    },
+    {
+      "value": 48,
+      "count": 4
+    },
+    {
+      "value": 19,
+      "count": 4
+    },
+    {
+      "value": 55,
+      "count": 3
+    },
+    {
+      "value": 3,
+      "count": 2
+    },
+    {
+      "value": 22,
+      "count": 1
+    },
+    {
+      "value": 1,
+      "count": 1
+    },
+    {
+      "value": 61,
+      "count": 1
+    },
+    {
+      "value": 80,
+      "count": 1
+    },
+    {
+      "value": 51,
+      "count": 1
+    },
+    {
+      "value": 21,
+      "count": 1
+    },
+    {
+      "value": 145,
+      "count": 1
+    },
+    {
+      "value": 17,
+      "count": 1
+    },
+    {
+      "value": 26,
+      "count": 1
+    },
+    {
+      "value": 60,
+      "count": 1
+    },
+    {
+      "value": 150,
+      "count": 1
+    }
+  ],
+  "radius": [
+    {
+      "value": "5px",
+      "count": 33
+    },
+    {
+      "value": "50%",
+      "count": 5
+    },
+    {
+      "value": "12px",
+      "count": 2
+    },
+    {
+      "value": "9px",
+      "count": 1
+    },
+    {
+      "value": "2px",
+      "count": 1
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.16) 0px 0px 8px 0px",
+      "count": 30
+    },
+    {
+      "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": 100,
+        "count": 54
+      },
+      {
+        "value": 300,
+        "count": 26
+      },
+      {
+        "value": 400,
+        "count": 2
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease-out",
+        "count": 66
+      },
+      {
+        "value": "ease",
+        "count": 16
+      }
+    ],
+    "animations": 0
+  },
+  "containers": [
+    {
+      "value": 1315,
+      "count": 10
+    },
+    {
+      "value": 728,
+      "count": 1
+    }
+  ],
+  "breakpoints": {
+    "values": [
+      {
+        "value": 640,
+        "count": 84
+      },
+      {
+        "value": 925,
+        "count": 76
+      },
+      {
+        "value": 1024,
+        "count": 43
+      },
+      {
+        "value": 639,
+        "count": 34
+      },
+      {
+        "value": 1200,
+        "count": 28
+      },
+      {
+        "value": 924,
+        "count": 16
+      },
+      {
+        "value": 1300,
+        "count": 6
+      },
+      {
+        "value": 1315,
+        "count": 4
+      },
+      {
+        "value": 450,
+        "count": 4
+      },
+      {
+        "value": 1023,
+        "count": 2
+      },
+      {
+        "value": 425,
+        "count": 2
+      },
+      {
+        "value": 750,
+        "count": 2
+      }
+    ],
+    "unreadableSheets": 0
+  },
+  "logo": null,
+  "gradients": [],
+  "nodes": [
+    {
+      "role": "dialog",
+      "tag": "div",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 55,
+      "name": "Watch the new \"Super Why's Comic Book Adventures\" beginning October 5th!"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 123,
+      "y": 18,
+      "w": 1195,
+      "h": 21,
+      "name": "Watch the new \"Super Why's Comic Book Adventures\" beginning October 5th!"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1320,
+      "y": 0,
+      "w": 28,
+      "h": 30,
+      "name": "Dismiss."
+    },
+    {
+      "role": "header",
+      "tag": "header",
+      "x": 0,
+      "y": 55,
+      "w": 1440,
+      "h": 124,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 0,
+      "y": 55,
+      "w": 1,
+      "h": 1,
+      "name": "Skip to content"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 63,
+      "y": 88,
+      "w": 1315,
+      "h": 91,
+      "name": "Site menu"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 93,
+      "y": 88,
+      "w": 1263,
+      "h": 91,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 93,
+      "y": 108,
+      "w": 215,
+      "h": 51,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 108,
+      "w": 215,
+      "h": 52,
+      "name": "PBS KIDS for Parents"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 345,
+      "y": 120,
+      "w": 117,
+      "h": 27,
+      "name": "SELECT STATION"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 647,
+      "y": 126,
+      "w": 78,
+      "h": 53,
+      "name": "SHOWS"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 745,
+      "y": 126,
+      "w": 58,
+      "h": 53,
+      "name": "PLAY"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 822,
+      "y": 126,
+      "w": 75,
+      "h": 53,
+      "name": "THRIVE"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 943,
+      "y": 126,
+      "w": 135,
+      "h": 53,
+      "name": "LEARN & GROW BY TOPIC"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 1157,
+      "y": 126,
+      "w": 195,
+      "h": 53,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1161,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "2"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1188,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "3"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1216,
+      "y": 126,
+      "w": 25,
+      "h": 53,
+      "name": "4"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1245,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "5"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1272,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "6"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1300,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "7"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1328,
+      "y": 126,
+      "w": 24,
+      "h": 53,
+      "name": "8"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 787,
+      "y": 65,
+      "w": 178,
+      "h": 17,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 803,
+      "y": 65,
+      "w": 61,
+      "h": 15,
+      "name": "Visit the PBS KIDS Website"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 927,
+      "y": 65,
+      "w": 37,
+      "h": 15,
+      "name": "Visit the PBS KIDS shop"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1275,
+      "y": 61,
+      "w": 73,
+      "h": 26,
+      "name": "Español"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 182,
+      "y": 60,
+      "w": 99,
+      "h": 25,
+      "name": "Follow Us"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 182,
+      "y": 60,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on facebook"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 248,
+      "y": 60,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on instagram"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 215,
+      "y": 60,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on pinterest"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 289,
+      "y": 60,
+      "w": 188,
+      "h": 25,
+      "name": "NEWSLETTER SIGN-UP"
+    },
+    {
+      "role": "main",
+      "tag": "main",
+      "x": 0,
+      "y": 179,
+      "w": 1440,
+      "h": 5162,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1011,
+      "y": 193,
+      "w": 73,
+      "h": 14,
+      "name": "Learn More about online sponsorship (opens in new window)."
+    },
+    {
+      "role": "embed",
+      "tag": "iframe",
+      "x": 356,
+      "y": 211,
+      "w": 728,
+      "h": 90,
+      "name": "Advertisement"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 709,
+      "y": 335,
+      "w": 145,
+      "h": 23,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 774,
+      "y": 337,
+      "w": 78,
+      "h": 19,
+      "name": "Español"
+    },
+    {
+      "role": "header",
+      "tag": "header",
+      "x": 0,
+      "y": 386,
+      "w": 1440,
+      "h": 401,
+      "name": ""
+    },
+    {
+      "role": "video",
+      "tag": "video",
+      "x": 749,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 964,
+      "y": 543,
+      "w": 144,
+      "h": 81,
+      "name": "Play Video"
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 749,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 749,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "video",
+      "tag": "video",
+      "x": 1323,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "picture",
+      "x": 1323,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1323,
+      "y": 422,
+      "w": 574,
+      "h": 323,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1331,
+      "y": 587,
+      "w": 36,
+      "h": 36,
+      "name": "Next panel."
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 704,
+      "y": 587,
+      "w": 36,
+      "h": 36,
+      "name": "Previous panel."
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 749,
+      "y": 745,
+      "w": 574,
+      "h": 42,
+      "name": "Carousel pagination"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1198,
+      "y": 750,
+      "w": 34,
+      "h": 32,
+      "name": "Panel 1"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1241,
+      "y": 751,
+      "w": 32,
+      "h": 30,
+      "name": "Panel 2"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1281,
+      "y": 751,
+      "w": 32,
+      "h": 30,
+      "name": "Panel 3"
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 93,
+      "y": 449,
+      "w": 571,
+      "h": 60,
+      "name": "Arthur"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 424,
+      "y": 641,
+      "w": 231,
+      "h": 24,
+      "name": "Learn More About the Show"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 709,
+      "w": 70,
+      "h": 79,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 115,
+      "y": 738,
+      "w": 259,
+      "h": 49,
+      "name": "Watch Now on PBS KIDS! (opens in new window)"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 827,
+      "w": 275,
+      "h": 275,
+      "name": ""
+    },
+    {
+      "role": "h4",
+      "tag": "h4",
+      "x": 412,
+      "y": 827,
+      "w": 606,
+      "h": 63,
+      "name": "Listen to The Arthur Podcast"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 396,
+      "y": 1069,
+      "w": 622,
+      "h": 41,
+      "name": "Listen to The Arthur Podcast on:"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 404,
+      "y": 1072,
+      "w": 107,
+      "h": 35,
+      "name": "PBS KIDS (opens in new window)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 511,
+      "y": 1072,
+      "w": 104,
+      "h": 35,
+      "name": "SPOTIFY (opens in new window)"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 93,
+      "y": 1150,
+      "w": 925,
+      "h": 46,
+      "name": "Articles"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 93,
+      "y": 1211,
+      "w": 925,
+      "h": 951,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 1236,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 1452,
+      "w": 265,
+      "h": 78,
+      "name": "The Moral of the Story? \"Arthur\" Helps Kids Build Character"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 1453,
+      "w": 241,
+      "h": 76,
+      "name": "Article: The Moral of the Story? \"Arthur\" Helps Kids Build Character"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 1236,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 1452,
+      "w": 265,
+      "h": 52,
+      "name": "Managing Back-to-School Feelings With \"Arthur\""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 1453,
+      "w": 250,
+      "h": 50,
+      "name": "Article: Managing Back-to-School Feelings With \"Arthur\""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 1236,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 1452,
+      "w": 265,
+      "h": 78,
+      "name": "Getting Along: How \"Arthur\" Can Help Your Child Manage Friendships"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 1453,
+      "w": 248,
+      "h": 76,
+      "name": "Article: Getting Along: How \"Arthur\" Can Help Your Child Manage Friendships"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 1752,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 1968,
+      "w": 265,
+      "h": 52,
+      "name": "How Media Can Build Empathy in Young Children"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 1969,
+      "w": 258,
+      "h": 50,
+      "name": "Article: How Media Can Build Empathy in Young Children"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 1752,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 1968,
+      "w": 265,
+      "h": 78,
+      "name": "Raising a Lifelong Reader: Tips for Reading with Your Child"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 1969,
+      "w": 253,
+      "h": 76,
+      "name": "Article: Raising a Lifelong Reader: Tips for Reading with Your Child"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 1752,
+      "w": 295,
+      "h": 197,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 1968,
+      "w": 265,
+      "h": 52,
+      "name": "Why “Arthur” Means So Much to Me (And My Kids!)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 1969,
+      "w": 247,
+      "h": 50,
+      "name": "Article: Why “Arthur” Means So Much to Me (And My Kids!)"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 93,
+      "y": 2211,
+      "w": 925,
+      "h": 46,
+      "name": "Hands-On Activities"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 93,
+      "y": 2272,
+      "w": 925,
+      "h": 830,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 2297,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 2481,
+      "w": 265,
+      "h": 52,
+      "name": "3 Ways to Practice Being a Good Sport"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 2482,
+      "w": 256,
+      "h": 50,
+      "name": "Craft: 3 Ways to Practice Being a Good Sport"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 2297,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 2501,
+      "w": 265,
+      "h": 26,
+      "name": "Create a “Kindness Tree”"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 2502,
+      "w": 245,
+      "h": 24,
+      "name": "Craft: Create a “Kindness Tree”"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 2297,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 2501,
+      "w": 265,
+      "h": 52,
+      "name": "Give Awards to Everyday Heroes"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 2502,
+      "w": 237,
+      "h": 50,
+      "name": "Craft: Give Awards to Everyday Heroes"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 2727,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 2931,
+      "w": 265,
+      "h": 26,
+      "name": "Milk Carton School Bus"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 2932,
+      "w": 221,
+      "h": 24,
+      "name": "Craft: Milk Carton School Bus"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 2727,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 2931,
+      "w": 265,
+      "h": 52,
+      "name": "Make a Lucky Mini Unicorn for the First Day of School"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 2932,
+      "w": 253,
+      "h": 50,
+      "name": "Craft: Make a Lucky Mini Unicorn for the First Day of School"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 2727,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 2931,
+      "w": 265,
+      "h": 52,
+      "name": "Pretend Play: Caring for Baby"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 2932,
+      "w": 230,
+      "h": 50,
+      "name": "Craft: Pretend Play: Caring for Baby"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 93,
+      "y": 3126,
+      "w": 119,
+      "h": 51,
+      "name": "See All"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 93,
+      "y": 3225,
+      "w": 925,
+      "h": 46,
+      "name": "Printables"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 93,
+      "y": 3287,
+      "w": 925,
+      "h": 721,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 3312,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 3492,
+      "w": 265,
+      "h": 26,
+      "name": "D.W. Coloring Page"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 3493,
+      "w": 178,
+      "h": 24,
+      "name": "Printable: D.W. Coloring Page"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 3312,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 3492,
+      "w": 265,
+      "h": 26,
+      "name": "Arthur Mask"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 3493,
+      "w": 117,
+      "h": 24,
+      "name": "Printable: Arthur Mask"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 3312,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 3492,
+      "w": 265,
+      "h": 26,
+      "name": "Let's Draw Arthur!"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 3493,
+      "w": 176,
+      "h": 24,
+      "name": "Printable: Let's Draw Arthur!"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 3668,
+      "w": 295,
+      "h": 202,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 3885,
+      "w": 265,
+      "h": 52,
+      "name": "Bookmark: D.W. and Ms. Turner"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 3886,
+      "w": 222,
+      "h": 50,
+      "name": "Printable: Bookmark: D.W. and Ms. Turner"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 3668,
+      "w": 295,
+      "h": 202,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 3885,
+      "w": 265,
+      "h": 26,
+      "name": "Trading Card Arthur"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 3886,
+      "w": 191,
+      "h": 24,
+      "name": "Printable: Trading Card Arthur"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 3668,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 3848,
+      "w": 265,
+      "h": 26,
+      "name": "Buster's Town Activity"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 3849,
+      "w": 218,
+      "h": 24,
+      "name": "Printable: Buster's Town Activity"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 93,
+      "y": 4032,
+      "w": 119,
+      "h": 51,
+      "name": "See All"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 93,
+      "y": 4131,
+      "w": 925,
+      "h": 46,
+      "name": "Games"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 93,
+      "y": 4193,
+      "w": 925,
+      "h": 826,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 4218,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 4398,
+      "w": 265,
+      "h": 26,
+      "name": "Wizard Academy"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 4399,
+      "w": 164,
+      "h": 24,
+      "name": "Game: Wizard Academy"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 4218,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 4398,
+      "w": 265,
+      "h": 26,
+      "name": "Dark Bunny"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 4399,
+      "w": 109,
+      "h": 24,
+      "name": "Game: Dark Bunny"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 4218,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 4398,
+      "w": 265,
+      "h": 26,
+      "name": "Arthur vs. DW"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 4399,
+      "w": 131,
+      "h": 24,
+      "name": "Game: Arthur vs. DW"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 4670,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 108,
+      "y": 4850,
+      "w": 265,
+      "h": 52,
+      "name": "Arthur's Puppet Theater: Little Red Riding Hood"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 108,
+      "y": 4851,
+      "w": 240,
+      "h": 50,
+      "name": "Game: Arthur's Puppet Theater: Little Red Riding Hood"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 408,
+      "y": 4670,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 423,
+      "y": 4850,
+      "w": 265,
+      "h": 26,
+      "name": "Animal Home Builder"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 423,
+      "y": 4851,
+      "w": 203,
+      "h": 24,
+      "name": "Game: Animal Home Builder"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 723,
+      "y": 4670,
+      "w": 295,
+      "h": 165,
+      "name": ""
+    },
+    {
+      "role": "h5",
+      "tag": "h5",
+      "x": 738,
+      "y": 4850,
+      "w": 265,
+      "h": 26,
+      "name": "Arthur's Tiny Tales"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 738,
+      "y": 4851,
+      "w": 180,
+      "h": 24,
+      "name": "Game: Arthur's Tiny Tales"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 93,
+      "y": 5043,
+      "w": 119,
+      "h": 51,
+      "name": "See All"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1275,
+      "y": 823,
+      "w": 73,
+      "h": 14,
+      "name": "Learn More about online sponsorship (opens in new window)."
+    },
+    {
+      "role": "embed",
+      "tag": "iframe",
+      "x": 1048,
+      "y": 841,
+      "w": 300,
+      "h": 250,
+      "name": "Advertisement"
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 1048,
+      "y": 2266,
+      "w": 300,
+      "h": 103,
+      "name": "Streaming Free on PBS KIDS"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 1048,
+      "y": 2377,
+      "w": 300,
+      "h": 169,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1048,
+      "y": 2435,
+      "w": 300,
+      "h": 53,
+      "name": "Watch Arthur videos anytime on PBS KIDS! (opens in new window)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1064,
+      "y": 2565,
+      "w": 268,
+      "h": 22,
+      "name": "Download the Free Video App (opens in new window)"
+    },
+    {
+      "role": "aside",
+      "tag": "aside",
+      "x": 1048,
+      "y": 3699,
+      "w": 300,
+      "h": 430,
+      "name": "",
+      "fixed": true
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 1065,
+      "y": 3712,
+      "w": 262,
+      "h": 91,
+      "name": "Support PBS KIDS"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1065,
+      "y": 3924,
+      "w": 162,
+      "h": 51,
+      "name": "Donate now to . (opens in new window)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 93,
+      "y": 5210,
+      "w": 135,
+      "h": 57,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 5210,
+      "w": 135,
+      "h": 50,
+      "name": "WGBH (opens in new window)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 288,
+      "y": 5210,
+      "w": 44,
+      "h": 62,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 288,
+      "y": 5210,
+      "w": 44,
+      "h": 55,
+      "name": "Corporation for Public Broadcasting (opens in new window)"
+    },
+    {
+      "role": "aside",
+      "tag": "aside",
+      "x": 0,
+      "y": 5402,
+      "w": 1440,
+      "h": 493,
+      "name": ""
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 93,
+      "y": 5526,
+      "w": 515,
+      "h": 369,
+      "name": ""
+    },
+    {
+      "role": "h3",
+      "tag": "h3",
+      "x": 645,
+      "y": 5434,
+      "w": 703,
+      "h": 46,
+      "name": "Sign up for the PBS KIDS Newsletter!"
+    },
+    {
+      "role": "form",
+      "tag": "form",
+      "x": 645,
+      "y": 5565,
+      "w": 703,
+      "h": 219,
+      "name": ""
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 647,
+      "y": 5565,
+      "w": 342,
+      "h": 50,
+      "name": "First Name",
+      "type": "text"
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 1003,
+      "y": 5565,
+      "w": 342,
+      "h": 50,
+      "name": "Last Name",
+      "type": "text"
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 647,
+      "y": 5623,
+      "w": 342,
+      "h": 50,
+      "name": "Email Address *",
+      "type": "email"
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 1003,
+      "y": 5623,
+      "w": 342,
+      "h": 50,
+      "name": "ZIP or Postal Code",
+      "type": "text"
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 647,
+      "y": 5565,
+      "w": 703,
+      "h": 33,
+      "name": "Please leave this field empty.",
+      "type": "text"
+    },
+    {
+      "role": "button",
+      "tag": "input",
+      "x": 957,
+      "y": 5724,
+      "w": 79,
+      "h": 51,
+      "name": "Go!"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 884,
+      "y": 5832,
+      "w": 225,
+      "h": 38,
+      "name": "Follow Us"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 884,
+      "y": 5832,
+      "w": 42,
+      "h": 38,
+      "name": "Connect with PBS KIDS on facebook"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 942,
+      "y": 5832,
+      "w": 42,
+      "h": 38,
+      "name": "Connect with PBS KIDS on instagram"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1001,
+      "y": 5832,
+      "w": 42,
+      "h": 38,
+      "name": "Connect with PBS KIDS on twitter"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1059,
+      "y": 5832,
+      "w": 42,
+      "h": 38,
+      "name": "Connect with PBS KIDS on pinterest"
+    },
+    {
+      "role": "h2",
+      "tag": "h2",
+      "x": 0,
+      "y": 5955,
+      "w": 1,
+      "h": 1,
+      "name": "Site Footer"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 97,
+      "y": 5991,
+      "w": 291,
+      "h": 250,
+      "name": "More PBS KIDS for Parents"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 5991,
+      "w": 53,
+      "h": 42,
+      "name": "Shows"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 6041,
+      "w": 34,
+      "h": 42,
+      "name": "Play"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 6092,
+      "w": 52,
+      "h": 42,
+      "name": "Thrive"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 6142,
+      "w": 223,
+      "h": 42,
+      "name": "About PBS KIDS for Parents"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 97,
+      "y": 6200,
+      "w": 291,
+      "h": 40,
+      "name": "Follow Us"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 97,
+      "y": 6200,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on facebook"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 130,
+      "y": 6200,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on instagram"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 163,
+      "y": 6200,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on twitter"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 196,
+      "y": 6200,
+      "w": 28,
+      "h": 25,
+      "name": "Connect with PBS KIDS on pinterest"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 407,
+      "y": 5983,
+      "w": 299,
+      "h": 22,
+      "name": "Learn & Grow By Age"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 407,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Two"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 434,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Three"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 461,
+      "y": 5985,
+      "w": 27,
+      "h": 17,
+      "name": "Age Four"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 489,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Five"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 516,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Six"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 542,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Seven"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 569,
+      "y": 5985,
+      "w": 26,
+      "h": 17,
+      "name": "Age Eight"
+    },
+    {
+      "role": "footer",
+      "tag": "div",
+      "x": 0,
+      "y": 6379,
+      "w": 1440,
+      "h": 48,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 93,
+      "y": 6379,
+      "w": 113,
+      "h": 42,
+      "name": "Privacy Policy (opens in new window)"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 220,
+      "y": 6379,
+      "w": 106,
+      "h": 42,
+      "name": "Terms of Use (opens in new window)"
+    },
+    {
+      "role": "embed",
+      "tag": "iframe",
+      "x": 1370,
+      "y": 826,
+      "w": 256,
+      "h": 60,
+      "name": "reCAPTCHA"
+    }
+  ],
+  "text": [
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Watch the new \"Super Why's Comic Book Adventures\" beginning October 5th!"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Dismiss."
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Skip to content"
+    },
+    {
+      "kind": "nav",
+      "tag": "div",
+      "t": "Select Station"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Shows"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Play"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Thrive"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Learn & Grow"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "by topic"
+    },
+    {
+      "kind": "nav",
+      "tag": "label",
+      "t": "by age"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "2"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "3"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "4"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "5"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "6"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "7"
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "8"
+    },
+    {
+      "kind": "text",
+      "tag": "ul",
+      "t": "PBS KIDS Shop"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "(opens in new window)"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Español"
+    },
+    {
+      "kind": "text",
+      "tag": "label",
+      "t": "Follow Us"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "facebook (opens in new window)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "instagram (opens in new window)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "pinterest (opens in new window)"
+    },
+    {
+      "kind": "text",
+      "tag": "label",
+      "t": "Newsletter Sign-Up"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Support Provided by:"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Learn More"
+    },
+    {
+      "kind": "text",
+      "tag": "label",
+      "t": "Language/idioma:"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "English"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Play Video"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "This video may only be viewed from within the United States. Some shows may not be viewed when connected to a VPN. To view this content, please disable your VPN."
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Next panel."
+    },
+    {
+      "kind": "button",
+      "tag": "button",
+      "t": "Previous panel."
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Panel 1"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Panel 2"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Panel 3"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Arthur"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "“Arthur” is an animated series aimed at children ages 4 to 8, starring 8-year-old aardvark Arthur and his family and friends. Watch them creatively solve problems, learn to get along, and appreciate each other’s differences! Additionally, “Arthur” encourages a love of reading and libraries for all children. Based on the popular book series by Marc Brown, “Arthur” has been a family favorite to watc"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Watch Now on PBS KIDS!"
+    },
+    {
+      "kind": "heading",
+      "tag": "h4",
+      "t": "Listen to The Arthur Podcast"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Arthur Read is back and starting The Arthur Podcast! Listen in as he shares his favorite adventures with DW, Buster and all their friends from around Elwood City. Each episode is an audio adaptation of a story from the classic television series with some new commentary from Arthur himself."
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "PBS KIDS"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Spotify"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Articles"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "The Moral of the Story? \"Arthur\" Helps Kids Build Character"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Researchers found that children who watched an episode of Arthur with the moral lesson scored higher on measures of perspective-taking."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Managing Back-to-School Feelings With \"Arthur\""
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "For the characters in the “Arthur” special, “Arthur’s First Day,” the start of school brings excitement, but also anxiety and challenges. Here are ways to help your child identify and cope with their emotions during a new school year."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Getting Along: How \"Arthur\" Can Help Your Child Manage Friendships"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Watching ARTHUR with your child offers many opportunities to talk about friendship. Here are some great tips for helping your child cope with the ups and downs of friendships."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "How Media Can Build Empathy in Young Children"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Explore Arthur’s interactive comic “So Funny I Forgot to Laugh” and find recommended books that help kids understand and develop empathy."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Raising a Lifelong Reader: Tips for Reading with Your Child"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "You can help your child grow into a lifelong reader. Here are some tips to get started."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Why “Arthur” Means So Much to Me (And My Kids!)"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "I grew up watching Arthur – and so have my kids. Here’s what the series has meant to us and how your family can celebrate the 25th anniversary, too."
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Hands-On Activities"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "3 Ways to Practice Being a Good Sport"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help your child learn about being a good sport by talking about the feelings behind winning and losing."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Create a “Kindness Tree”"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "30 min activity"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Show your child how kindness grows by creating a “Kindness Tree” to hang on the wall."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Give Awards to Everyday Heroes"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help your child understand what a makes someone a hero, and encourage them to create awards for the heroes in their life."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Milk Carton School Bus"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "40 min activity"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Recycle an old milk carton to make this toy bus."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Make a Lucky Mini Unicorn for the First Day of School"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help your child make their own lucky mini unicorn to support them on the first day of school, or any day."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Pretend Play: Caring for Baby"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help your child learn more about caring for a younger sibling or baby through pretend play."
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "See All"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Printables"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "D.W. Coloring Page"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Print and color this picture of D.W. from Arthur."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Arthur Mask"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help your child cut out and wear the mask of their favorite Arthur character."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Let's Draw Arthur!"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Use this step-by-step guide to help your child learn how to draw Arthur."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Bookmark: D.W. and Ms. Turner"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Give this Arthur bookmark to your little bookworm."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Trading Card Arthur"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Collect and swap all of the Arthur trading cards!"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Buster's Town Activity"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help Buster make his way around town."
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Games"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Wizard Academy"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Help Arthur navigate the hallways of Pigblisters wizarding school to collect items and save his friends from the evil Moldywart."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Dark Bunny"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Dark Bunny needs your help to save the city!"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Arthur vs. DW"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Arthur vs. D.W. is a head-to-head game full of exciting action for one or two players. Throw as many stuffies as you can into the basket before time runs out, all while facing obstacles selected by your opponent!"
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Arthur's Puppet Theater: Little Red Riding Hood"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Make your very own play with the classic fairy tale about Little Red Riding Hood."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Animal Home Builder"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "George and his friends are building homes for animals. Following a set of blueprints, your child can design and decorate houses for several neighborhood animals."
+    },
+    {
+      "kind": "heading",
+      "tag": "h5",
+      "t": "Arthur's Tiny Tales"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Arthur is writing stories about his friends. First create your own character to be part of the story and then help Arthur make a picture to go with the story."
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Streaming Free on PBS KIDS"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Watch Arthur videos anytime on PBS KIDS!"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Download the Free Video App"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Support PBS KIDS"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "PBS KIDS is committed to helping all children succeed in school and life. Show your support by donating today!"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Donate now!"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Arthur,"
+    },
+    {
+      "kind": "text",
+      "tag": "label",
+      "t": "Produced By"
+    },
+    {
+      "kind": "text",
+      "tag": "label",
+      "t": "Support From"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "All characters and underlying materials (including artwork) © Marc Brown. \"Arthur\" and \"D.W.\" and all of the ARTHUR characters are trademarks of Marc Brown. © 2019 WGBH"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "Sign up for the PBS KIDS Newsletter!"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Every day is full of possibilities and so is your child! Get activities and tips you can use to help kids learn at home. Sign up here!"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Yes - Send me the PBS KIDS newsletter *"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "We’re social too! Follow us:"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "twitter (opens in new window)"
+    },
+    {
+      "kind": "heading",
+      "tag": "h2",
+      "t": "Site Footer"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "More PBS KIDS for Parents"
+    },
+    {
+      "kind": "text",
+      "tag": "li",
+      "t": "About PBS KIDS for Parents"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Learn & Grow By Age"
+    },
+    {
+      "kind": "text",
+      "tag": "ul",
+      "t": "2 3 4 5 6 7 8"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Privacy Policy | Terms of Use | Copyright © 2026 Public Broadcasting Service (PBS), all rights reserved."
+    }
+  ],
+  "links": {
+    "internal": [
+      "/parents/shows/arthur",
+      "/parents",
+      "/parents/shows",
+      "/parents/shows/almas-way",
+      "/parents/shows/carl",
+      "/parents/shows/clifford",
+      "/parents/shows/count-on-june-bug",
+      "/parents/shows/curious-george",
+      "/parents/shows/cyberchase",
+      "/parents/shows/daniel",
+      "/parents/shows/dinosaur-train",
+      "/parents/shows/donkey-hodie",
+      "/parents/shows/elinor",
+      "/parents/shows/hero-elementary",
+      "/parents/shows/luna",
+      "/parents/shows/lyla",
+      "/parents/shows/molly",
+      "/parents/shows/nature-cat",
+      "/parents/shows/odd-squad",
+      "/parents/shows/peg",
+      "/parents/shows/phoebe-jay",
+      "/parents/shows/pinkalicious",
+      "/parents/shows/ready-jet-go",
+      "/parents/shows/rosie",
+      "/parents/shows/sesame-street",
+      "/parents/shows/super-why",
+      "/parents/shows/weatherhunters",
+      "/parents/shows/wild-kratts",
+      "/parents/shows/wombats",
+      "/parents/shows/xavier",
+      "/parents/activity-finder/ages-all/topics-all/shows-all/types-all",
+      "/parents/halloween",
+      "/parents/activity-finder/ages-all/topics-all/shows-all/types-coloring-and-printable",
+      "/parents/activity-finder/ages-all/topics-all/shows-all/types-craft-and-experiment",
+      "/parents/activity-finder/ages-all/topics-all/shows-all/types-games-and-apps",
+      "/parents/birthdays",
+      "/parents/activity-finder/ages-all/topics-all/shows-all/types-recipe",
+      "/parents/thrive",
+      "/parents/thrive/arts-creativity",
+      "/parents/thrive/celebrations",
+      "/parents/thrive/emotions-and-wellbeing",
+      "/parents/thrive/exploring-nature",
+      "/parents/thrive/family-life",
+      "/parents/thrive/going-to-school",
+      "/parents/thrive/healthy-habits",
+      "/parents/thrive/in-our-community",
+      "/parents/thrive/life-lessons",
+      "/parents/thrive/reading-and-writing",
+      "/parents/thrive/social-skills",
+      "/parents/thrive/stem",
+      "/parents/learn-grow/all-ages/emotions-self-awareness",
+      "/parents/learn-grow/all-ages/social-skills",
+      "/parents/learn-grow/all-ages/character",
+      "/parents/learn-grow/all-ages/literacy",
+      "/parents/learn-grow/all-ages/math",
+      "/parents/learn-grow/all-ages/science",
+      "/parents/learn-grow/all-ages/arts",
+      "/parents/learn-grow/age-0",
+      "/es/parents",
+      "/parents/newsletter",
+      "/parents/shows/arthur/about",
+      "/es/parents/programas/arthur",
+      "/parents/shows/arthur/about/",
+      "/parents/thrive/the-moral-of-the-story-arthur-helps-kids-build-character",
+      "/parents/thrive/managing-back-to-school-feelings-with-arthur",
+      "/parents/thrive/getting-along-how-arthur-can-help-your-child-manage-friendships",
+      "/parents/thrive/how-media-can-build-empathy-in-young-children",
+      "/parents/thrive/raising-a-lifelong-reader-tips-for-reading-with-your-child",
+      "/parents/thrive/why-arthur-means-so-much-to-me-and-my-kids",
+      "/parents/crafts-and-experiments/practice-being-a-good-sport",
+      "/parents/crafts-and-experiments/create-a-kindness-tree",
+      "/parents/crafts-and-experiments/give-awards-to-everyday-heroes",
+      "/parents/crafts-and-experiments/milk-carton-school-bus",
+      "/parents/crafts-and-experiments/make-a-lucky-mini-unicorn-for-the-first-day-of-school",
+      "/parents/crafts-and-experiments/pretend-play-caring-for-baby",
+      "/parents/activity-finder/ages-all/topics-all/shows-arthur/types-craft-and-experiment+recipe",
+      "/parents/printables/d-w-coloring-page",
+      "/parents/printables/arthur-mask",
+      "/parents/printables/lets-draw-arthur",
+      "/parents/printables/d-w-and-ms-turner",
+      "/parents/printables/trading-card-arthur",
+      "/parents/printables/busters-town-activity",
+      "/parents/activity-finder/ages-all/topics-all/shows-arthur/types-coloring-and-printable",
+      "/parents/activity-finder/ages-all/topics-all/shows-arthur/types-games-and-apps",
+      "/parents/shows/",
+      "/parents/activity-finder/",
+      "/parents/thrive/",
+      "/parents/learn-grow/",
+      "/parents/about/",
+      "/parents/learn-grow/age-2",
+      "/parents/learn-grow/age-3",
+      "/parents/learn-grow/age-4",
+      "/parents/learn-grow/age-5",
+      "/parents/learn-grow/age-6",
+      "/parents/learn-grow/age-7",
+      "/parents/learn-grow/age-8",
+      "/about/pbs-privacy-policy/",
+      "/about/terms-use/"
+    ],
+    "external": [
+      "pbskids.org",
+      "shop.pbskids.org",
+      "www.facebook.com",
+      "www.instagram.com",
+      "twitter.com",
+      "www.pinterest.com",
+      "help.pbs.org",
+      "smarturl.it",
+      "open.spotify.com",
+      "www.wgbh.org"
+    ]
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 1,
+    "headingSkips": 5,
+    "imagesNoAlt": 0,
+    "buttonsNoName": 0,
+    "inputsNoLabel": 2
+  },
+  "network": {
+    "status": 200,
+    "requests": 314,
+    "origins": [
+      "77cf0e94bdf1fd6f004780c69dc13246.safeframe.googlesyndication.com",
+      "ads.pubmatic.com",
+      "cdn.id5-sync.com",
+      "cdn.ketchjs.com",
+      "cm.g.doubleclick.net",
+      "cms-assets.prod.pbskids.org",
+      "cms-tc.pbskids.org",
+      "connectid.analytics.yahoo.com",
+      "cr-p3.ladsp.com",
+      "ep1.adtrafficquality.google",
+      "ep2.adtrafficquality.google",
+      "fonts.gstatic.com",
+      "global.ketchcdn.com",
+      "google-bidout-d.openx.net",
+      "graph.services.pbskids.org",
+      "gum.criteo.com",
+      "id5-sync.com",
+      "image.pbs.org",
+      "image.pbskids.org",
+      "invstatic101.creativecdn.com",
+      "jp-u.openx.net",
+      "match.adsrvr.org",
+      "o260369.ingest.us.sentry.io",
+      "oa.openxcdn.net",
+      "pagead2.googlesyndication.com",
+      "rtb.openx.net",
+      "securepubads.g.doubleclick.net",
+      "static.criteo.net",
+      "t.adx.opera.com",
+      "t.oa.opera.com",
+      "tpc.googlesyndication.com",
+      "u.openx.net",
+      "ups.analytics.yahoo.com",
+      "urs.pbs.org",
+      "us-u.openx.net",
+      "www.google-analytics.com",
+      "www.google.com",
+      "www.googletagmanager.com",
+      "www.gstatic.com",
+      "www.pbs.org",
+      "www.temu.com"
+    ]
+  },
+  "screenshot": "arthur@1440.png",
+  "svgPathHashes": []
+}

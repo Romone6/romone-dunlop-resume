@@ -1,0 +1,1092 @@
+{
+  "v": 1,
+  "url": "https://media.netflix.com/en/only-on-netflix/80115346",
+  "title": "Hilda | Netflix Media Center",
+  "lang": "en",
+  "measuredAt": "2026-10-24T11:20:39.256Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "page": {
+    "w": 1440,
+    "h": 900
+  },
+  "canvas": "#0f0f0f",
+  "meta": {
+    "description": "",
+    "canonical": "",
+    "robots": "",
+    "ogTitle": "Hilda",
+    "ogImage": "https://dnm.nflximg.net/api/v6/_YyUT33Ze3kFXjMydIZFIm6ajHk/AAAABWIaEv04FhbP6q2MPPWyvv61fbIP2ogAxkqGCQzwO8FoqXnCc3z9Ooa3R5OL_A5IGsODFITXr4Iev0E9tD5RUruuYA4wADTOs1Y4.jpg?r=d60",
+    "generator": "",
+    "jsonLd": []
+  },
+  "tech": {
+    "next": true,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 0,
+    "iframes": 1,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#232323",
+      "text": 0,
+      "bg": 21298,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#161616",
+      "text": 0,
+      "bg": 20253,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#00000066",
+      "text": 0,
+      "bg": 4532,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#0f0f0f",
+      "text": 0,
+      "bg": 2498,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffffe6",
+      "text": 843,
+      "bg": 0,
+      "border": 0,
+      "icon": 8,
+      "action": 0,
+      "label": 9
+    },
+    {
+      "hex": "#ffffff",
+      "text": 94,
+      "bg": 0,
+      "border": 0,
+      "icon": 11,
+      "action": 0,
+      "label": 7
+    },
+    {
+      "hex": "#e50914",
+      "text": 0,
+      "bg": 106,
+      "border": 1,
+      "icon": 0,
+      "action": 2,
+      "label": 0
+    },
+    {
+      "hex": "#ffffffb3",
+      "text": 19,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff33",
+      "text": 0,
+      "bg": 14,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff66",
+      "text": 0,
+      "bg": 0,
+      "border": 1,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#ffffff99",
+      "text": 8,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "-apple-system",
+      "chars": 952,
+      "weights": {
+        "400": 770,
+        "600": 90,
+        "700": 92
+      }
+    },
+    {
+      "family": "Netflix Sans",
+      "chars": 12,
+      "weights": {
+        "700": 12
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "14px",
+      "lineHeight": "21px",
+      "weight": "400",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 9,
+      "chars": 770,
+      "tags": {
+        "div": 2,
+        "a": 7
+      }
+    },
+    {
+      "size": "13px",
+      "lineHeight": "22.75px",
+      "weight": "600",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 8,
+      "chars": 76,
+      "tags": {
+        "span": 8
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "25px",
+      "weight": "700",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 56,
+      "tags": {
+        "h1": 1
+      }
+    },
+    {
+      "size": "10px",
+      "lineHeight": "12.5px",
+      "weight": "700",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 3,
+      "chars": 19,
+      "tags": {
+        "h1": 3
+      }
+    },
+    {
+      "size": "16px",
+      "lineHeight": "24px",
+      "weight": "700",
+      "family": "Netflix Sans",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 12,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "20px",
+      "lineHeight": "30px",
+      "weight": "700",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 12,
+      "tags": {
+        "p": 1
+      }
+    },
+    {
+      "size": "12px",
+      "lineHeight": "18px",
+      "weight": "600",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 8,
+      "tags": {
+        "h6": 1
+      }
+    },
+    {
+      "size": "13px",
+      "lineHeight": "19.5px",
+      "weight": "600",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 6,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "24px",
+      "lineHeight": "30px",
+      "weight": "700",
+      "family": "-apple-system",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 5,
+      "tags": {
+        "h1": 1
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": 12,
+      "count": 29
+    },
+    {
+      "value": 9,
+      "count": 29
+    },
+    {
+      "value": 8,
+      "count": 24
+    },
+    {
+      "value": 20,
+      "count": 6
+    },
+    {
+      "value": 24,
+      "count": 6
+    },
+    {
+      "value": 80,
+      "count": 4
+    },
+    {
+      "value": 18,
+      "count": 4
+    },
+    {
+      "value": 40,
+      "count": 3
+    },
+    {
+      "value": 36,
+      "count": 3
+    },
+    {
+      "value": 1,
+      "count": 2
+    },
+    {
+      "value": 6,
+      "count": 2
+    },
+    {
+      "value": 14,
+      "count": 2
+    },
+    {
+      "value": 32,
+      "count": 1
+    },
+    {
+      "value": 16,
+      "count": 1
+    },
+    {
+      "value": 28,
+      "count": 1
+    },
+    {
+      "value": 59,
+      "count": 1
+    },
+    {
+      "value": 48,
+      "count": 1
+    }
+  ],
+  "radius": [
+    {
+      "value": "4px",
+      "count": 9
+    },
+    {
+      "value": "8px",
+      "count": 2
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.4) 0px 2px 10px -5px",
+      "count": 2
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": 250,
+        "count": 22
+      },
+      {
+        "value": 300,
+        "count": 5
+      },
+      {
+        "value": 700,
+        "count": 2
+      }
+    ],
+    "easings": [
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "count": 23
+      },
+      {
+        "value": "ease",
+        "count": 5
+      },
+      {
+        "value": "ease-in-out",
+        "count": 1
+      }
+    ],
+    "animations": 1
+  },
+  "containers": [
+    {
+      "value": 1024,
+      "count": 1
+    }
+  ],
+  "breakpoints": {
+    "values": [
+      {
+        "value": 960,
+        "count": 12
+      },
+      {
+        "value": 1280,
+        "count": 6
+      },
+      {
+        "value": 768,
+        "count": 6
+      },
+      {
+        "value": 550,
+        "count": 5
+      },
+      {
+        "value": 425,
+        "count": 5
+      },
+      {
+        "value": 720,
+        "count": 4
+      },
+      {
+        "value": 896,
+        "count": 4
+      },
+      {
+        "value": 600,
+        "count": 3
+      },
+      {
+        "value": 1441,
+        "count": 2
+      },
+      {
+        "value": 426,
+        "count": 2
+      },
+      {
+        "value": 500,
+        "count": 2
+      },
+      {
+        "value": 640,
+        "count": 2
+      }
+    ],
+    "unreadableSheets": 0
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://cdn.cookielaw.org/logos/8f8cd6db-ed43-48b6-abb4-46f7e59a4f14/eec19c4f-6494-4d77-a1ad-4ab4f171e152/f16ddec9-7972-451b-a2bd-a46aa89a60d3/Netflix_Logo_PMS.png",
+    "alt": "Company Logo",
+    "w": 0,
+    "h": 0,
+    "saved": "hilda-logo.png"
+  },
+  "gradients": [
+    "linear-gradient(rgb(22, 22, 22) 5.15%, rgba(22, 22, 22, 0) 100%)",
+    "linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(22, 22, 22) 100%)"
+  ],
+  "nodes": [
+    {
+      "role": "header",
+      "tag": "nav",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 80,
+      "name": "",
+      "guessed": true
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 80,
+      "name": "",
+      "fixed": true
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 32,
+      "y": 25,
+      "w": 228,
+      "h": 30,
+      "name": "Media Center"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 696,
+      "y": 19,
+      "w": 97,
+      "h": 43,
+      "name": "English"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 801,
+      "y": 19,
+      "w": 129,
+      "h": 43,
+      "name": "🇦🇺 Australia"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 938,
+      "y": 19,
+      "w": 117,
+      "h": 43,
+      "name": "Newsroom"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1063,
+      "y": 19,
+      "w": 117,
+      "h": 43,
+      "name": "Resources"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1188,
+      "y": 20,
+      "w": 64,
+      "h": 41,
+      "name": "Apply"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1260,
+      "y": 20,
+      "w": 104,
+      "h": 41,
+      "name": "Press Log In"
+    },
+    {
+      "role": "form",
+      "tag": "form",
+      "x": 1372,
+      "y": 0,
+      "w": 64,
+      "h": 80,
+      "name": ""
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1372,
+      "y": 0,
+      "w": 64,
+      "h": 80,
+      "name": "Open Search"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 408,
+      "y": 100,
+      "w": 156,
+      "h": 41,
+      "name": "Log in for full access"
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 144,
+      "y": 162,
+      "w": 684,
+      "h": 30,
+      "name": "Hilda"
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 144,
+      "y": 201,
+      "w": 668,
+      "h": 57,
+      "name": "Season releasing in Australia on September 21st, 2018 at 5:00 PM AEST"
+    },
+    {
+      "role": "input",
+      "tag": "input",
+      "x": 317,
+      "y": 197,
+      "w": 108,
+      "h": 39,
+      "name": "",
+      "type": "text"
+    },
+    {
+      "role": "h6",
+      "tag": "h6",
+      "x": 165,
+      "y": 303,
+      "w": 642,
+      "h": 18,
+      "name": "Synopsis"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 853,
+      "y": -48,
+      "w": 441,
+      "h": 618,
+      "name": "Hilda"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 0,
+      "y": 642,
+      "w": 1440,
+      "h": 259,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 18,
+      "y": 669,
+      "w": 463,
+      "h": 178,
+      "name": ""
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 58,
+      "y": 669,
+      "w": 423,
+      "h": 13,
+      "name": "Company"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 58,
+      "y": 690,
+      "w": 423,
+      "h": 39,
+      "name": "About Netflix"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 58,
+      "y": 729,
+      "w": 423,
+      "h": 39,
+      "name": "Newsroom"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 58,
+      "y": 768,
+      "w": 423,
+      "h": 39,
+      "name": "Company Assets"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 58,
+      "y": 807,
+      "w": 423,
+      "h": 39,
+      "name": "Start watching"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 481,
+      "y": 669,
+      "w": 463,
+      "h": 178,
+      "name": ""
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 521,
+      "y": 669,
+      "w": 423,
+      "h": 13,
+      "name": "Connect"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 521,
+      "y": 690,
+      "w": 423,
+      "h": 39,
+      "name": "Contact Us"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 521,
+      "y": 729,
+      "w": 24,
+      "h": 48,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 548,
+      "y": 729,
+      "w": 24,
+      "h": 48,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 575,
+      "y": 729,
+      "w": 24,
+      "h": 48,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 945,
+      "y": 669,
+      "w": 463,
+      "h": 178,
+      "name": ""
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 985,
+      "y": 669,
+      "w": 423,
+      "h": 13,
+      "name": "Legal"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 985,
+      "y": 690,
+      "w": 423,
+      "h": 39,
+      "name": "Terms and Conditions"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 985,
+      "y": 729,
+      "w": 423,
+      "h": 39,
+      "name": "Privacy"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 208,
+      "y": -49,
+      "w": 217,
+      "h": 49,
+      "name": "Français"
+    },
+    {
+      "role": "footer",
+      "tag": "nav",
+      "x": 0,
+      "y": 642,
+      "w": 1440,
+      "h": 259,
+      "name": "",
+      "guessed": true
+    }
+  ],
+  "text": [
+    {
+      "kind": "nav",
+      "tag": "span",
+      "t": "Media Center"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "English"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "🇦🇺"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Australia"
+    },
+    {
+      "kind": "nav",
+      "tag": "span",
+      "t": "Newsroom"
+    },
+    {
+      "kind": "button",
+      "tag": "span",
+      "t": "Resources"
+    },
+    {
+      "kind": "nav",
+      "tag": "span",
+      "t": "Apply"
+    },
+    {
+      "kind": "nav",
+      "tag": "span",
+      "t": "Press Log In"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Log in for full access"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Hilda"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Season releasing on September 21st, 2018 at 5:00 PM AEST"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "in Australia"
+    },
+    {
+      "kind": "heading",
+      "tag": "h6",
+      "t": "Synopsis"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "A production of Silvergate Media, the makers of Octonauts, in collaboration with Mercury Filmworks, Hilda transforms the Eisner-Award nominated graphic novels by Luke Pearson and published by Nobrow into an incredible animated adventure for older kids. The series follows the journey of a fearless blue-haired girl as she travels from her home in a vast magical wilderness full of elves and giants to"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Series"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Company"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "About Netflix"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Company Assets"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Start watching"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Connect"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Contact Us"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Legal"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Terms and Conditions"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Privacy"
+    },
+    {
+      "kind": "nav",
+      "tag": "div",
+      "t": "Cookie Preferences"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "What language do you speak?"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "اللغة العربية"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "简体中文"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "繁體中文"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Français"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Deutsch"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Ελληνικά"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Bahasa Indonesia"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Italiano"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "日本語"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "한국어"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "polski"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Português (Brasil)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Português (Portugal)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "română"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Español (LatAm)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Español (España)"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "ไทย"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Türkçe"
+    },
+    {
+      "kind": "heading",
+      "tag": "h3",
+      "t": "What country do you cover?"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Select a country to see information specific to your coverage region."
+    }
+  ],
+  "links": {
+    "internal": [
+      "/en/",
+      "/en/apply",
+      "/en/signin",
+      "/en/contact-us",
+      "/ar/only-on-netflix/80115346",
+      "/zh_cn/only-on-netflix/80115346",
+      "/zh_tw/only-on-netflix/80115346",
+      "/en/only-on-netflix/80115346",
+      "/fr/only-on-netflix/80115346",
+      "/de/only-on-netflix/80115346",
+      "/el/only-on-netflix/80115346",
+      "/id/only-on-netflix/80115346",
+      "/it/only-on-netflix/80115346",
+      "/ja/only-on-netflix/80115346",
+      "/ko/only-on-netflix/80115346",
+      "/pl/only-on-netflix/80115346",
+      "/pt_br/only-on-netflix/80115346",
+      "/pt_pt/only-on-netflix/80115346",
+      "/ro/only-on-netflix/80115346",
+      "/es/only-on-netflix/80115346",
+      "/es_es/only-on-netflix/80115346",
+      "/th/only-on-netflix/80115346",
+      "/tr/only-on-netflix/80115346"
+    ],
+    "external": [
+      "about.netflix.com",
+      "netflix.com",
+      "twitter.com",
+      "www.instagram.com",
+      "www.facebook.com",
+      "help.netflix.com",
+      "www.onetrust.com"
+    ]
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 5,
+    "headingSkips": 1,
+    "imagesNoAlt": 0,
+    "buttonsNoName": 0,
+    "inputsNoLabel": 2
+  },
+  "network": {
+    "status": 200,
+    "requests": 46,
+    "origins": [
+      "cdn.cookielaw.org",
+      "dnm.nflximg.net",
+      "geolocation.onetrust.com",
+      "ichnaea-web.netflix.com",
+      "media.netflix.com",
+      "www.google-analytics.com",
+      "www.googletagmanager.com"
+    ]
+  },
+  "screenshot": "hilda@1440.png",
+  "svgPathHashes": [
+    "d02743d0b35e8292",
+    "821744ba29f037bf",
+    "6179d00a93725d85",
+    "b9a42e3f293a9c35",
+    "3d18904696a3ee83",
+    "51a893cb21c30d1c",
+    "f9fe581e28802fc9",
+    "15034e98bd65ce6b",
+    "c6d89940acae9087"
+  ]
+}

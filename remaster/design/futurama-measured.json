@@ -1,0 +1,254 @@
+{
+  "v": 1,
+  "pages": [
+    {
+      "url": "https://press.hulu.com/shows/futurama/",
+      "width": 1440,
+      "title": "Hulu Press"
+    }
+  ],
+  "colors": {
+    "canvas": "#ffffff",
+    "surface": "#000000",
+    "ink": "#151515",
+    "inkSoft": null,
+    "accent": "#1ce783",
+    "onAccent": "#151515",
+    "border": "#d8d8d8",
+    "brand": [
+      "#1ce783",
+      "#1a62e8",
+      "#0066cc"
+    ],
+    "all": [
+      {
+        "action": 0,
+        "label": 1,
+        "hex": "#000000",
+        "text": 76,
+        "bg": 6827,
+        "border": 0,
+        "icon": 5
+      },
+      {
+        "action": 0,
+        "label": 1,
+        "hex": "#151515",
+        "text": 929,
+        "bg": 1656,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 15,
+        "hex": "#ffffff",
+        "text": 256,
+        "bg": 0,
+        "border": 0,
+        "icon": 1
+      },
+      {
+        "action": 0,
+        "label": 5,
+        "hex": "#1a62e8",
+        "text": 52,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 1,
+        "label": 0,
+        "hex": "#1ce783",
+        "text": 0,
+        "bg": 25,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#8a8a8a",
+        "text": 37,
+        "bg": 0,
+        "border": 0,
+        "icon": 1
+      },
+      {
+        "action": 0,
+        "label": 1,
+        "hex": "#0066cc",
+        "text": 13,
+        "bg": 0,
+        "border": 0,
+        "icon": 1
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#d8d8d8",
+        "text": 0,
+        "bg": 0,
+        "border": 1,
+        "icon": 0
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "family": "ABC Modern",
+      "share": 96,
+      "weights": [
+        "200",
+        "300",
+        "400"
+      ]
+    },
+    {
+      "family": "graphik-medium",
+      "share": 4,
+      "weights": [
+        "400"
+      ]
+    }
+  ],
+  "type": {
+    "body": "18px",
+    "ratio": 1.33,
+    "scale": [
+      {
+        "size": "14px",
+        "lineHeight": "21px",
+        "weight": "200",
+        "family": "ABC Modern",
+        "share": 12.5,
+        "usedFor": [
+          "a",
+          "li"
+        ]
+      },
+      {
+        "size": "18px",
+        "lineHeight": "22px",
+        "weight": "200",
+        "family": "ABC Modern",
+        "share": 80.3,
+        "usedFor": [
+          "a",
+          "p",
+          "div"
+        ]
+      },
+      {
+        "size": "24px",
+        "lineHeight": "28px",
+        "weight": "200",
+        "family": "ABC Modern",
+        "share": 6.5,
+        "usedFor": [
+          "span",
+          "div"
+        ]
+      },
+      {
+        "size": "32px",
+        "lineHeight": "42px",
+        "weight": "400",
+        "family": "ABC Modern",
+        "share": 0.6,
+        "usedFor": [
+          "h1"
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "base": 8,
+    "baseShare": 78,
+    "scale": [
+      4,
+      8,
+      9,
+      16,
+      22,
+      24,
+      28,
+      32,
+      44,
+      56,
+      64
+    ]
+  },
+  "radius": [
+    {
+      "value": "5px",
+      "count": 2
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "300",
+        "count": 1
+      }
+    ],
+    "easings": [
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "count": 1
+      }
+    ],
+    "animations": 0
+  },
+  "layout": {
+    "containers": [
+      {
+        "value": "1408",
+        "count": 4
+      }
+    ],
+    "breakpoints": [
+      376,
+      640,
+      768,
+      769,
+      770,
+      1024,
+      1025,
+      1280
+    ]
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://www.detpress.com/hulupress/wp-content/uploads/sites/34/2024/12/logo-main-1.svg",
+    "alt": "Hulu Press",
+    "w": 112,
+    "h": 18,
+    "saved": "futurama-logo.svg"
+  },
+  "gradients": [],
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": true,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 0,
+    "iframes": 0,
+    "lottie": false
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "v": 1,
+  "pages": [
+    {
+      "url": "https://www.bluey.tv/",
+      "width": 1440,
+      "title": "Bluey Official Website | Play Games, Watch Videos & More!"
+    }
+  ],
+  "colors": {
+    "canvas": "#c2e3fe",
+    "surface": "#ffffff",
+    "ink": "#4e5b66",
+    "inkSoft": "#5a5a87",
+    "accent": "#5a5a87",
+    "onAccent": "#ffffff",
+    "border": "#5a5a87",
+    "brand": [
+      "#5a5a87",
+      "#abe0fa"
+    ],
+    "all": [
+      {
+        "action": 1,
+        "label": 20,
+        "hex": "#ffffff",
+        "text": 1326,
+        "bg": 22603,
+        "border": 4,
+        "icon": 1
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#102337",
+        "text": 0,
+        "bg": 15143,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 7,
+        "label": 32,
+        "hex": "#5a5a87",
+        "text": 1104,
+        "bg": 15034,
+        "border": 12,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#fff8e3",
+        "text": 0,
+        "bg": 8098,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#c2e3fe",
+        "text": 0,
+        "bg": 7413,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#4e5b66",
+        "text": 1121,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 9,
+        "label": 0,
+        "hex": "#abe0fa",
+        "text": 0,
+        "bg": 316,
+        "border": 2,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#d9edfe",
+        "text": 0,
+        "bg": 0,
+        "border": 4,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#cbf3ea",
+        "text": 0,
+        "bg": 36,
+        "border": 0,
+        "icon": 0
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "family": "open-sans",
+      "share": 67.5,
+      "weights": [
+        "400",
+        "700"
+      ]
+    },
+    {
+      "family": "hello",
+      "share": 18.1,
+      "weights": [
+        "400",
+        "700"
+      ]
+    },
+    {
+      "family": "Open Sans",
+      "share": 14.4,
+      "weights": [
+        "400",
+        "700"
+      ]
+    }
+  ],
+  "type": {
+    "body": "16px",
+    "ratio": 1.18,
+    "scale": [
+      {
+        "size": "12px",
+        "lineHeight": "20px",
+        "weight": "400",
+        "family": "Open Sans",
+        "share": 23.6,
+        "usedFor": [
+          "a",
+          "p"
+        ]
+      },
+      {
+        "size": "13px",
+        "lineHeight": "19.5px",
+        "weight": "400",
+        "family": "open-sans",
+        "share": 0.5,
+        "usedFor": [
+          "span"
+        ]
+      },
+      {
+        "size": "15px",
+        "lineHeight": "20px",
+        "weight": "700",
+        "family": "hello",
+        "share": 1.1,
+        "usedFor": [
+          "button"
+        ]
+      },
+      {
+        "size": "16px",
+        "lineHeight": "24px",
+        "weight": "400",
+        "family": "open-sans",
+        "share": 50.7,
+        "usedFor": [
+          "a",
+          "p",
+          "strong"
+        ]
+      },
+      {
+        "size": "18px",
+        "lineHeight": "22px",
+        "weight": "700",
+        "family": "hello",
+        "share": 0.7,
+        "usedFor": [
+          "span"
+        ]
+      },
+      {
+        "size": "20px",
+        "lineHeight": "32px",
+        "weight": "400",
+        "family": "open-sans",
+        "share": 11.2,
+        "usedFor": [
+          "a",
+          "span",
+          "p"
+        ]
+      },
+      {
+        "size": "24px",
+        "lineHeight": "29px",
+        "weight": "400",
+        "family": "hello",
+        "share": 2,
+        "usedFor": [
+          "a"
+        ]
+      },
+      {
+        "size": "31px",
+        "lineHeight": "37.6429px",
+        "weight": "400",
+        "family": "hello",
+        "share": 2.9,
+        "usedFor": [
+          "a"
+        ]
+      },
+      {
+        "size": "35px",
+        "lineHeight": "normal",
+        "weight": "400",
+        "family": "hello",
+        "share": 0.6,
+        "usedFor": [
+          "h1"
+        ]
+      },
+      {
+        "size": "39px",
+        "lineHeight": "46.8px",
+        "weight": "400",
+        "family": "hello",
+        "share": 2.6,
+        "usedFor": [
+          "h3",
+          "h2"
+        ]
+      },
+      {
+        "size": "49px",
+        "lineHeight": "58px",
+        "weight": "400",
+        "family": "hello",
+        "share": 1.3,
+        "usedFor": [
+          "h2"
+        ]
+      },
+      {
+        "size": "61px",
+        "lineHeight": "73.2px",
+        "weight": "400",
+        "family": "hello",
+        "share": 2.8,
+        "usedFor": [
+          "h1"
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "base": 2,
+    "baseShare": 74,
+    "scale": [
+      3,
+      5,
+      7,
+      8,
+      10,
+      12,
+      15,
+      16,
+      18,
+      20,
+      24,
+      25,
+      26,
+      29,
+      30,
+      32,
+      40,
+      45,
+      50,
+      56,
+      57,
+      60,
+      73,
+      76
+    ]
+  },
+  "radius": [
+    {
+      "value": "8px",
+      "count": 24
+    },
+    {
+      "value": "28px",
+      "count": 22
+    },
+    {
+      "value": "50%",
+      "count": 8
+    },
+    {
+      "value": "9999px",
+      "count": 6
+    },
+    {
+      "value": "54px",
+      "count": 5
+    },
+    {
+      "value": "12px",
+      "count": 2
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.08) 3px 3px 0px 0px",
+      "count": 1
+    },
+    {
+      "value": "rgb(224, 250, 251) 10px 10px 0px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "300",
+        "count": 18
+      },
+      {
+        "value": "200",
+        "count": 3
+      },
+      {
+        "value": "500",
+        "count": 1
+      },
+      {
+        "value": "100",
+        "count": 1
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease-in-out",
+        "count": 16
+      },
+      {
+        "value": "ease",
+        "count": 4
+      },
+      {
+        "value": "linear",
+        "count": 3
+      }
+    ],
+    "animations": 12
+  },
+  "layout": {
+    "containers": [],
+    "breakpoints": [
+      400,
+      440,
+      580,
+      600,
+      700,
+      768,
+      981,
+      1080
+    ]
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://www.bluey.tv/wp-content/themes/bbc-bluey/assets/images/characters/bluey-star@2x.png",
+    "alt": "Bluey",
+    "w": 0,
+    "h": 0,
+    "saved": "bluey-logo.png"
+  },
+  "gradients": [],
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": true,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 7,
+    "video": 0,
+    "iframes": 2,
+    "lottie": false
+  }
+}

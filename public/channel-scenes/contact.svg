@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f2a4aa"/><stop offset=".52" stop-color="#f2c59a"/><stop offset="1" stop-color="#8fadb0"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#8bc96a"/><stop offset="1" stop-color="#3e995d"/></linearGradient>
+ <pattern id="paper" width="80" height="75" patternUnits="userSpaceOnUse"><path d="M9 14q14-2 23 1m28 48 6-1" stroke="#35465b" stroke-opacity=".13" stroke-width="2"/></pattern>
+ <style>.cloud{animation:cloud 32s linear infinite}.c2{animation-delay:-17s;animation-duration:41s}.water{animation:ripple 8s linear infinite}.leaf{transform-box:fill-box;transform-origin:bottom;animation:sway 4s ease-in-out infinite alternate}.l2{animation-delay:-2s}.star{animation:star 2s ease-in-out infinite alternate}.lantern{animation:light 2.6s ease-in-out infinite alternate}@keyframes cloud{to{transform:translateX(120px)}}@keyframes ripple{to{stroke-dashoffset:-180}}@keyframes sway{to{transform:rotate(3deg)}}@keyframes star{to{opacity:.2;transform:scale(.65)}}@keyframes light{to{opacity:.3}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/><rect width="1600" height="900" fill="url(#paper)"/>
+<g fill="#ffe2bf" opacity=".8"><path class="cloud" d="M100 166h184a43 43 0 0 0-83-18 62 62 0 0 0-117 18z"/><path class="cloud c2" d="M999 191h173a43 43 0 0 0-80-16 61 61 0 0 0-113 16z"/></g>
+<!-- cool jagged Ice Kingdom silhouettes against the warm Ooo sky -->
+<path d="M0 537 126 386l91 91 118-217 147 210 123-144 159 213 132-226 144 195 127-110 145 172 132-109 156 138v312H0z" fill="#667f9e" stroke="#526a82" stroke-width="8"/><path d="m217 477 118-217 79 113 36 50-71-18-34 36-42-17-45 50zm468 62 132-226 93 126-78-17-31 33-49-18z" fill="#a7becb"/>
+<path d="M0 596q182-96 368 0 216 111 408 2 226-129 425 5 173 115 399-8v305H0z" fill="url(#hill)" stroke="#3e7559" stroke-width="8"/><path d="M0 702q217-57 379 8t390-14q240-99 486 7t345-14" fill="none" stroke="#a8d67e" stroke-width="9"/>
+<!-- pond and stepping stones -->
+<path d="M0 778q198-84 406 0t394 0q224-91 424 0t376-1v123H0z" fill="#5dabb0" stroke="#4b7c77" stroke-width="8"/><path class="water" d="M45 828q192-42 364 0t382 0 385 0 390 0" fill="none" stroke="#bbded0" stroke-width="8" stroke-dasharray="30 25"/>
+<g fill="#718977" stroke="#476b64" stroke-width="7"><path d="m307 804 46-88 53 87z"/><path d="m1166 825 62-108 63 109z"/><path d="m1348 826 41-79 48 80z"/></g>
+<!-- whimsical tiered treehouse: large trunk, uneven decks, round doors -->
+<g stroke="#524b3e" stroke-width="10" stroke-linejoin="round"><path d="M656 652q19-165 129-248 97-72 219 6 118 77 110 242l-44 107H693z" fill="#9f6845"/><path d="M640 542q72-60 159-17 67-83 163-45 71-32 143 21 64-19 105 34l-14 82q-90-29-150 9-91-39-177 3-82-42-220 6z" fill="#62a768"/><path d="M704 393q42-59 112-38 51-69 127-49 77-52 145-2 82-10 99 72-41 44-110 19-87 48-150 6-79 43-142 1-54 35-81-9z" fill="#85bf64"/><path d="M591 628h582v57H591z" fill="#bd8650"/><path d="M652 685h492v44H652z" fill="#865c43"/><path d="M719 537q42-34 84 1v54h-84z" fill="#6b9ea4"/><path d="M982 555q37-32 74 1v52h-74z" fill="#e5c77e"/><circle cx="855" cy="638" r="39" fill="#d9a45d"/><circle cx="855" cy="638" r="26" fill="#584c45"/><path d="M748 685v90m112-89v93m125-94v89m94-93v73" fill="none" stroke="#624b3c" stroke-width="14"/></g>
+<!-- hanging bridges, tiny roof, lookout and lanterns -->
+<path d="M670 702 522 765q-73 17-120-19m700-49 178 56q68 8 121-37" fill="none" stroke="#856142" stroke-width="17"/><path d="M520 758v38m59-48v40m624-63v40m68-31v38" stroke="#b48957" stroke-width="9"/>
+<g stroke="#50483f" stroke-width="7" stroke-linejoin="round"><path d="M910 402V291h120v111z" fill="#d8b86d"/><path d="m893 302 75-61 80 61" fill="#765b50"/><circle cx="964" cy="343" r="20" fill="#76aeb0"/><path d="M580 464h94v55h-94z" fill="#d5ae6d"/><path d="m564 466 51-48 76 48" fill="#825851"/><path d="M1192 428h71v59h-71z" fill="#e2bb77"/><path d="m1181 430 47-44 52 44" fill="#816052"/></g>
+<path class="lantern" d="M749 701h20v34h-20zM1096 697h20v34h-20z" fill="#ffe28a"/>
+<g class="leaf" fill="#579d5e" stroke="#41734e" stroke-width="6"><path d="M570 561q-26-69 28-105 46-27 80 9 12-64 77-54 49 9 46 63 55-11 77 33 18 44-27 65-29 55-85 33-45 31-91 3-61 30-105-47z"/><path class="l2" d="M1052 493q-22-61 24-92 43-26 72 7 14-52 67-43 46 8 42 55 49-8 68 30 15 37-23 57-25 47-72 28-40 28-79 2-55 26-99-44z"/></g>
+<g class="star" fill="#fff4c6"><path d="m266 249 7 21 21 7-21 7-7 21-7-21-21-7 21-7z"/><path d="m1383 294 6 17 17 6-17 6-6 17-6-17-17-6 17-6z"/><circle cx="420" cy="332" r="5"/></g>
+</svg>

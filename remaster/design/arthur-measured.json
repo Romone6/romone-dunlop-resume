@@ -1,0 +1,439 @@
+{
+  "v": 1,
+  "pages": [
+    {
+      "url": "https://www.pbs.org/parents/shows/arthur",
+      "width": 1440,
+      "title": "Arthur Kids Show | PBS KIDS Shows | PBS KIDS for Parents"
+    }
+  ],
+  "colors": {
+    "canvas": "#f5fbfb",
+    "surface": "#dfefe8",
+    "ink": "#32304f",
+    "inkSoft": null,
+    "accent": "#f5b338",
+    "onAccent": "#32304f",
+    "border": "#d8d8d8",
+    "brand": [
+      "#f5b338",
+      "#99cf16",
+      "#6a1b9a",
+      "#2fc0eb",
+      "#b2eeff",
+      "#2165c6"
+    ],
+    "all": [
+      {
+        "action": 0,
+        "label": 6,
+        "hex": "#ffffff",
+        "text": 775,
+        "bg": 32733,
+        "border": 1,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#dfefe8",
+        "text": 0,
+        "bg": 13117,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#99cf16",
+        "text": 0,
+        "bg": 9619,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#def6fc",
+        "text": 0,
+        "bg": 7098,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#6a1b9a",
+        "text": 0,
+        "bg": 6220,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 5,
+        "hex": "#000000",
+        "text": 47,
+        "bg": 5558,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 32,
+        "hex": "#32304f",
+        "text": 4741,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#2fc0eb",
+        "text": 0,
+        "bg": 1250,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#b2eeff",
+        "text": 0,
+        "bg": 1074,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#2165c6",
+        "text": 0,
+        "bg": 798,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 24,
+        "hex": "#111111",
+        "text": 413,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 5,
+        "label": 0,
+        "hex": "#f5b338",
+        "text": 0,
+        "bg": 321,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#1a8549",
+        "text": 0,
+        "bg": 444,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#00a6a5",
+        "text": 0,
+        "bg": 444,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#00ab4e",
+        "text": 0,
+        "bg": 444,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 10,
+        "hex": "#2638c4",
+        "text": 305,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 9,
+        "hex": "#5b6771",
+        "text": 240,
+        "bg": 0,
+        "border": 0,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#d8d8d8",
+        "text": 0,
+        "bg": 33,
+        "border": 5,
+        "icon": 0
+      },
+      {
+        "action": 0,
+        "label": 0,
+        "hex": "#a19ebf",
+        "text": 0,
+        "bg": 0,
+        "border": 1,
+        "icon": 0
+      }
+    ]
+  },
+  "fonts": [
+    {
+      "family": "colfax",
+      "share": 67.2,
+      "weights": [
+        "400"
+      ]
+    },
+    {
+      "family": "colfax-bold",
+      "share": 27.6,
+      "weights": [
+        "400"
+      ]
+    },
+    {
+      "family": "colfax-medium",
+      "share": 5.2,
+      "weights": [
+        "400"
+      ]
+    }
+  ],
+  "type": {
+    "body": "16px",
+    "ratio": 1.34,
+    "scale": [
+      {
+        "size": "10px",
+        "lineHeight": "14px",
+        "weight": "400",
+        "family": "colfax-bold",
+        "share": 0.9,
+        "usedFor": [
+          "span",
+          "a"
+        ]
+      },
+      {
+        "size": "12px",
+        "lineHeight": "16.8px",
+        "weight": "400",
+        "family": "colfax",
+        "share": 3.5,
+        "usedFor": [
+          "span",
+          "a",
+          "label"
+        ]
+      },
+      {
+        "size": "14px",
+        "lineHeight": "19.6px",
+        "weight": "400",
+        "family": "colfax",
+        "share": 10.5,
+        "usedFor": [
+          "span",
+          "button",
+          "a"
+        ]
+      },
+      {
+        "size": "15px",
+        "lineHeight": "21px",
+        "weight": "400",
+        "family": "colfax-bold",
+        "share": 1.1,
+        "usedFor": [
+          "a"
+        ]
+      },
+      {
+        "size": "16px",
+        "lineHeight": "24px",
+        "weight": "400",
+        "family": "colfax",
+        "share": 69.5,
+        "usedFor": [
+          "p",
+          "span",
+          "a"
+        ]
+      },
+      {
+        "size": "20px",
+        "lineHeight": "26px",
+        "weight": "400",
+        "family": "colfax-bold",
+        "share": 11.6,
+        "usedFor": [
+          "a"
+        ]
+      },
+      {
+        "size": "28px",
+        "lineHeight": "33.6px",
+        "weight": "400",
+        "family": "colfax-bold",
+        "share": 1.1,
+        "usedFor": [
+          "h3",
+          "h4"
+        ]
+      },
+      {
+        "size": "38px",
+        "lineHeight": "45.6px",
+        "weight": "400",
+        "family": "colfax-bold",
+        "share": 1.2,
+        "usedFor": [
+          "h2",
+          "h3"
+        ]
+      }
+    ]
+  },
+  "spacing": {
+    "base": 1,
+    "baseShare": 100,
+    "scale": [
+      2,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      20,
+      24,
+      28,
+      30
+    ]
+  },
+  "radius": [
+    {
+      "value": "5px",
+      "count": 33
+    },
+    {
+      "value": "50%",
+      "count": 5
+    },
+    {
+      "value": "12px",
+      "count": 2
+    },
+    {
+      "value": "9px",
+      "count": 1
+    },
+    {
+      "value": "2px",
+      "count": 1
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0.16) 0px 0px 8px 0px",
+      "count": 30
+    },
+    {
+      "value": "rgb(128, 128, 128) 0px 0px 5px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": "100",
+        "count": 54
+      },
+      {
+        "value": "300",
+        "count": 26
+      },
+      {
+        "value": "400",
+        "count": 2
+      }
+    ],
+    "easings": [
+      {
+        "value": "ease-out",
+        "count": 66
+      },
+      {
+        "value": "ease",
+        "count": 16
+      }
+    ],
+    "animations": 0
+  },
+  "layout": {
+    "containers": [
+      {
+        "value": "1315",
+        "count": 10
+      },
+      {
+        "value": "728",
+        "count": 1
+      }
+    ],
+    "breakpoints": [
+      639,
+      640,
+      924,
+      925,
+      1024,
+      1200,
+      1300,
+      1315
+    ]
+  },
+  "logo": null,
+  "gradients": [],
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": true,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": false,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 3,
+    "iframes": 9,
+    "lottie": false
+  }
+}

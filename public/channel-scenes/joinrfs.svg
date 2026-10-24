@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#55bde8"/><stop offset="1" stop-color="#d9e6cd"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#a0c873"/><stop offset="1" stop-color="#578d55"/></linearGradient>
+ <style>.cloud{animation:cloud 30s linear infinite}.c2{animation-delay:-12s;animation-duration:39s}.truck{animation:truck 23s linear infinite}.beacon{animation:flash .8s steps(2,end) infinite}.leaf{transform-box:fill-box;transform-origin:bottom center;animation:sway 5s ease-in-out infinite alternate}.l2{animation-delay:-2s}@keyframes cloud{to{transform:translateX(130px)}}@keyframes truck{from{transform:translateX(-570px)}to{transform:translateX(1900px)}}@keyframes flash{50%{opacity:.25}}@keyframes sway{to{transform:rotate(2deg)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/><circle cx="1324" cy="139" r="62" fill="#ffe267"/>
+<g fill="#fff" opacity=".93"><path class="cloud" d="M106 180h176a49 49 0 0 0-94-19 66 66 0 0 0-126 19z"/><path class="cloud c2" d="M815 132h167a45 45 0 0 0-82-18 59 59 0 0 0-111 18z"/></g>
+<!-- Welsh coast hills and tiny village roofs -->
+<path d="M0 411q207-186 419-53 161 103 329-8 226-150 430-11 177 120 422-48v252H0z" fill="#6c9a66"/><path d="M0 495q217-112 404-20t377-4q214-148 449-5t370-7v228H0z" fill="#8eb478"/>
+<g stroke="#455b50" stroke-width="7" stroke-linejoin="round" fill="#e8d0a0"><path d="M132 430h170v120H132z"/><path d="m117 441 99-77 103 77" fill="#a35e4b"/><path d="M336 465h130v86H336z"/><path d="m320 471 80-59 86 59" fill="#795b51"/><path d="M1165 446h194v105h-194z"/><path d="m1146 455 110-73 123 73" fill="#bd7157"/></g>
+<!-- Pontypandy station, watch bell tower, garage and bay -->
+<g stroke="#383e3a" stroke-width="9" stroke-linejoin="round"><path d="M591 496V282h178v214z" fill="#b44e43"/><path d="M567 303h227v35H567z" fill="#753f39"/><path d="M620 375h47v73h-47zm77-9h52v82h-52z" fill="#a8d9d7"/><path d="M668 282V130h86v152z" fill="#d6bf93"/><path d="m650 141 59-63 63 63" fill="#a15449"/><path d="M679 176h29v52h-29z" fill="#9dcacb"/><path d="M809 405h320v91H809z" fill="#d6c49b"/><path d="m794 408 171-115 185 115" fill="#8e4f43"/><path d="M887 432h197v64H887z" fill="#354046"/><path d="M962 433h53v63h-53z" fill="#c45d44"/><path d="M842 354h44v42h-44zm211-8h43v48h-43z" fill="#a9d8d7"/></g>
+<path d="M0 573q215-56 398-2 192 58 397-6t805-3v338H0z" fill="url(#hill)"/>
+<!-- fire station apron and narrow coastal road -->
+<path d="M0 716q245-101 505-56 209 36 432 0 276-49 663 57v183H0z" fill="#625d51"/><path d="M0 797q245-77 506-42 232 33 436 1 332-50 658 39" fill="none" stroke="#e8cf90" stroke-width="10" stroke-dasharray="55 32"/>
+<g class="truck" transform="translate(0 0)"><g stroke="#293332" stroke-width="8" stroke-linejoin="round"><path d="M357 655h194v94H357z" fill="#d84d3e"/><path d="M551 682h83l52 67H551z" fill="#c74339"/><path d="M566 695h49l30 36h-79z" fill="#a9dce0"/><path d="M387 619h124v37H387z" fill="#eebf5e"/><path d="M408 605h91" stroke="#f1d38f" stroke-width="8"/><circle cx="418" cy="754" r="27" fill="#252c2a"/><circle cx="591" cy="754" r="27" fill="#252c2a"/><circle cx="418" cy="754" r="11" fill="#c9bd9e"/><circle cx="591" cy="754" r="11" fill="#c9bd9e"/><path class="beacon" d="M466 599h26l-5-23q-8-13-16 0z" fill="#ffdb55"/></g></g>
+<!-- hedgerow detail and wind-softened treetops -->
+<g class="leaf" fill="#4e8454"><path d="M26 620q-37-57 9-97 36-30 71 0 8-54 65-52 53 3 53 59 55-13 78 31 21 45-26 69-32 51-79 25-49 34-96-1-52 30-75-34z"/><path class="l2" d="M1271 611q-27-51 13-87 35-27 67 1 7-53 62-49 48 5 45 53 59-11 79 32 18 40-24 59-24 49-76 24-46 29-89-4-47 25-77-29z"/></g>
+</svg>

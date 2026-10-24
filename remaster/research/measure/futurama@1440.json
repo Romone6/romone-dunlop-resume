@@ -1,0 +1,1017 @@
+{
+  "v": 1,
+  "url": "https://press.hulu.com/shows/futurama/",
+  "title": "Hulu Press",
+  "lang": "en-US",
+  "measuredAt": "2026-10-24T11:20:55.321Z",
+  "viewport": {
+    "w": 1440,
+    "h": 900,
+    "dpr": 1
+  },
+  "page": {
+    "w": 1440,
+    "h": 1364
+  },
+  "canvas": "#ffffff",
+  "meta": {
+    "description": "",
+    "canonical": "",
+    "robots": "max-image-preview:large",
+    "ogTitle": "",
+    "ogImage": "",
+    "generator": "WordPress 6.8.11",
+    "jsonLd": []
+  },
+  "tech": {
+    "next": false,
+    "astro": false,
+    "vue": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "wordpress": true,
+    "shopify": false,
+    "smoothScroll": false,
+    "gsap": false,
+    "three": false,
+    "canvas": 0,
+    "video": 0,
+    "iframes": 0,
+    "lottie": false
+  },
+  "colors": [
+    {
+      "hex": "#000000",
+      "text": 76,
+      "bg": 6827,
+      "border": 0,
+      "icon": 5,
+      "action": 0,
+      "label": 1
+    },
+    {
+      "hex": "#151515",
+      "text": 0,
+      "bg": 1656,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#121212",
+      "text": 929,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 1
+    },
+    {
+      "hex": "#ffffff",
+      "text": 256,
+      "bg": 0,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 15
+    },
+    {
+      "hex": "#1a62e8",
+      "text": 52,
+      "bg": 0,
+      "border": 0,
+      "icon": 0,
+      "action": 0,
+      "label": 5
+    },
+    {
+      "hex": "#1ce783",
+      "text": 0,
+      "bg": 25,
+      "border": 0,
+      "icon": 0,
+      "action": 1,
+      "label": 0
+    },
+    {
+      "hex": "#8a8a8a",
+      "text": 37,
+      "bg": 0,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 0
+    },
+    {
+      "hex": "#0066cc",
+      "text": 13,
+      "bg": 0,
+      "border": 0,
+      "icon": 1,
+      "action": 0,
+      "label": 1
+    },
+    {
+      "hex": "#d8d8d8",
+      "text": 0,
+      "bg": 0,
+      "border": 1,
+      "icon": 0,
+      "action": 0,
+      "label": 0
+    }
+  ],
+  "fonts": [
+    {
+      "family": "ABC Modern",
+      "chars": 1309,
+      "weights": {
+        "200": 1119,
+        "300": 69,
+        "400": 121
+      }
+    },
+    {
+      "family": "graphik-medium",
+      "chars": 54,
+      "weights": {
+        "400": 54
+      }
+    }
+  ],
+  "type": [
+    {
+      "size": "18px",
+      "lineHeight": "22px",
+      "weight": "200",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 5,
+      "chars": 933,
+      "tags": {
+        "div": 1,
+        "p": 4
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "21px",
+      "weight": "200",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 8,
+      "chars": 117,
+      "tags": {
+        "a": 7,
+        "li": 1
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "27px",
+      "weight": "400",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 4,
+      "chars": 93,
+      "tags": {
+        "a": 3,
+        "div": 1
+      }
+    },
+    {
+      "size": "24px",
+      "lineHeight": "28px",
+      "weight": "200",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 69,
+      "tags": {
+        "span": 1
+      }
+    },
+    {
+      "size": "18px",
+      "lineHeight": "24px",
+      "weight": "300",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 6,
+      "chars": 69,
+      "tags": {
+        "a": 4,
+        "span": 1,
+        "div": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "21px",
+      "weight": "400",
+      "family": "graphik-medium",
+      "letterSpacing": "normal",
+      "count": 7,
+      "chars": 40,
+      "tags": {
+        "a": 7
+      }
+    },
+    {
+      "size": "24px",
+      "lineHeight": "31.008px",
+      "weight": "400",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 2,
+      "chars": 20,
+      "tags": {
+        "span": 1,
+        "div": 1
+      }
+    },
+    {
+      "size": "32px",
+      "lineHeight": "42px",
+      "weight": "400",
+      "family": "ABC Modern",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 8,
+      "tags": {
+        "h1": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.008px",
+      "weight": "400",
+      "family": "graphik-medium",
+      "letterSpacing": "normal",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "a": 1
+      }
+    },
+    {
+      "size": "14px",
+      "lineHeight": "19.008px",
+      "weight": "400",
+      "family": "graphik-medium",
+      "letterSpacing": "1px",
+      "count": 1,
+      "chars": 7,
+      "tags": {
+        "a": 1
+      }
+    }
+  ],
+  "spacing": [
+    {
+      "value": 16,
+      "count": 32
+    },
+    {
+      "value": 24,
+      "count": 11
+    },
+    {
+      "value": 4,
+      "count": 10
+    },
+    {
+      "value": 32,
+      "count": 9
+    },
+    {
+      "value": 64,
+      "count": 8
+    },
+    {
+      "value": 8,
+      "count": 5
+    },
+    {
+      "value": 56,
+      "count": 3
+    },
+    {
+      "value": 22,
+      "count": 3
+    },
+    {
+      "value": 44,
+      "count": 2
+    },
+    {
+      "value": 9,
+      "count": 2
+    },
+    {
+      "value": 28,
+      "count": 2
+    }
+  ],
+  "radius": [
+    {
+      "value": "5px",
+      "count": 2
+    }
+  ],
+  "shadows": [
+    {
+      "value": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.5) 0px 2px 4px 0px",
+      "count": 1
+    }
+  ],
+  "motion": {
+    "durations": [
+      {
+        "value": 300,
+        "count": 1
+      }
+    ],
+    "easings": [
+      {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "count": 1
+      }
+    ],
+    "animations": 0
+  },
+  "containers": [
+    {
+      "value": 1408,
+      "count": 4
+    }
+  ],
+  "breakpoints": {
+    "values": [
+      {
+        "value": 1024,
+        "count": 148
+      },
+      {
+        "value": 1280,
+        "count": 141
+      },
+      {
+        "value": 769,
+        "count": 116
+      },
+      {
+        "value": 768,
+        "count": 88
+      },
+      {
+        "value": 376,
+        "count": 70
+      },
+      {
+        "value": 770,
+        "count": 30
+      },
+      {
+        "value": 640,
+        "count": 28
+      },
+      {
+        "value": 1025,
+        "count": 22
+      },
+      {
+        "value": 600,
+        "count": 20
+      },
+      {
+        "value": 377,
+        "count": 20
+      },
+      {
+        "value": 1310,
+        "count": 18
+      },
+      {
+        "value": 782,
+        "count": 12
+      }
+    ],
+    "unreadableSheets": 1
+  },
+  "logo": {
+    "tag": "img",
+    "src": "https://www.detpress.com/hulupress/wp-content/uploads/sites/34/2024/12/logo-main-1.svg",
+    "alt": "Hulu Press",
+    "w": 112,
+    "h": 18,
+    "saved": "futurama-logo.svg"
+  },
+  "gradients": [],
+  "nodes": [
+    {
+      "role": "link",
+      "tag": "a",
+      "x": -1,
+      "y": -1,
+      "w": 1,
+      "h": 1,
+      "name": "Skip to content"
+    },
+    {
+      "role": "header",
+      "tag": "header",
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 70,
+      "name": "",
+      "fixed": true
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 44,
+      "y": 22,
+      "w": 112,
+      "h": 18,
+      "name": "Hulu Press"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 188,
+      "y": 25,
+      "w": 559,
+      "h": 21,
+      "name": "Primary menu"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 188,
+      "y": 25,
+      "w": 559,
+      "h": 21,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 188,
+      "y": 25,
+      "w": 40,
+      "h": 21,
+      "name": "NEWS"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 252,
+      "y": 25,
+      "w": 52,
+      "h": 21,
+      "name": "GUIDES"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 328,
+      "y": 25,
+      "w": 74,
+      "h": 21,
+      "name": "SCHEDULE"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 426,
+      "y": 25,
+      "w": 94,
+      "h": 21,
+      "name": "ORIGINALS"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 544,
+      "y": 25,
+      "w": 18,
+      "h": 21,
+      "name": "FX"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 586,
+      "y": 25,
+      "w": 71,
+      "h": 21,
+      "name": "ASSETS"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 681,
+      "y": 25,
+      "w": 66,
+      "h": 21,
+      "name": "ABOUT"
+    },
+    {
+      "role": "button",
+      "tag": "button",
+      "x": 1205,
+      "y": 25,
+      "w": 20,
+      "h": 20,
+      "name": "Toggle and focus the search input"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 1249,
+      "y": 17,
+      "w": 53,
+      "h": 36,
+      "name": "Sign Up"
+    },
+    {
+      "role": "button",
+      "tag": "a",
+      "x": 1326,
+      "y": 17,
+      "w": 70,
+      "h": 36,
+      "name": "Sign In"
+    },
+    {
+      "role": "main",
+      "tag": "main",
+      "x": 0,
+      "y": 70,
+      "w": 1440,
+      "h": 1123,
+      "name": ""
+    },
+    {
+      "role": "header",
+      "tag": "header",
+      "x": 0,
+      "y": 70,
+      "w": 1440,
+      "h": 396,
+      "name": ""
+    },
+    {
+      "role": "h1",
+      "tag": "h1",
+      "x": 80,
+      "y": 102,
+      "w": 632,
+      "h": 42,
+      "name": "Futurama"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 728,
+      "y": 70,
+      "w": 632,
+      "h": 396,
+      "name": "Featured Image"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "x": 16,
+      "y": 498,
+      "w": 1408,
+      "h": 41,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 80,
+      "y": 498,
+      "w": 314,
+      "h": 40,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 80,
+      "y": 500,
+      "w": 52,
+      "h": 20,
+      "name": "About"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 148,
+      "y": 500,
+      "w": 79,
+      "h": 20,
+      "name": "Episodes"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 335,
+      "y": 500,
+      "w": 59,
+      "h": 20,
+      "name": "Videos"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 80,
+      "y": 983,
+      "w": 150,
+      "h": 24,
+      "name": "Copy Synopsis"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 529,
+      "y": 1129,
+      "w": 49,
+      "h": 20,
+      "name": "log in"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 80,
+      "y": 1129,
+      "w": 610,
+      "h": 47,
+      "name": "create an account"
+    },
+    {
+      "role": "image",
+      "tag": "img",
+      "x": 841,
+      "y": 571,
+      "w": 411,
+      "h": 606,
+      "name": "show logo"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "x": 0,
+      "y": 1249,
+      "w": 1440,
+      "h": 115,
+      "name": ""
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 80,
+      "y": 1277,
+      "w": 338,
+      "h": 59,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 96,
+      "y": 1298,
+      "w": 40,
+      "h": 21,
+      "name": "About"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 173,
+      "y": 1298,
+      "w": 52,
+      "h": 21,
+      "name": "Careers"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 262,
+      "y": 1298,
+      "w": 31,
+      "h": 21,
+      "name": "Help"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 330,
+      "y": 1298,
+      "w": 72,
+      "h": 21,
+      "name": "Advertising"
+    },
+    {
+      "role": "list",
+      "tag": "ul",
+      "x": 602,
+      "y": 1277,
+      "w": 758,
+      "h": 59,
+      "name": ""
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 625,
+      "y": 1298,
+      "w": 85,
+      "h": 21,
+      "name": "About Ads"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 747,
+      "y": 1298,
+      "w": 86,
+      "h": 21,
+      "name": "Terms of Use"
+    },
+    {
+      "role": "link",
+      "tag": "a",
+      "x": 870,
+      "y": 1298,
+      "w": 189,
+      "h": 21,
+      "name": "Your California Privacy Rights"
+    }
+  ],
+  "text": [
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Skip to content"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "News"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Guides"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Schedule"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Originals"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "ALL"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Series"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Films"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Documentaries"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Events"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Onyx Collective"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "FX"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Assets"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Brand"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Product UI Assets"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "About"
+    },
+    {
+      "kind": "nav",
+      "tag": "a",
+      "t": "Corporate"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Sign Up"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Sign In"
+    },
+    {
+      "kind": "heading",
+      "tag": "h1",
+      "t": "Futurama"
+    },
+    {
+      "kind": "text",
+      "tag": "span",
+      "t": "Season 14 Premieres Monday, Aug. 3, 2026, on Hulu and Hulu on Disney+"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "#futurama"
+    },
+    {
+      "kind": "nav",
+      "tag": "li",
+      "t": "Episodes"
+    },
+    {
+      "kind": "nav",
+      "tag": "li",
+      "t": "Photos"
+    },
+    {
+      "kind": "nav",
+      "tag": "li",
+      "t": "Videos"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Brace yourselves … The future is about to get a whole lot stranger! It’s a nonstop onslaught of swaggering space pirates, lab-grown meats, sexy scams … plus the shocking return of Dr. Zoidberg’s lost love. No one saw that coming, prior to being told about it just now. It’s a thrilling, all-new season of “Futurama” on Hulu and Hulu on Disney+ for bundle subscribers in the U.S., and on Disney+ inter"
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "The series stars John DiMaggio, Billy West, Katey Sagal, Tress MacNeille, Maurice LaMarche, Lauren Tom, Phil Lamar and David Herman."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "“Futurama” was created by Matt Groening and developed by Groening and David X. Cohen. Executive Producers include Groening, Cohen, Ken Keeler and Claudia Katz. The series is produced by 20th Television Animation, a part of Disney Television Studios, with animation provided by Rough Draft Studios."
+    },
+    {
+      "kind": "text",
+      "tag": "p",
+      "t": "Social: @futurama | @futuramaonhulu | #futurama"
+    },
+    {
+      "kind": "text",
+      "tag": "a",
+      "t": "Copy Synopsis"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Series and Episode Descriptions"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "Press Contacts"
+    },
+    {
+      "kind": "text",
+      "tag": "div",
+      "t": "You must be logged in to view this content. Please log in or create an account ."
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Careers"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Help"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Advertising"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "About Ads"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Terms of Use"
+    },
+    {
+      "kind": "footer",
+      "tag": "a",
+      "t": "Your California Privacy Rights"
+    },
+    {
+      "kind": "footer",
+      "tag": "ul",
+      "t": "© 2026 Disney and its related entities."
+    }
+  ],
+  "links": {
+    "internal": [
+      "/shows/futurama/",
+      "/",
+      "/news/",
+      "/schedule/",
+      "/originals/",
+      "/fx/",
+      "/branding/",
+      "/product-assets/",
+      "/corporate/",
+      "/login",
+      "/shows/futurama/episodes/",
+      "/shows/futurama/videos/",
+      "/terms-of-use/"
+    ],
+    "external": [
+      "www.hulu.com",
+      "www.detpress.com",
+      "abcotvpress.com",
+      "www.fxnetworkspressroom.com",
+      "careers.hulu.com",
+      "help.hulu.com",
+      "advertising.hulu.com",
+      "info.evidon.com"
+    ]
+  },
+  "a11y": {
+    "lang": true,
+    "h1": 1,
+    "headingSkips": 0,
+    "imagesNoAlt": 1,
+    "buttonsNoName": 0,
+    "inputsNoLabel": 1
+  },
+  "network": {
+    "status": 200,
+    "requests": 70,
+    "origins": [
+      "abcb2b.112.2o7.net",
+      "bam.nr-data.net",
+      "c.evidon.com",
+      "cdnjs.cloudflare.com",
+      "code.jquery.com",
+      "js-agent.newrelic.com",
+      "press.hulu.com",
+      "www.detpress.com"
+    ]
+  },
+  "screenshot": "futurama@1440.png",
+  "svgPathHashes": [
+    "9831242db2d3eb9d",
+    "58e1b01b90ae7cba",
+    "468558d37a07d9ed",
+    "88c7ab85ccc0b646",
+    "fd0cdc24b93f0166"
+  ]
+}

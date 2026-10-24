@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#58c5ed"/><stop offset="1" stop-color="#b4e7ef"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#505258"/><stop offset="1" stop-color="#292b30"/></linearGradient>
+ <pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="5" r=".8" fill="#352f2b" opacity=".24"/></pattern>
+ <style>.ink{stroke:#2b2928;stroke-width:8;stroke-linejoin:round;stroke-linecap:round}.cloud{animation:drift 30s linear infinite}.c2{animation-duration:41s;animation-delay:-17s}.car{animation:drive 26s linear infinite}.leaf{transform-box:fill-box;transform-origin:bottom center;animation:sway 4s ease-in-out infinite alternate}.l2{animation-delay:-1.7s}@keyframes drift{to{transform:translateX(115px)}}@keyframes drive{from{transform:translateX(-570px)}to{transform:translateX(1900px)}}@keyframes sway{to{transform:rotate(2deg)}}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/><circle cx="1328" cy="144" r="59" fill="#ffdc45" class="ink"/>
+<g class="ink" fill="#fffdf6"><path class="cloud" d="M66 199h196a55 55 0 0 0-106-23 73 73 0 0 0-140 23z"/><path class="cloud c2" d="M843 165h178a48 48 0 0 0-92-18 66 66 0 0 0-124 18z"/></g>
+<!-- Springfield's familiar wide, bright suburban street and pitched-roof homes -->
+<path d="M0 465q237-44 467-1t457-4q294-68 676 7v281H0z" fill="#91cc63" stroke="#2b2928" stroke-width="8"/>
+<g class="ink"><path d="M606 521V324l188-130 206 130v197z" fill="#f1dda0"/><path d="m571 341 222-183 246 183-29 39-217-151-192 151z" fill="#d56b4c"/><path d="M649 375h77v82h-77zm238 0h77v82h-77z" fill="#b3dfe5"/><path d="M649 415h77m-38-40v82m199-42h77m-38-40v82" fill="none" stroke="#3d3933" stroke-width="7"/><path d="M794 431h84v90h-84z" fill="#9a5d43"/><path d="M781 424h111v15H781z" fill="#f4e8c4"/><path d="M1071 515V389l128-93 140 93v126z" fill="#e8d18b"/><path d="m1052 399 148-124 164 124-29 32-135-98-116 98z" fill="#bd5f4b"/><path d="M1110 421h52v54h-52zm105 0h52v54h-52z" fill="#aadbe1"/><path d="M1169 460h57v56h-57z" fill="#80533c"/></g>
+<path d="M0 593q215-67 414 2t432 0q330-74 754 4v144H0z" fill="#5f9e45" stroke="#2b2928" stroke-width="8"/>
+<!-- giant tree, fence and tiny Springfield storefront silhouettes -->
+<g class="ink"><path d="M122 572h66v180h-66z" fill="#805437"/><path class="leaf" d="M43 450q-55-74 4-131 50-44 97 3 16-99 108-77 76 19 64 91 90-22 118 48 24 68-46 106-44 82-126 47-69 51-132 0-88 47-127-87z" fill="#598c3d"/><path d="M0 668h476m-455-50v104m76-104v104m77-104v104m77-104v104m77-104v104m77-104v104" fill="none" stroke="#eee0b1" stroke-width="10"/><path d="M1320 515h220v95h-220z" fill="#e3c776"/><path d="M1301 524 1430 440l130 84" fill="#a85244"/></g>
+<path d="M0 735h1600v165H0z" fill="url(#road)" stroke="#27282b" stroke-width="9"/><path d="M0 824h1600" stroke="#efcb56" stroke-width="12" stroke-dasharray="99 70"/>
+<g class="car" transform="translate(0 0)"><g class="ink"><path d="M457 728h217l-25-59q-12-26-44-26h-93q-32 0-45 30z" fill="#d76546"/><path d="m498 671 22-35h78l30 35z" fill="#a9dce4" stroke-width="6"/><circle cx="498" cy="737" r="25" fill="#25272a"/><circle cx="644" cy="737" r="25" fill="#25272a"/><circle cx="498" cy="737" r="10" fill="#e5d8ba"/><circle cx="644" cy="737" r="10" fill="#e5d8ba"/></g></g>
+<rect width="1600" height="900" fill="url(#grain)"/>
+</svg>

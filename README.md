@@ -1,78 +1,30 @@
-# romone-me-rebuild
+# Romone Dunlop — TV Channel Portfolio
 
-Premium personal website rebuild for romone.me using Next.js App Router, TypeScript, Tailwind CSS, and Framer Motion.
+A standalone React and Vite portfolio presented as a retro television. Visitors tune through channels for Romone's background, projects, experience, and contact details. Channel imagery, typography, transitions, and the remote interaction are built into the app.
 
-## Stack
+## Run locally
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- Framer Motion (subtle reveals only)
-- lucide-react icons
-- Local typed content model in `src/content/site.ts`
-
-## Quick Start (PowerShell)
-
-```powershell
-npm install
+```bash
+npm ci
 npm run dev
 ```
 
-Open <http://localhost:3000>.
+## Build and preview
 
-## Quality Commands
-
-```powershell
-npm run lint
-npm run typecheck
-npm run test
-npm run smoke
+```bash
+npm run build
+npm run preview
 ```
 
-`npm run smoke` is a local scripted E2E proof that builds, starts production server, and checks all core routes.
+The production site is written to `dist/`. Deploy that directory to a static host, or configure a Vite project with `npm ci` as its install command, `npm run build` as its build command, and `dist` as its output directory. Add `romone.me` through the host's domain settings and use the DNS records provided by that host. This repository does not change DNS or publish a deployment.
 
-## Project Structure
+## Source layout
 
-- `src/app` -> App Router pages and metadata routes (`sitemap.ts`, `robots.ts`)
-- `src/components/site` -> site-level reusable components
-- `src/components/ui` -> low-level UI primitives
-- `src/content/site.ts` -> typed content source and helper selectors
-- `src/lib` -> shared utilities and metadata helper
-- `public/images`, `public/logos`, `public/og` -> assets and placeholders
-- `docs/runbook.md` -> runnable commands
-- `docs/asset-map.md` -> placeholder asset replacement map
-- `docs/ASSUMPTIONS.md` -> implementation assumptions
+- `src/ChannelMvp.jsx` — channel content, remote behavior, and TV interface.
+- `src/channel-mvp.css` — television, room, channel-specific styling, and responsive layout.
+- `public/channel-scenes/` — channel artwork and scene assets.
+- `public/models/` and `public/media/` — 3D and visual assets retained from the earlier spaceflight concept.
+- `remaster/` — design research and measurement artifacts.
+- `assets/blender/` — source files used to create the earlier spacecraft and planet models.
 
-## Content Editing
-
-Update `src/content/site.ts` to modify:
-
-- hero copy and chips
-- roles
-- projects
-- organisations
-- milestones
-- vision/future plans
-- socials
-
-## Swap Placeholders Before Production
-
-1. Replace the branded board or project visuals in `public/images` if you want final photography or screenshots.
-2. Replace or refine the current logo files in `public/logos` as needed.
-3. Update direct LinkedIn and X profile URLs in `src/content/site.ts` if you want those cards to point to exact profile pages.
-4. Add any final approved public affiliations or media assets.
-
-## Vercel Deployment
-
-1. Push this repository to GitHub.
-2. Create a new Vercel project and import the repository.
-3. Framework preset: `Next.js`.
-4. Build command: `npm run build` (default).
-5. Output directory: `.next` (default).
-6. Deploy and attach `romone.me` domain in Vercel project settings.
-
-## Notes
-
-- External links are opened with safe `noopener noreferrer` handling.
-- Images use `next/image` with a fallback panel component for missing assets.
-- Routes implemented: `/`, `/about`, `/projects`, `/roles`, `/vision`, `/contact`.
+Edit channel wording in `src/ChannelMvp.jsx`. Keep project claims aligned with confirmed facts, including that Romone helped build JOINRFS.

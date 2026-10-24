@@ -1,0 +1,55 @@
+{
+  "v": 1,
+  "url": "https://opensi.lol/",
+  "width": 1440,
+  "measuredAt": "2026-10-24T10:55:37.367Z",
+  "scroll": {
+    "header": null,
+    "journey": [
+      {
+        "at": "0%",
+        "y": 0,
+        "screenshot": "opensi@1440-scroll-0.png"
+      },
+      {
+        "at": "25%",
+        "y": 0,
+        "screenshot": "opensi@1440-scroll-1.png"
+      },
+      {
+        "at": "50%",
+        "y": 0,
+        "screenshot": "opensi@1440-scroll-2.png"
+      },
+      {
+        "at": "75%",
+        "y": 0,
+        "screenshot": "opensi@1440-scroll-3.png"
+      },
+      {
+        "at": "100%",
+        "y": 0,
+        "screenshot": "opensi@1440-scroll-4.png"
+      }
+    ],
+    "pinned": [],
+    "reveals": {
+      "count": 0,
+      "samples": []
+    }
+  },
+  "hover": {
+    "checked": 0,
+    "changed": 0,
+    "props": {},
+    "durations": [],
+    "samples": [],
+    "none": []
+  },
+  "focus": {
+    "visited": 1,
+    "visible": 1,
+    "without": [],
+    "skipLink": false
+  }
+}
