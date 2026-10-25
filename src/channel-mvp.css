@@ -30,7 +30,7 @@ button:focus-visible, a:focus-visible { outline: 3px solid #ffdc75; outline-offs
 .tv-copy--science h1 { font-family: ui-monospace, monospace; font-size: clamp(16px, 1.9vw, 25px); letter-spacing: -.04em; text-transform: uppercase; }
 .tv-copy--slice h1 { font-family: Georgia, 'Times New Roman', serif; letter-spacing: -.035em; }
 .tv-copy--credits h1 { font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif; font-weight: 700; font-style: italic; letter-spacing: -.04em; text-shadow: 1px 2px 0 var(--show-accent); }
-.channel-copy { max-width: 52ch; margin: 0; font-size: clamp(11px, 1vw, 13px); font-weight: 400; line-height: 1.45; }.channel-proof { margin: 12px 0 0; padding-left: 10px; border-left: 3px solid var(--show-accent); font: 500 clamp(9px, .95vw, 12px) ui-monospace, monospace; line-height: 1.55; }
+.channel-copy { max-width: 52ch; margin: 0; font-size: clamp(11px, 1vw, 13px); font-weight: 400; line-height: 1.45; }.channel-email { display: inline-block; margin-top: 12px; color: #ffe189; font-size: clamp(11px, 1vw, 13px); font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; text-shadow: 0 1px 2px #000, 0 0 5px #000; }.channel-proof { margin: 12px 0 0; padding-left: 10px; border-left: 3px solid var(--show-accent); font: 500 clamp(9px, .95vw, 12px) ui-monospace, monospace; line-height: 1.55; }
 .tv-copy--editorial .channel-copy { font-family: 'Trebuchet MS', sans-serif; line-height: 1.42; }
 .tv-copy--quest .channel-copy { font-weight: 500; }
 .tv-copy--family .channel-copy { font-family: 'Arial Rounded MT Bold', 'Trebuchet MS', sans-serif; line-height: 1.5; }
