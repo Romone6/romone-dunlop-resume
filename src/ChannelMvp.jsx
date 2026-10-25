@@ -9,7 +9,7 @@ const channels = [
   { name: "JOINRFS", title: "Good tools help people step up.", text: "I helped build JOINRFS, a volunteer-recruitment funnel and operator dashboard for rural fire services, giving teams a clearer workflow for enquiries, follow-ups and next steps.", scene: "joinrfs", background: "/channel-scenes/pontypandy-station.jpg", lettering: "team", accent: "#ff9e69" },
   { name: "Tau Ceti", title: "Show the working. Keep the wonder.", text: "I assembled a reproducible analysis of Tau Ceti’s debris disc, sharing the data, code and checks alongside the result so others can inspect how it was produced and where its limits lie.", proof: "Archived research release · Zenodo DOI 10.5281/zenodo.22021388", scene: "tau-ceti", background: "/channel-scenes/new-new-york.jpg", lettering: "science", accent: "#a9d6ff" },
   { name: "Work & study", title: "Learn by taking responsibility.", text: "I’m completing Year 12 at Hastings Secondary College and the Southern Cross University Scholars Program, where I’ve earned a distinction average and $10,000 scholarship. At McDonald’s, I’m a Crew Trainer and NextGen Shift Leader.", proof: "Southern Cross Scholars Program · distinction average · $10,000 scholarship", scene: "work-study", background: "/channel-scenes/elwood-city.jpg", lettering: "slice", accent: "#ffd18b" },
-  { name: "Contact", title: "Let’s make something useful.", text: "I bring initiative, communication and practical problem-solving to work that helps people participate. Explore the projects here, or get in touch about building something useful together.", scene: "contact", background: "/channel-scenes/candy-kingdom.jpg", lettering: "credits", accent: "#f4d26e" },
+  { name: "Contact", title: "Let’s make something useful.", text: "I bring initiative, communication and practical problem-solving to work that helps people participate. Explore the projects here, or get in touch about building something useful together.", email: "romonedunlop2@gmail.com", scene: "contact", background: "/channel-scenes/candy-kingdom.jpg", lettering: "credits", accent: "#f4d26e" },
 ];
 
 export function App() {
@@ -64,6 +64,7 @@ export function App() {
               <p className="channel-kicker">CHANNEL {String(channelIndex + 1).padStart(2, "0")} <span>·</span> {channel.name}</p>
               <h1>{channel.title}</h1>
               <p className="channel-copy">{channel.text}</p>
+              {channel.email && <a className="channel-email" href={`mailto:${channel.email}`}>{channel.email}</a>}
               {channel.proof && <p className="channel-proof">{channel.proof}</p>}
             </div>
             <div className="crt-lines" aria-hidden="true" />
